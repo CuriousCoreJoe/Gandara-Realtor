@@ -1,0 +1,964 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Angelina Gándara | El Paso Real Estate Agent</title>
+    <meta name="description" content="Bilingual, local, and always responsive El Paso real estate agent. Find the right home or sell for the right price, without the runaround.">
+    <link rel="alternate" hreflang="es" href="/es/">
+    <link rel="alternate" hreflang="en" href="/">
+    
+    <!-- Fonts: Fraunces (Display) + Inter (Body) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <style>
+        :root {
+            --night: #262222;
+            --brick: #C04427;
+            --flint: #5F6A70;
+            --sand: #F5EFE4;
+            --paper: #FDFCF9;
+            --sage: #7D8B6F;
+            --text: #262222;
+            --muted: #5F6A70;
+            --line: #EAE3D3;
+            --white: #FFFFFF;
+            --radius-lg: 16px;
+            --max-width: 1180px;
+        }
+
+        *, *::before, *::after {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: var(--paper);
+            color: var(--text);
+            line-height: 1.6;
+            -webkit-font-smoothing: antialiased;
+            overflow-x: hidden;
+        }
+
+        h1, h2, h3, h4 {
+            font-family: 'Fraunces', serif;
+            font-weight: 700;
+            line-height: 1.2;
+            color: var(--night);
+        }
+
+        a {
+            color: var(--brick);
+            text-decoration: none;
+            transition: color 0.2s ease;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        /* Break out of GoHighLevel container to achieve full width */
+        #root {
+            width: 100vw;
+            position: relative;
+            left: 50%;
+            margin-left: -50vw;
+            max-width: 100vw;
+        }
+
+        .container {
+            max-width: var(--max-width);
+            margin: 0 auto;
+            padding: 0 24px;
+        }
+
+        section {
+            padding: 40px 0;
+        }
+
+        @media (min-width: 768px) {
+            section {
+                padding: 80px 0;
+            }
+        }
+
+        /* Header */
+        header {
+            background-color: var(--night);
+            padding: 16px 0;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            border-bottom: 1px solid #3a3232;
+        }
+
+        .header-container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .logo {
+            font-family: 'Fraunces', serif;
+            font-size: 1.25rem;
+            font-weight: 700;
+            color: var(--white);
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+
+        .logo span {
+            color: var(--brick);
+        }
+
+        nav {
+            display: none;
+            align-items: center;
+            gap: 32px;
+        }
+
+        @media (min-width: 768px) {
+            nav {
+                display: flex;
+            }
+        }
+
+        nav a {
+            color: var(--white);
+            font-weight: 500;
+            font-size: 0.95rem;
+        }
+
+        nav a:hover {
+            color: var(--brick);
+            text-decoration: none;
+        }
+
+        .header-actions {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+        }
+
+        .lang-toggle {
+            display: flex;
+            align-items: center;
+            gap: 4px;
+            font-size: 0.85rem;
+            font-weight: 600;
+        }
+
+        .lang-toggle a {
+            color: var(--muted);
+            padding: 4px 8px;
+            border-radius: 4px;
+        }
+
+        .lang-toggle a.active {
+            color: var(--night);
+            background-color: var(--sand);
+        }
+
+        .mobile-menu-btn {
+            background: none;
+            border: none;
+            color: var(--white);
+            cursor: pointer;
+            padding: 4px;
+            display: flex;
+        }
+
+        @media (min-width: 768px) {
+            .mobile-menu-btn {
+                display: none;
+            }
+        }
+
+        /* Buttons */
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 44px;
+            padding: 12px 24px;
+            border-radius: 999px;
+            font-family: 'Inter', sans-serif;
+            font-weight: 600;
+            font-size: 1rem;
+            text-decoration: none;
+            transition: all 0.2s ease;
+            border: 1px solid transparent;
+            cursor: pointer;
+            text-align: center;
+        }
+
+        .btn-primary {
+            background-color: var(--brick);
+            color: var(--white);
+        }
+
+        .btn-primary:hover {
+            filter: hue-rotate(18deg);
+            text-decoration: none;
+        }
+
+        .btn-secondary {
+            background-color: transparent;
+            color: var(--white);
+            border-color: var(--white);
+        }
+
+        .btn-secondary:hover {
+            background-color: var(--white);
+            color: var(--night);
+            text-decoration: none;
+        }
+
+        .btn-ghost {
+            background-color: transparent;
+            color: var(--brick);
+            border-color: var(--brick);
+        }
+
+        .btn-ghost:hover {
+            background-color: var(--brick);
+            color: var(--white);
+            text-decoration: none;
+        }
+
+        /* Hero Section */
+        .hero {
+            background-color: var(--sand);
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: 2.5rem;
+            margin-bottom: 16px;
+            color: var(--night);
+        }
+
+        .hero p {
+            font-size: 1.125rem;
+            color: var(--muted);
+            max-width: 600px;
+            margin: 0 auto 32px;
+        }
+
+        .hero-ctas {
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+            align-items: center;
+        }
+
+        @media (min-width: 576px) {
+            .hero-ctas {
+                flex-direction: row;
+                justify-content: center;
+            }
+            .hero h1 {
+                font-size: 3.5rem;
+            }
+        }
+
+        /* Feature Strip */
+        .feature-strip {
+            background-color: var(--night);
+            color: var(--white);
+            padding: 32px 0;
+        }
+
+        .feature-strip .container {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            gap: 24px;
+            text-align: center;
+        }
+
+        @media (min-width: 768px) {
+            .feature-strip .container {
+                flex-direction: row;
+            }
+        }
+
+        .feature-item {
+            font-family: 'Fraunces', serif;
+            font-weight: 500;
+            font-size: 1.1rem;
+            color: var(--white);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+        }
+
+        .feature-item svg {
+            width: 20px;
+            height: 20px;
+            color: var(--brick);
+            stroke-width: 1.5px;
+        }
+
+        /* Value Props */
+        .grid-3 {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 24px;
+        }
+
+        @media (min-width: 768px) {
+            .grid-3 {
+                grid-template-columns: repeat(3, 1fr);
+            }
+        }
+
+        .section-title {
+            text-align: center;
+            margin-bottom: 48px;
+            font-size: 2rem;
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .card {
+            background-color: var(--white);
+            border: 1px solid var(--line);
+            border-radius: var(--radius-lg);
+            padding: 24px;
+            transition: transform 0.2s ease;
+            height: 100%;
+        }
+
+        .card:hover {
+            transform: translateY(-2px);
+        }
+
+        .card-icon {
+            width: 40px;
+            height: 40px;
+            margin-bottom: 16px;
+            color: var(--brick);
+            stroke-width: 1.5px;
+        }
+
+        .card h3 {
+            font-size: 1.25rem;
+            margin-bottom: 8px;
+        }
+
+        .card p {
+            color: var(--muted);
+            font-size: 0.95rem;
+        }
+
+        /* Seller CTA */
+        .seller-cta {
+            background-color: var(--night);
+            color: var(--white);
+            text-align: center;
+        }
+
+        .seller-cta h2 {
+            color: var(--white);
+            font-size: 2rem;
+            margin-bottom: 16px;
+        }
+
+        .seller-cta p {
+            color: rgba(255, 255, 255, 0.8);
+            margin-bottom: 32px;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        /* Neighborhoods */
+        .neighborhoods {
+            background-color: var(--paper);
+        }
+
+        .neighborhood-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 12px;
+            justify-content: center;
+        }
+
+        .neighborhood-pill {
+            background-color: var(--sand);
+            padding: 12px 24px;
+            border-radius: 999px;
+            font-weight: 500;
+            color: var(--night);
+            border: 1px solid var(--line);
+            min-height: 44px;
+            display: flex;
+            align-items: center;
+        }
+
+        .neighborhood-pill:hover {
+            background-color: var(--line);
+            text-decoration: none;
+        }
+
+        /* About Section */
+        .about-section {
+            background-color: var(--white);
+        }
+
+        .about-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 32px;
+            align-items: center;
+        }
+
+        @media (min-width: 768px) {
+            .about-grid {
+                grid-template-columns: 1fr 1fr;
+            }
+        }
+
+        .about-image-placeholder {
+            width: 100%;
+            min-height: 300px;
+            background: linear-gradient(135deg, var(--sand) 0%, var(--line) 100%);
+            border-radius: var(--radius-lg);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--flint);
+            font-family: 'Fraunces', serif;
+            border: 1px solid var(--line);
+        }
+
+        .about-text h2 {
+            font-size: 2rem;
+            margin-bottom: 16px;
+            font-style: italic;
+        }
+
+        .about-text p {
+            margin-bottom: 16px;
+            color: var(--muted);
+        }
+
+        .license-trust {
+            margin-top: 24px;
+            padding-top: 24px;
+            border-top: 1px solid var(--line);
+            font-weight: 600;
+            color: var(--night);
+            font-size: 0.9rem;
+        }
+
+        /* Testimonials/Reviews Placeholder */
+        .reviews {
+            background-color: var(--sand);
+        }
+
+        .review-card {
+            background-color: var(--white);
+            padding: 24px;
+            border-radius: var(--radius-lg);
+            border: 1px solid var(--line);
+            text-align: center;
+        }
+
+        .review-card p {
+            font-style: italic;
+            color: var(--muted);
+            margin-bottom: 16px;
+        }
+
+        /* Contact Section */
+        .contact {
+            background-color: var(--white);
+        }
+
+        .contact-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 32px;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        @media (min-width: 768px) {
+            .contact-grid {
+                grid-template-columns: 1fr 1fr;
+            }
+        }
+
+        .contact-info-card {
+            background-color: var(--sand);
+            padding: 32px;
+            border-radius: var(--radius-lg);
+            border: 1px solid var(--line);
+        }
+
+        .contact-method {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+            margin-bottom: 24px;
+        }
+
+        .contact-method svg {
+            width: 24px;
+            height: 24px;
+            color: var(--brick);
+            stroke-width: 1.5px;
+        }
+
+        .contact-method a {
+            color: var(--night);
+            font-weight: 600;
+            font-size: 1.1rem;
+        }
+
+        .form-placeholder {
+            background-color: var(--paper);
+            border: 1px dashed var(--line);
+            border-radius: var(--radius-lg);
+            padding: 48px;
+            text-align: center;
+            color: var(--muted);
+            min-height: 300px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+
+        /* Footer */
+        footer {
+            background-color: var(--night);
+            color: var(--white);
+            padding: 48px 0 24px;
+        }
+
+        .footer-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 32px;
+            margin-bottom: 32px;
+        }
+
+        @media (min-width: 768px) {
+            .footer-grid {
+                grid-template-columns: 2fr 1fr 1fr;
+            }
+        }
+
+        .footer-contact h3 {
+            color: var(--white);
+            font-size: 1.5rem;
+            margin-bottom: 16px;
+        }
+
+        .footer-contact p {
+            margin-bottom: 8px;
+            color: rgba(255, 255, 255, 0.8);
+            font-size: 1rem;
+        }
+
+        .footer-contact a {
+            color: var(--white);
+        }
+
+        .footer-links h4 {
+            font-family: 'Inter', sans-serif;
+            font-size: 0.8rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: var(--brick);
+            margin-bottom: 16px;
+        }
+
+        .footer-links ul {
+            list-style: none;
+        }
+
+        .footer-links li {
+            margin-bottom: 8px;
+        }
+
+        .footer-links a {
+            color: rgba(255, 255, 255, 0.8);
+            font-size: 0.9rem;
+        }
+
+        .footer-links a:hover {
+            color: var(--white);
+        }
+
+        .trec-compliance {
+            border-top: 1px solid #3a3232;
+            padding-top: 24px;
+            margin-top: 24px;
+            text-align: center;
+        }
+
+        .broker-name {
+            font-size: 1rem; 
+            font-weight: 600;
+            color: var(--white);
+            margin-bottom: 4px;
+        }
+
+        .license-info, .realtor-disclaimer {
+            font-size: 0.85rem;
+            color: rgba(255, 255, 255, 0.6);
+            margin-bottom: 4px;
+        }
+
+        .fair-housing {
+            display: inline-block;
+            margin-top: 12px;
+            padding: 4px 8px;
+            border: 1px solid #3a3232;
+            border-radius: 4px;
+            font-size: 0.75rem;
+            color: rgba(255, 255, 255, 0.6);
+        }
+
+        /* Focus States for Accessibility */
+        a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visible {
+            outline: 2px solid var(--brick);
+            outline-offset: 2px;
+            border-radius: 4px;
+        }
+
+        .btn:focus-visible {
+            outline: 2px solid var(--white);
+            outline-offset: 4px;
+        }
+
+        /* Mobile Menu Overlay */
+        .mobile-menu-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.8);
+            z-index: 9999;
+            display: flex;
+            opacity: 0;
+            visibility: hidden;
+            transition: opacity 0.3s ease, visibility 0.3s ease;
+        }
+
+        .mobile-menu-overlay.active {
+            opacity: 1;
+            visibility: visible;
+        }
+
+        .mobile-menu-content {
+            background-color: var(--night);
+            width: 80%;
+            max-width: 300px;
+            height: 100%;
+            padding: 80px 24px 24px;
+            transform: translateX(-100%);
+            transition: transform 0.3s ease;
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+        }
+
+        .mobile-menu-overlay.active .mobile-menu-content {
+            transform: translateX(0);
+        }
+
+        .mobile-menu-content a {
+            color: var(--white);
+            font-size: 1.2rem;
+            padding: 8px 0;
+            border-bottom: 1px solid #3a3232;
+        }
+        
+        .mobile-close-btn {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            background: none;
+            border: none;
+            color: var(--white);
+            font-size: 2rem;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div id="root">
+        <!-- Header -->
+        <header>
+            <div class="container header-container">
+                <a href="/" class="logo">Angelina Gándara <span>Real Estate</span></a>
+                
+                <nav>
+                    <a href="/buyers.html">Buyers</a>
+                    <a href="/sellers.html">Sellers</a>
+                    <a href="/listings.html">Listings</a>
+                    <a href="/neighborhoods.html">Neighborhoods</a>
+                    <a href="/about.html">About</a>
+                    <a href="/contact.html">Contact</a>
+                </nav>
+                
+                <div class="header-actions">
+                    <div class="lang-toggle">
+                        <a href="/" class="active">EN</a>
+                        <a href="/es/">ES</a>
+                    </div>
+                    <a href="/contact.html" class="btn btn-primary" style="display:none;" id="desktop-cta">Book a Call</a>
+                    <button class="mobile-menu-btn" id="menu-toggle" aria-label="Open menu">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </header>
+
+        <!-- Mobile Menu Overlay -->
+        <div class="mobile-menu-overlay" id="mobile-menu">
+            <button class="mobile-close-btn" id="menu-close" aria-label="Close menu">&times;</button>
+            <div class="mobile-menu-content">
+                <a href="/buyers.html">Buyers</a>
+                <a href="/sellers.html">Sellers</a>
+                <a href="/listings.html">Listings</a>
+                <a href="/neighborhoods.html">Neighborhoods</a>
+                <a href="/about.html">About</a>
+                <a href="/contact.html">Contact</a>
+                <a href="/contact.html" class="btn btn-primary" style="margin-top: 16px;">Book a Call</a>
+            </div>
+        </div>
+
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="container">
+                <h1>El Paso real estate, answered in minutes.</h1>
+                <p>Bilingual, local, and always responsive — find the right home or sell for the right price, without the runaround.</p>
+                <div class="hero-ctas">
+                    <a href="/contact.html" class="btn btn-primary">Book a Call</a>
+                    <a href="/sellers.html" class="btn btn-ghost">Free Home Valuation</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Feature Strip -->
+        <section class="feature-strip">
+            <div class="container">
+                <div class="feature-item">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M10.5 21l5.25-11.25L21 21m-9-3h7.5M3 5.621a48.474 48.474 0 016.373-.471m6.373.471a48.474 48.474 0 016.373-.471M12.75 7.5c0 .621-.504 1.125-1.125 1.125S10.5 8.121 10.5 7.5s.504-1.125 1.125-1.125S12.75 6.879 12.75 7.5ZM3 5.621V20.25a.75.75 0 001.5 0v-6.75a.75.75 0 01.75-.75h3.75a.75.75 0 01.75.75v6.75a.75.75 0 001.5 0V5.621" /></svg>
+                    Bilingual service
+                </div>
+                <div class="feature-item">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+                    Faster response
+                </div>
+                <div class="feature-item">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z" /><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z" /></svg>
+                    Local expertise
+                </div>
+            </div>
+        </section>
+
+        <!-- Value Props -->
+        <section>
+            <div class="container">
+                <h2 class="section-title">Buying or selling — you get the full experience, in English or Spanish.</h2>
+                <div class="grid-3">
+                    <div class="card">
+                        <svg class="card-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M2.25 12l8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.5a.75.75 0 00.75.75h4.5a.75.75 0 00.75-.75V15a.75.75 0 01.75-.75h3a.75.75 0 01.75.75v5.25a.75.75 0 00.75.75h4.5a.75.75 0 00.75-.75V9.75M8.25 21h8.25" /></svg>
+                        <h3>Find homes that fit your life</h3>
+                        <p>We listen first. Whether you need a big yard, a short commute, or the right schools, we'll target the properties that make sense for your family.</p>
+                    </div>
+                    <div class="card">
+                        <svg class="card-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M12 20.25c4.97 0 9-3.694 9-8.25s-4.03-8.25-9-8.25S3 7.444 3 12c0 2.104.859 4.023 2.273 5.48.432.433.553 1.078.338 1.631l-.531 1.43a.75.75 0 00.92.94l1.43-.53a1.5 1.5 0 011.078-.338c.531.07 1.075.147 1.625.147z" /></svg>
+                        <h3>Instant answers, day or night</h3>
+                        <p>Speed-to-lead is our brand promise. When you find the home you want, you need an agent who answers. We leverage smart automation to ensure you're never waiting.</p>
+                    </div>
+                    <div class="card">
+                        <svg class="card-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M10.5 21l5.25-11.25L21 21m-9-3h7.5M3 5.621a48.474 48.474 0 016.373-.471m6.373.471a48.474 48.474 0 016.373-.471M12.75 7.5c0 .621-.504 1.125-1.125 1.125S10.5 8.121 10.5 7.5s.504-1.125 1.125-1.125S12.75 6.879 12.75 7.5ZM3 5.621V20.25a.75.75 0 001.5 0v-6.75a.75.75 0 01.75-.75h3.75a.75.75 0 01.75.75v6.75a.75.75 0 001.5 0V5.621" /></svg>
+                        <h3>Your language, your terms.</h3>
+                        <p>From paperwork to negotiations, we provide full-service real estate support in both English and Spanish. You'll always understand the process completely.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seller CTA -->
+        <section class="seller-cta">
+            <div class="container">
+                <h2>Selling your home? See what it's worth today.</h2>
+                <p>Get local pricing intelligence and honest advice. Find out exactly what your property commands in today's El Paso market.</p>
+                <a href="/sellers.html" class="btn btn-primary">Get My Free Home Valuation</a>
+            </div>
+        </section>
+
+        <!-- Neighborhoods -->
+        <section class="neighborhoods">
+            <div class="container">
+                <h2 class="section-title">Featured El Paso Neighborhoods</h2>
+                <div class="neighborhood-list">
+                    <a href="/neighborhoods/westside.html" class="neighborhood-pill">Westside</a>
+                    <a href="/neighborhoods/upper-valley.html" class="neighborhood-pill">Upper Valley</a>
+                    <a href="/neighborhoods/east-side.html" class="neighborhood-pill">East Side / Horizon City</a>
+                    <a href="/neighborhoods/fort-bliss.html" class="neighborhood-pill">Fort Bliss Area</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="about-section">
+            <div class="container">
+                <div class="about-grid">
+                    <div class="about-image-placeholder" aria-label="Angelina Gándara Real Estate Agent Headshot">
+                        Angelina Gándara
+                    </div>
+                    <div class="about-text">
+                        <h2>"I went from flipping houses to helping neighbors — one family at a time."</h2>
+                        <p>I grew up watching my grandmother devotedly care for the homes she worked hard to save for; those same homes later became her only source of retirement income. About 6 years ago, I decided to take a leap of faith (with some careful planning) and follow her example by investing in fixing and flipping a house.</p>
+                        <p>Today, I own and manage several properties in our city. The success I found inspired me to become a realtor, allowing me to help my neighbors become homeowners, too... and maybe inspire a few to venture into investment properties.</p>
+                        <div class="license-trust">
+                            Licensed Real Estate Agent · TREC #844593-SA · With Home Pros Real Estate Group LLC.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials/Reviews Placeholder -->
+        <section class="reviews">
+            <div class="container">
+                <h2 class="section-title">What El Paso is saying</h2>
+                <div class="grid-3">
+                    <div class="review-card">
+                        <p>"Your testimonial could be here. Partner with Angelina for your next move."</p>
+                        <strong>El Paso Homeowner</strong>
+                    </div>
+                    <div class="review-card">
+                        <p>"Your testimonial could be here. Partner with Angelina for your next move."</p>
+                        <strong>El Paso Homeowner</strong>
+                    </div>
+                    <div class="review-card">
+                        <p>"Your testimonial could be here. Partner with Angelina for your next move."</p>
+                        <strong>El Paso Homeowner</strong>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact">
+            <div class="container">
+                <h2 class="section-title">Let's talk about your next move.</h2>
+                <div class="contact-grid">
+                    <div class="contact-info-card">
+                        <h3 style="margin-bottom: 24px;">Reach out directly</h3>
+                        <div class="contact-method">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z" /></svg>
+                            <a href="tel:+19155551234">(915) 555-1234</a>
+                        </div>
+                        <div class="contact-method">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75" /></svg>
+                            <a href="mailto:hello@angelinagandara.com">hello@angelinagandara.com</a>
+                        </div>
+                        <div class="contact-method">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M2.25 15.75l5.159-5.159a2.25 2.25 0 013.182 0l5.159 5.159m-1.5-1.5l1.409-1.409c.297-.297.776-.297 1.073 0l1.409 1.409m-1.5-1.5l-5.159-5.159a2.25 2.25 0 00-3.182 0L2.25 12.75m17.25 0a2.25 2.25 0 11-4.5 0 2.25 2.25 0 014.5 0zM2.25 12.75a2.25 2.25 0 114.5 0 2.25 2.25 0 01-4.5 0z" /></svg>
+                            <a href="https://instagram.com" target="_blank" rel="noopener">@AngelinaGandaraRE</a>
+                        </div>
+                    </div>
+                    
+                    <!-- GHL Form Placeholder -->
+                    <div class="form-placeholder">
+                        <h3 style="margin-bottom: 16px; color: var(--night);">GHL Form Embed</h3>
+                        <p>Paste GoHighLevel form, chat, or calendar embed script here.</p>
+                        <div id="ghl-form-embed" style="width:100%; min-height:200px;"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer>
+            <div class="container">
+                <div class="footer-grid">
+                    <div class="footer-contact">
+                        <h3>Angelina Gándara</h3>
+                        <p>Phone: <a href="tel:+19155551234">(915) 555-1234</a></p>
+                        <p>Email: <a href="mailto:hello@angelinagandara.com">hello@angelinagandara.com</a></p>
+                        <p>Instagram: <a href="https://instagram.com" target="_blank" rel="noopener">@AngelinaGandaraRE</a></p>
+                    </div>
+                    <div class="footer-links">
+                        <h4>Navigation</h4>
+                        <ul>
+                            <li><a href="/buyers.html">Buyers</a></li>
+                            <li><a href="/sellers.html">Sellers</a></li>
+                            <li><a href="/listings.html">Listings</a></li>
+                            <li><a href="/neighborhoods.html">Neighborhoods</a></li>
+                            <li><a href="/about.html">About Angelina</a></li>
+                            <li><a href="/contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-links">
+                        <h4>Legal</h4>
+                        <ul>
+                            <li><a href="/legal/privacy.html">Privacy Policy</a></li>
+                            <li><a href="/legal/terms.html">Terms of Use</a></li>
+                            <li><a href="/legal/ftc.html">FTC Disclosure</a></li>
+                            <li><a href="https://www.trec.texas.gov/sites/default/files/pdf/forms/IABS%201-2.pdf" target="_blank" rel="noopener">TREC Information About Brokerage Services</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="trec-compliance">
+                    <p class="broker-name">Home Pros Real Estate Group LLC · Broker of Record [Name]</p>
+                    <p class="license-info">Angelina Gándara · Licensed Real Estate Agent · TREC #844593-SA</p>
+                    <p class="realtor-disclaimer">Not affiliated with, endorsed by, or a member of the National Association of REALTORS®. Licensed by the Texas Real Estate Commission.</p>
+                    <div class="fair-housing">Equal Housing Opportunity</div>
+                    <p style="margin-top: 16px; font-size: 0.85rem; color: rgba(255,255,255,0.6);">© <span id="year"></span> Angelina Gándara. All rights reserved.</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script>
+        // Auto-update copyright year
+        document.getElementById('year').textContent = new Date().getFullYear();
+        
+        // Mobile menu logic
+        const menuToggle = document.getElementById('menu-toggle');
+        const menuClose = document.getElementById('menu-close');
+        const mobileMenu = document.getElementById('mobile-menu');
+        
+        menuToggle.addEventListener('click', () => {
+            mobileMenu.classList.add('active');
+        });
+        
+        menuClose.addEventListener('click', () => {
+            mobileMenu.classList.remove('active');
+        });
+        
+        mobileMenu.addEventListener('click', (e) => {
+            if (e.target === mobileMenu) {
+                mobileMenu.classList.remove('active');
+            }
+        });
+    </script>
+</body>
+</html>
