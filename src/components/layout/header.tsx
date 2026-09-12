@@ -5,14 +5,15 @@ import { alternatePath, localizedPath, type RouteKey } from '@/lib/routes';
 import { SITE } from '@/lib/site';
 import Container from '@/components/ui/container';
 import ButtonLink from '@/components/ui/button-link';
+import { HouseMark } from '@/components/ui/icons';
 import MobileMenu, { type NavLink } from './mobile-menu';
 
-const NAV_KEYS: { routeKey: RouteKey; labelKey: 'buyers' | 'sellers' | 'listings' | 'neighborhoods' | 'about' | 'contact' }[] = [
+const NAV_KEYS: { routeKey: RouteKey; labelKey: 'about' | 'buyers' | 'sellers' | 'listings' | 'neighborhoods' | 'contact' }[] = [
+  { routeKey: 'about', labelKey: 'about' },
   { routeKey: 'buyers', labelKey: 'buyers' },
   { routeKey: 'sellers', labelKey: 'sellers' },
   { routeKey: 'listings', labelKey: 'listings' },
   { routeKey: 'neighborhoods', labelKey: 'neighborhoods' },
-  { routeKey: 'about', labelKey: 'about' },
   { routeKey: 'contact', labelKey: 'contact' },
 ];
 
@@ -57,12 +58,19 @@ export default async function Header({ locale, routeKey }: { locale: Locale; rou
       {/* Main navigation */}
       <div className="border-b border-gray-soft bg-white">
         <Container className="flex h-16 items-center justify-between gap-4">
-          <a href={localizedPath(locale, 'home')} className="flex min-h-[44px] flex-col justify-center">
-            <span className="font-display text-lg font-semibold leading-tight text-copyblue">
-              Angelina Gándara
-            </span>
-            <span className="text-xs font-semibold uppercase tracking-widest text-copyblue">
-              Real Estate
+          <a
+            href={localizedPath(locale, 'home')}
+            aria-label={`${SITE.agentName}, ${locale === 'en' ? 'El Paso real estate — home' : 'bienes raíces en El Paso — inicio'}`}
+            className="flex min-h-[44px] items-center gap-2"
+          >
+            <HouseMark className="h-7 w-7 shrink-0 text-copyblue" />
+            <span className="flex flex-col justify-center leading-tight">
+              <span className="font-display text-lg font-semibold text-copyblue">
+                Angelina Gándara
+              </span>
+              <span className="text-xs font-semibold uppercase tracking-widest text-copyblue">
+                Real Estate
+              </span>
             </span>
           </a>
 

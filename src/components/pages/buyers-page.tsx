@@ -1,28 +1,23 @@
 import { getTranslations } from 'next-intl/server';
-import { CheckCircle2, Clock, Home, Languages, MessageCircle, Search } from 'lucide-react';
 import type { Locale } from '@/i18n/routing';
 import { localizedPath } from '@/lib/routes';
 import Container from '@/components/ui/container';
 import ButtonLink from '@/components/ui/button-link';
-import SectionHeading from '@/components/ui/section-heading';
-import { GhlForm } from '@/components/ghl/ghl-embeds';
-
-const STEP_ICONS = [MessageCircle, Search, Home, CheckCircle2];
 
 export default async function BuyersPage({ locale }: { locale: Locale }) {
   const t = await getTranslations('buyers');
 
   const steps = [
-    { title: t('step1Title'), body: t('step1Body') },
-    { title: t('step2Title'), body: t('step2Body') },
-    { title: t('step3Title'), body: t('step3Body') },
-    { title: t('step4Title'), body: t('step4Body') },
+    { badge: t('step1Badge'), title: t('step1Title'), body: t('step1Body') },
+    { badge: t('step2Badge'), title: t('step2Title'), body: t('step2Body') },
+    { badge: t('step3Badge'), title: t('step3Title'), body: t('step3Body') },
+    { badge: t('step4Badge'), title: t('step4Title'), body: t('step4Body') },
   ];
 
   const stats = [
-    { value: t('stat1Value'), label: t('stat1Label'), Icon: Home },
-    { value: t('stat2Value'), label: t('stat2Label'), Icon: Clock },
-    { value: t('stat3Value'), label: t('stat3Label'), Icon: Languages },
+    { value: t('stat1Value'), label: t('stat1Label') },
+    { value: t('stat2Value'), label: t('stat2Label') },
+    { value: t('stat3Value'), label: t('stat3Label') },
   ];
 
   const faqs = [
@@ -35,66 +30,70 @@ export default async function BuyersPage({ locale }: { locale: Locale }) {
 
   return (
     <>
+      {/* Hero */}
       <section className="bg-gray-soft">
-        <Container className="py-16 text-center sm:py-20">
-          <h1 className="mx-auto max-w-3xl text-4xl font-semibold text-ink sm:text-5xl">{t('title')}</h1>
-          <p className="mx-auto mt-5 max-w-2xl text-lg text-muted sm:text-xl">{t('subtitle')}</p>
-          <div className="mt-8">
-            <ButtonLink href={localizedPath(locale, 'book')}>{t('ctaButton')}</ButtonLink>
+        <Container className="py-16 text-center sm:py-24">
+          <p className="mb-4 text-sm font-semibold uppercase tracking-[0.14em] text-copyblue">{t('heroEyebrow')}</p>
+          <h1 className="mx-auto max-w-3xl text-4xl font-semibold text-ink sm:text-5xl">{t('heroTitle')}</h1>
+          <p className="mx-auto mt-6 max-w-2xl text-lg text-muted sm:text-xl">{t('heroLead')}</p>
+          <div className="mt-8 flex flex-col items-center justify-center gap-4 sm:flex-row">
+            <ButtonLink href={localizedPath(locale, 'contact')} className="w-full sm:w-auto">
+              {t('heroPrimary')}
+            </ButtonLink>
+            <ButtonLink href={localizedPath(locale, 'listings')} variant="outline" className="w-full sm:w-auto">
+              {t('heroSecondary')}
+            </ButtonLink>
           </div>
         </Container>
       </section>
 
-      {/* 4-step process */}
+      {/* Process steps */}
       <section className="bg-white">
         <Container className="py-16 sm:py-20">
-          <SectionHeading title={t('stepsTitle')} />
-          <ol className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
-            {steps.map((s, i) => {
-              const Icon = STEP_ICONS[i];
-              return (
-                <li key={s.title} className="rounded-2xl border border-gray-soft bg-white p-7">
-                  <div className="flex items-center gap-3">
-                    <span className="flex h-10 w-10 items-center justify-center rounded-full bg-copyblue font-display text-lg font-semibold text-white">
-                      {i + 1}
-                    </span>
-                    <Icon className="h-7 w-7 text-copyblue" aria-hidden="true" />
-                  </div>
-                  <h2 className="mt-4 text-xl font-semibold text-ink">{s.title}</h2>
-                  <p className="mt-3 text-muted">{s.body}</p>
-                </li>
-              );
-            })}
+          <p className="text-sm font-semibold uppercase tracking-[0.14em] text-copyblue">{t('processEyebrow')}</p>
+          <h2 className="mt-3 max-w-3xl text-3xl font-semibold text-ink sm:text-4xl">{t('processTitle')}</h2>
+          <p className="mt-4 max-w-2xl text-lg text-muted">{t('processLead')}</p>
+
+          <ol className="mt-12 grid gap-6 sm:grid-cols-2">
+            {steps.map((s) => (
+              <li key={s.badge} className="rounded-2xl border border-gray-soft bg-white p-7 shadow-sm">
+                <span className="inline-flex items-center rounded-full bg-yellow px-3 py-1 text-xs font-semibold text-ink">{s.badge}</span>
+                <h3 className="mt-4 text-xl font-semibold text-ink">{s.title}</h3>
+                <p className="mt-3 text-muted">{s.body}</p>
+              </li>
+            ))}
           </ol>
         </Container>
       </section>
 
-      {/* Stats strip */}
-      <section className="bg-ink">
-        <Container className="py-12">
-          <div className="grid gap-8 text-center sm:grid-cols-3">
+      {/* Stats */}
+      <section className="bg-gray-soft">
+        <Container className="py-16 sm:py-20">
+          <p className="text-sm font-semibold uppercase tracking-[0.14em] text-copyblue">{t('marketEyebrow')}</p>
+          <h2 className="mt-3 text-3xl font-semibold text-ink sm:text-4xl">{t('marketTitle')}</h2>
+
+          <div className="mt-12 grid gap-10 text-center sm:grid-cols-3">
             {stats.map((s) => (
               <div key={s.label}>
-                <s.Icon className="mx-auto h-6 w-6 text-yellow" aria-hidden="true" />
-                <p className="mt-3 font-display text-4xl font-semibold text-white">{s.value}</p>
-                <p className="mt-2 text-white/80">{s.label}</p>
+                <div className="font-display text-4xl font-semibold text-ink sm:text-5xl">{s.value}</div>
+                <div className="mt-2 text-xs font-medium uppercase tracking-[0.1em] text-muted">{s.label}</div>
               </div>
             ))}
           </div>
-          <p className="mt-8 text-center text-xs text-white/55">{t('statsDisclaimer')}</p>
+          <p className="mx-auto mt-10 max-w-2xl text-center text-sm text-muted">{t('statsDisclaimer')}</p>
         </Container>
       </section>
 
       {/* FAQ */}
       <section className="bg-white">
         <Container className="py-16 sm:py-20">
-          <SectionHeading title={t('faqTitle')} />
-          <div className="mx-auto mt-12 max-w-3xl space-y-3">
+          <p className="text-sm font-semibold uppercase tracking-[0.14em] text-copyblue">{t('faqEyebrow')}</p>
+          <h2 className="mt-3 text-3xl font-semibold text-ink sm:text-4xl">{t('faqTitle')}</h2>
+          <p className="mt-4 max-w-2xl text-lg text-muted">{t('faqLead')}</p>
+
+          <div className="mx-auto mt-10 max-w-3xl space-y-3">
             {faqs.map((f) => (
-              <details
-                key={f.q}
-                className="group rounded-2xl border border-gray-soft bg-white open:bg-gray-soft/60"
-              >
+              <details key={f.q} className="group rounded-2xl border border-gray-soft bg-white open:bg-gray-soft/60">
                 <summary className="flex min-h-[56px] cursor-pointer list-none items-center justify-between gap-4 px-6 py-4 font-semibold text-ink">
                   {f.q}
                   <span className="shrink-0 text-copyblue transition-transform group-open:rotate-45" aria-hidden="true">
@@ -108,13 +107,21 @@ export default async function BuyersPage({ locale }: { locale: Locale }) {
         </Container>
       </section>
 
-      {/* Buyer registration form (GHL slot) */}
-      <section className="bg-gray-soft">
+      {/* CTA band */}
+      <section className="bg-copyblue">
         <Container className="py-16 sm:py-20">
-          <div className="mx-auto max-w-3xl">
-            <SectionHeading title={t('formTitle')} subtitle={t('formSubtitle')} />
-            <div className="mt-10">
-              <GhlForm />
+          <div className="grid items-center gap-8 md:grid-cols-2">
+            <div>
+              <h2 className="text-3xl font-semibold text-white sm:text-4xl">{t('ctaTitle')}</h2>
+              <p className="mt-4 max-w-2xl text-lg text-white">{t('ctaBody')}</p>
+            </div>
+            <div className="flex flex-wrap gap-4 md:justify-end">
+              <ButtonLink href={localizedPath(locale, 'book')} variant="accent">
+                {t('ctaButton')}
+              </ButtonLink>
+              <ButtonLink href={localizedPath(locale, 'listings')} variant="whiteOutline">
+                {t('ctaSecondary')}
+              </ButtonLink>
             </div>
           </div>
         </Container>

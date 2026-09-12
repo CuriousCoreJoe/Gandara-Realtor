@@ -8,5 +8,5 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
 }
 
 export default async function Page({ params }: { params: Promise<{ locale: string }> }) {
-  return renderPage(params, 'privacy', () => <PrivacyPage />);
+  return renderPage(params, 'privacy', (locale) => <PrivacyPage locale={locale} />);
 }

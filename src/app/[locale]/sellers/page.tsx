@@ -13,7 +13,7 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
   return renderPage(params, 'sellers', (locale) => (
     <>
       <JsonLd data={freeValuationServiceJsonLd(locale)} />
-      <SellersPage />
+      <SellersPage locale={locale} />
     </>
   ));
 }

@@ -39,12 +39,14 @@ export const SITE = {
   /** Broker — must appear on every page (TREC Rule 535.155). */
   broker: 'Home Pros Real Estate Group LLC',
 
+  /** Broker of Record (renders with the broker name on every page). */
+  brokerOfRecord: 'Patricia Lozano',
+
   /**
-   * Current TREC Information About Brokerage Services (IABS) form page.
-   * Links to the form page (not a versioned PDF) so it always points at the
-   * current revision.
+   * Current TREC Information About Brokerage Services (IABS) form. Points at
+   * the versioned PDF referenced by the original site so the link is stable.
    */
-  iabsUrl: 'https://www.trec.texas.gov/information-about-brokerage-services-form',
+  iabsUrl: 'https://www.trec.texas.gov/sites/default/files/pdf/consumer-information-sheets/IABS-1-2.pdf',
 } as const;
 
 export type SiteConfig = typeof SITE;
