@@ -40,6 +40,7 @@ export type MetaNamespace =
   | 'meta.neighborhoods'
   | 'meta.contact'
   | 'meta.book'
+  | 'meta.links'
   | 'meta.privacy'
   | 'meta.terms'
   | 'meta.trec';

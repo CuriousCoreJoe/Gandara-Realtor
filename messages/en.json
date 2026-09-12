@@ -32,6 +32,10 @@
       "title": "Book a Call | Angelina Gándara",
       "description": "Book a free consultation with Angelina Gándara, your bilingual El Paso realtor."
     },
+    "links": {
+      "title": "Links | Angelina Gándara — El Paso Real Estate",
+      "description": "Book a call, get a free home valuation, browse listings, or explore El Paso neighborhoods with Angelina Gándara."
+    },
     "privacy": {
       "title": "Privacy Policy | Angelina Gándara — El Paso Real Estate",
       "description": "How Angelina Gándara collects, uses, and protects your personal information when you use our forms or browse this site."
@@ -461,6 +465,21 @@
     "title": "Book a Call",
     "subtitle": "Pick a time that works for you — in English or Spanish.",
     "calendarNote": "Choose a day and time below and we'll take it from there."
+  },
+
+  "links": {
+    "tagline": "El Paso real estate, answered in minutes.",
+    "headshotAlt": "Headshot of Angelina Gándara, El Paso real estate agent",
+    "bookTitle": "Book a Call",
+    "bookSubtitle": "Free consultation, no pressure",
+    "valuationTitle": "Free Home Valuation",
+    "valuationSubtitle": "See what your home is worth today",
+    "listingsTitle": "Browse Listings",
+    "listingsSubtitle": "Featured El Paso homes",
+    "neighborhoodsTitle": "Neighborhood Guides",
+    "neighborhoodsSubtitle": "Westside · Eastside · Upper Valley · Fort Bliss",
+    "ctaLabel": "Book Your Free Consultation",
+    "footerCredit": "Licensed Realtor · TREC #844593-SA · Home Pros Real Estate Group LLC"
   },
 
   "legal": {

@@ -32,6 +32,10 @@
       "title": "Agendar una Llamada | Angelina Gándara",
       "description": "Agende una consulta gratuita con Angelina Gándara, su realtor bilingüe en El Paso."
     },
+    "links": {
+      "title": "Enlaces | Angelina Gándara — Bienes Raíces en El Paso",
+      "description": "Agenda una llamada, obtén una valuación gratis, explora propiedades o conoce los vecindarios de El Paso con Angelina Gándara."
+    },
     "privacy": {
       "title": "Política de Privacidad | Angelina Gándara — Bienes Raíces en El Paso",
       "description": "Cómo Angelina Gándara recopila, usa y protege tu información personal cuando usas nuestros formularios o navegas este sitio."
@@ -461,6 +465,21 @@
     "title": "Agendar una Llamada",
     "subtitle": "Elija un horario que le convenga — en inglés o español.",
     "calendarNote": "Elija un día y una hora a continuación y nosotros nos encargamos del resto."
+  },
+
+  "links": {
+    "tagline": "Bienes raíces en El Paso, respuestas en minutos.",
+    "headshotAlt": "Foto de Angelina Gándara, agente de bienes raíces en El Paso",
+    "bookTitle": "Agendar una Llamada",
+    "bookSubtitle": "Consulta gratuita, sin presión",
+    "valuationTitle": "Valuación Gratuita de tu Casa",
+    "valuationSubtitle": "Descubre cuánto vale tu casa hoy",
+    "listingsTitle": "Ver Propiedades",
+    "listingsSubtitle": "Casas destacadas en El Paso",
+    "neighborhoodsTitle": "Guías de Vecindarios",
+    "neighborhoodsSubtitle": "Westside · Eastside · Upper Valley · Fort Bliss",
+    "ctaLabel": "Agenda tu Consulta Gratuita",
+    "footerCredit": "Agente de Bienes Raíces con Licencia · TREC #844593-SA · Home Pros Real Estate Group LLC"
   },
 
   "legal": {

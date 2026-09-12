@@ -18,6 +18,7 @@ export type RouteKey =
   | 'upperValley'
   | 'eastSide'
   | 'fortBliss'
+  | 'links'
   | 'contact'
   | 'book'
   | 'privacy'
@@ -38,6 +39,7 @@ export const routes: Record<RouteKey, { en: string; es: string }> = {
     es: '/neighborhoods/east-side-horizon-city',
   },
   fortBliss: { en: '/neighborhoods/fort-bliss', es: '/neighborhoods/fort-bliss' },
+  links: { en: '/links', es: '/enlaces' },
   contact: { en: '/contact', es: '/contacto' },
   book: { en: '/book', es: '/reservar' },
   privacy: { en: '/legal/privacy', es: '/legal/privacidad' },

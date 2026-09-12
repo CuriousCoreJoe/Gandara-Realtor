@@ -17,6 +17,7 @@ const ROUTE_KEYS: RouteKey[] = [
   'fortBliss',
   'contact',
   'book',
+  'links',
   'privacy',
   'terms',
   'trec',
