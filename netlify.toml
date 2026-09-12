@@ -1,0 +1,48 @@
+# Netlify configuration for the Gandara-Realtor static site.
+# Publish directory is the static export output from `next build`.
+
+[build]
+  command = "bun install --frozen-lockfile && bun run build"
+  publish = "out"
+
+# Local dev: force a STATIC file server so Netlify's framework detection does
+# NOT try to run `next dev` on this static-export (output: 'export') project.
+# `netlify dev` then serves ./out with the redirects/headers below applied.
+[dev]
+  framework = "#static"
+  publish = "out"
+  port = 8888
+
+# Static files that should be served with immutable caching.
+# (All JS/CSS are content-hashed by Next.js.)
+[[headers]]
+  for = "/_next/static/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+# Content-Security-Policy (CSP-lite). Single line — TOML multi-line strings
+# preserve newlines, which the dev server rejects in header values.
+#
+# NOTE: GoHighLevel embed slots (form / chat / calendar) will need their
+# script & iframe origins whitelisted here once the vendor wires them in.
+# Common GHL origins are pre-included; add the client's specific subdomain
+# (e.g. https://link.<account>.msgsndr.com) when it is known.
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "SAMEORIGIN"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    Content-Security-Policy = "default-src 'self'; script-src 'self' 'unsafe-inline' https://widgets.leadconnectorhq.com https://link.msgsndr.com https://msgsndr.com; frame-src 'self' https://link.msgsndr.com https://widgets.leadconnectorhq.com; style-src 'self' 'unsafe-inline'; img-src 'self' data: https:; font-src 'self' data:; connect-src 'self' https:; object-src 'none'; base-uri 'self'; form-action 'self' https://link.msgsndr.com https://widgets.leadconnectorhq.com;"
+
+# Redirects
+# NOTE: only the root → default-locale redirect is declared explicitly.
+# Trailing-slash canonicalization for /en, /es, etc. is handled automatically
+# by Netlify's pretty-URL logic against out/<locale>/index.html — adding manual
+# `/en → /en/` rules here creates redirect loops (Netlify matches `from` with
+# trailing-slash insensitivity), so they are intentionally omitted.
+[[redirects]]
+  from = "/"
+  to = "/en/"
+  status = 301
+  force = true

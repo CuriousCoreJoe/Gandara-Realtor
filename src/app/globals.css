@@ -1,0 +1,70 @@
+@import 'tailwindcss';
+
+@theme {
+  /* Brand palette (replaces the old index.html palette) */
+  --color-copyblue: #005779;
+  --color-copyblue-dark: #00445e;
+  --color-copyblue-light: #e3eef3;
+  --color-yellow: #ffb353;
+  --color-yellow-dark: #e88f1d;
+  --color-gray-soft: #efeff6;
+  --color-ink: #0f2733;
+  --color-muted: #4f626c;
+
+  /* Typography */
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, -apple-system, sans-serif;
+  --font-display: var(--font-fraunces), ui-serif, Georgia, 'Times New Roman', serif;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    background-color: #ffffff;
+    color: var(--color-ink);
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: var(--font-display);
+    font-weight: 600;
+    line-height: 1.15;
+    color: var(--color-ink);
+  }
+
+  /* Visible, consistent focus states (accessibility) */
+  a:focus-visible,
+  button:focus-visible,
+  input:focus-visible,
+  textarea:focus-visible,
+  select:focus-visible,
+  summary:focus-visible,
+  [tabindex]:focus-visible {
+    outline: 2px solid var(--color-copyblue);
+    outline-offset: 2px;
+    border-radius: 4px;
+  }
+
+  ::selection {
+    background-color: var(--color-yellow);
+    color: var(--color-ink);
+  }
+}
+
+@layer utilities {
+  /* Soft focus ring for dark/blue surfaces where the default blue would blend in */
+  .focus-ring-on-dark:focus-visible {
+    outline: 2px solid var(--color-yellow);
+    outline-offset: 2px;
+  }
+}

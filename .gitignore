@@ -1,0 +1,24 @@
+# Dependencies
+node_modules/
+
+# Next.js build output
+.next/
+out/
+
+# TypeScript
+next-env.d.ts
+*.tsbuildinfo
+
+# Env
+.env*
+!.env.example
+
+# Misc
+.DS_Store
+*.log
+
+# Local Netlify folder
+.netlify
+
+# Netlify dev edge-functions bootstrap artifact (this is a pure static site)
+deno.lock

@@ -1,0 +1,373 @@
+{
+  "meta": {
+    "home": {
+      "title": "Angelina Gándara | Agente de Bienes Raíces en El Paso — Bilingüe y Siempre Atenta",
+      "description": "Agente de bienes raíces de El Paso, bilingüe, local y siempre atenta. Encuentra el hogar ideal o vende al precio correcto, en inglés o español."
+    },
+    "about": {
+      "title": "Acerca de Angelina Gándara | Realtor en El Paso",
+      "description": "De comprar y remodelar casas a ayudar a sus vecinos de El Paso a convertirse en propietarios — conozca a Angelina Gándara."
+    },
+    "buyers": {
+      "title": "Comprar una Casa en El Paso | Angelina Gándara",
+      "description": "Compre en El Paso sin las dudas. Representación bilingüe para compradores, en inglés y español."
+    },
+    "sellers": {
+      "title": "Venda su Casa en El Paso | Valuación de Casa Gratuita",
+      "description": "Obtenga el precio correcto para su casa en El Paso, rápido. Solicite una valuación gratuita y sin compromiso."
+    },
+    "listings": {
+      "title": "Casas Destacadas en El Paso | Angelina Gándara",
+      "description": "Una selección de lo que se mueve en El Paso. La búsqueda completa de MLS llegará pronto."
+    },
+    "neighborhoods": {
+      "title": "Guías de Vecindarios de El Paso | Angelina Gándara",
+      "description": "Explore los vecindarios de El Paso — Westside, Upper Valley, East Side / Horizon City y el área de Fort Bliss."
+    },
+    "contact": {
+      "title": "Contacto | Angelina Gándara, Realtor en El Paso",
+      "description": "Hablemos de su próximo paso. Llame, escriba o envíe un mensaje a Angelina Gándara hoy."
+    },
+    "book": {
+      "title": "Agendar una Llamada | Angelina Gándara",
+      "description": "Agende una consulta gratuita con Angelina Gándara, su realtor bilingüe en El Paso."
+    },
+    "privacy": {
+      "title": "Política de Privacidad | Angelina Gándara",
+      "description": "Cómo recopilamos, usamos y protegemos su información personal."
+    },
+    "terms": {
+      "title": "Términos de Uso | Angelina Gándara",
+      "description": "Los términos que rigen el uso de este sitio web."
+    },
+    "trec": {
+      "title": "TREC y Cumplimiento | Angelina Gándara",
+      "description": "Información de licencias y cumplimiento de Angelina Gándara."
+    }
+  },
+
+  "nav": {
+    "home": "Inicio",
+    "about": "Acerca de",
+    "buyers": "Compradores",
+    "sellers": "Vendedores",
+    "listings": "Propiedades",
+    "neighborhoods": "Vecindarios",
+    "contact": "Contacto",
+    "openMenu": "Abrir menú",
+    "closeMenu": "Cerrar menú"
+  },
+
+  "common": {
+    "callOrText": "Llamar o enviar mensaje",
+    "email": "Correo",
+    "instagram": "Instagram",
+    "licensedAgent": "Agente de Bienes Raíces con Licencia",
+    "bookCall": "Agendar una Llamada",
+    "freeValuation": "Obtenga su Valuación de Casa Gratuita",
+    "learnMore": "Más información",
+    "comingSoon": "Próximamente",
+    "privacy": "Política de Privacidad",
+    "terms": "Términos de Uso",
+    "trec": "TREC y Cumplimiento",
+    "iabsLabel": "Información Sobre Servicios de Corretaje de la Comisión de Bienes Raíces de Texas",
+    "fairHousing": "Igualdad de Oportunidad de Vivienda",
+    "fairHousingStatement": "Angelina Gándara cumple con la Ley de Vivienda Justa y ofrece un servicio profesional igualitario a todos sus clientes, sin importar raza, color, religión, sexo, discapacidad, estado familiar, origen nacional, orientación sexual o identidad de género.",
+    "realtorDisclaimer": "No afiliada, respaldada ni miembro de la Asociación Nacional de REALTORS®. Con licencia de la Comisión de Bienes Raíces de Texas.",
+    "allRightsReserved": "Todos los derechos reservados.",
+    "switchToSpanish": "Ver en español",
+    "switchToEnglish": "Ver en inglés",
+    "language": "Idioma",
+    "langNames": {
+      "en": "English",
+      "es": "Español"
+    }
+  },
+
+  "ghl": {
+    "form": "Formulario de GoHighLevel",
+    "chat": "Widget de chat de GoHighLevel",
+    "calendar": "Calendario de GoHighLevel",
+    "note": "Esta área está conectada a nuestro sistema seguro de clientes."
+  },
+
+  "sticky": {
+    "valuation": "Obtenga su Valuación de Casa Gratuita",
+    "bookCall": "Agendar una Llamada"
+  },
+
+  "home": {
+    "heroTitle": "Bienes raíces en El Paso, respondidos en minutos.",
+    "heroSubtitle": "Bilingüe, local y siempre atenta — encuentre el hogar ideal o venda al precio correcto, sin rodeos.",
+    "heroPrimary": "Agendar una Llamada",
+    "heroSecondary": "Obtenga mi Valuación de Casa Gratuita",
+    "trust": {
+      "bilingual": "Bilingüe — English & Español",
+      "licensed": "Con licencia · TREC #844593-SA",
+      "responsive": "Respuestas en minutos"
+    },
+    "valueTitle": "Compre o venda — obtenga la experiencia completa, en inglés o español.",
+    "value1Title": "Encuentre casas que se adapten a su vida",
+    "value1Body": "Primero escuchamos. Ya sea un patio grande, un viaje corto al trabajo o las escuelas adecuadas, nos enfocamos en las propiedades que tienen sentido para su familia.",
+    "value2Title": "Respuestas inmediatas, de día o de noche",
+    "value2Body": "Cuando encuentre la casa que quiere, necesita un agente que responda. Usamos automatización inteligente para que nunca se quede esperando.",
+    "value3Title": "Su idioma, sus términos",
+    "value3Body": "Del papeleo a la negociación, ofrecemos un servicio completo en inglés y español. Siempre entenderá el proceso por completo.",
+    "sellerCtaTitle": "¿Vende su casa? Vea cuánto vale hoy.",
+    "sellerCtaBody": "Obtenga información de precios local y consejo honesto — descubra cuánto pide su propiedad en el mercado actual de El Paso.",
+    "sellerCtaButton": "Obtenga mi Valuación de Casa Gratuita",
+    "neighborhoodsTitle": "Vecindarios Destacados de El Paso",
+    "neighborhoodsSubtitle": "Explore las áreas que mejor conocemos.",
+    "featuresTitle": "La diferencia Gándara",
+    "feature1": "Servicio bilingüe",
+    "feature2": "Respuesta más rápida",
+    "feature3": "Conocimiento local",
+    "aboutTitle": "“Pasé de remodelar casas a ayudar a mis vecinos — una familia a la vez.”",
+    "aboutExcerpt": "Crecí viendo a mi abuela cuidar con devoción las casas por las que tanto trabajó. Ese ejemplo me llevó a comprar y remodelar casas — y hoy, a ayudar a mis vecinos a convertirse en propietarios también.",
+    "aboutLink": "Más sobre Angelina",
+    "reviewsTitle": "Lo que dice El Paso",
+    "reviewsSubtitle": "Las reseñas llegarán pronto — las estamos recopilando ahora.",
+    "reviewQuote": "Su testimonio podría estar aquí. Trabaje con Angelina en su próximo paso.",
+    "reviewAuthor": "Propietario de El Paso",
+    "contactTitle": "Hablemos de su próximo paso.",
+    "contactSubtitle": "Comuníquese y obtenga una respuesta en minutos — en inglés o español.",
+    "contactHeading": "Comuníquese directamente"
+  },
+
+  "about": {
+    "quote": "Pasé de remodelar casas a ayudar a mis vecinos — una familia a la vez.",
+    "subtitle": "Conozca a su realtor bilingüe en El Paso.",
+    "paragraph1": "Crecí viendo a mi abuela cuidar con devoción las casas por las que trabajó tanto para ahorrar; esas mismas casas se convirtieron después en su única fuente de ingresos para el retiro. Hace unos 6 años decidí dar un salto de fe (con una planificación cuidadosa) y seguir su ejemplo invirtiendo en comprar y remodelar una casa.",
+    "paragraph2": "Hoy soy dueña y administro varias propiedades en nuestra ciudad. El éxito que encontré me inspiró a convertirme en realtor, lo que me permite ayudar a mis vecinos a convertirse en propietarios también... y tal vez inspirar a algunos a aventurarse en propiedades de inversión.",
+    "paragraph3": "Ya sea que compre su primera casa, venda para comenzar una nueva etapa o explore la inversión, lo acompañaré en cada paso — en inglés o español.",
+    "licenseTitle": "Licencia y Corretaje",
+    "ctaTitle": "Hagamos realidad su próximo paso juntos.",
+    "ctaButton": "Agendar una Llamada",
+    "imageAlt": "Retrato de Angelina Gándara, agente de bienes raíces en El Paso"
+  },
+
+  "buyers": {
+    "title": "Comprar en El Paso, sin las dudas.",
+    "subtitle": "Orientación clara desde su primera conversación hasta el cierre — en inglés o español.",
+    "stepsTitle": "Cómo trabajaremos juntos",
+    "step1Title": "Hablemos",
+    "step1Body": "Comenzamos con una conversación sobre lo que necesita — presupuesto, tiempos y los vecindarios que se adaptan a su vida.",
+    "step2Title": "Armaremos su lista corta",
+    "step2Body": "Seleccionaré casas que realmente coincidan con sus criterios, para que no tenga que revisar cientos de anuncios.",
+    "step3Title": "Vea las casas que encajan",
+    "step3Body": "Recorreremos la lista juntos y nos decidiremos por la casa correcta — rápido, porque las buenas casas se mueven velozmente aquí.",
+    "step4Title": "Cierre con confianza",
+    "step4Body": "De la oferta al cierre, me encargaré del papeleo y las negociaciones y lo mantendré informado en cada paso.",
+    "statsTitle": "El Paso en números",
+    "statsDisclaimer": "Las cifras son estimaciones aproximadas del mercado, solo para ilustrar. Pida datos actualizados del mercado.",
+    "stat1Value": "~$265K",
+    "stat1Label": "Casa mediana en El Paso",
+    "stat2Value": "~17 días",
+    "stat2Label": "Casas bajo contrato",
+    "stat3Value": "EN + ES",
+    "stat3Label": "Compradores atendidos en ambos idiomas",
+    "faqTitle": "Preguntas de compradores, respondidas",
+    "faq1Q": "Soy comprador por primera vez. ¿Por dónde empiezo?",
+    "faq1A": "Con una conversación. Hablaremos de su presupuesto, lo conectaremos con un prestamista y trazaremos un plan — sin presión, solo claridad.",
+    "faq2Q": "¿Trabaja con compradores que hablan español?",
+    "faq2A": "Por supuesto. Hablo español con fluidez y puedo guiarlo por todo el proceso — papeleo y negociaciones incluidos — en su idioma.",
+    "faq3Q": "¿Qué tan rápido responde?",
+    "faq3A": "En minutos, de día o de noche. La rapidez es mi promesa; nunca se quedará esperando por la casa que quiere.",
+    "faq4Q": "¿Cómo compito en un mercado rápido?",
+    "faq4A": "Con preparación. Lo ayudaremos a obtener la preaprobación y a estar listo para moverse rápido, para que cuando aparezca la casa correcta, su oferta sea sólida.",
+    "faq5Q": "¿Cuánto dura el proceso de principio a fin?",
+    "faq5A": "Varía, pero la mayoría de los compradores pasan de la primera conversación al cierre en unas pocas semanas una vez que encontramos la casa correcta. Lo mantendré encaminado todo el camino.",
+    "ctaTitle": "¿Listo para comenzar su búsqueda?",
+    "ctaButton": "Agendar una Llamada",
+    "formTitle": "Reciba nuevos listados primero",
+    "formSubtitle": "Cuénteme qué busca y le enviaré casas que se ajusten en cuanto salgan al mercado."
+  },
+
+  "sellers": {
+    "title": "¿Vende su casa? Obtengamos el precio correcto, rápido.",
+    "subtitle": "Conozca el valor de su casa, venda a su ritmo y llegue a compradores reales.",
+    "value1Title": "Sepa cuánto vale su casa",
+    "value1Body": "Obtenga una estimación gratuita y basada en datos del valor de su casa en el mercado actual de El Paso.",
+    "value2Title": "Venda a su ritmo",
+    "value2Body": "Ya sea que necesite mudarse rápido o esperar la oferta correcta, crearemos un plan según su calendario.",
+    "value3Title": "Marketing que llega a compradores reales",
+    "value3Body": "Fotos profesionales, exposición del listado y promoción dirigida para que los compradores correctos realmente vean su casa.",
+    "formTitle": "Obtenga su Valuación de Casa Gratuita",
+    "formSubtitle": "Cuéntenos sobre su propiedad y le enviaremos su estimación.",
+    "fieldAddress": "Dirección de la propiedad",
+    "fieldAddressPlaceholder": "Calle Ejemplo 123, El Paso, TX",
+    "fieldPropertyType": "Tipo de propiedad",
+    "typeSingleFamily": "Casa unifamiliar",
+    "typeTownhome": "Townhome / Condominio",
+    "typeMultiFamily": "Multifamiliar",
+    "typeLand": "Terreno / Lote",
+    "fieldEmail": "Correo electrónico",
+    "fieldPhone": "Teléfono",
+    "submit": "Obtener mi Valuación Gratuita",
+    "disclaimer": "Esta es una estimación de valor, no una tasación. Se proporciona solo con fines informativos.",
+    "faqTitle": "Preguntas de vendedores, respondidas",
+    "faq1Q": "¿Cómo fija el precio de mi casa?",
+    "faq1A": "Analizamos ventas recientes, tendencias del mercado y el estado de su casa para encontrar un precio que atraiga compradores y maximice su retorno.",
+    "faq2Q": "¿Qué marketing realiza?",
+    "faq2A": "Fotos profesionales, un listado optimizado y promoción dirigida para mostrar su casa a compradores reales y calificados.",
+    "faq3Q": "¿Y la comisión?",
+    "faq3A": "La comisión es negociable y la hablaremos abiertamente desde el principio — sin sorpresas ni letra pequeña."
+  },
+
+  "listings": {
+    "title": "Casas Destacadas en El Paso",
+    "subtitle": "Una selección de lo que se mueve. La búsqueda completa de MLS llegará pronto.",
+    "cardLabel": "Casa destacada en El Paso",
+    "cardPlaceholder": "Los detalles completos del listado llegarán pronto.",
+    "cardCta": "Pregunte por esta casa",
+    "imageAlt": "Imagen de muestra: casa destacada en El Paso",
+    "ctaTitle": "La búsqueda en vivo llegará pronto",
+    "ctaBody": "¿Quiere ser de los primeros en ver nuevos listados? Agende una llamada.",
+    "ctaButton": "Agendar una Llamada"
+  },
+
+  "neighborhoods": {
+    "hubTitle": "Guías de Vecindarios de El Paso",
+    "hubSubtitle": "Vecindarios reales, directo de una local. Los datos de mercado se están verificando y se agregarán en la Fase 2.",
+    "hubIntro": "Ya sea que busque vistas a las montañas, buenas escuelas, un viaje corto a Fort Bliss o espacio para crecer, una de estas áreas probablemente sea para usted. Explore las guías y luego hablemos.",
+    "viewGuide": "Ver guía",
+    "ctaTitle": "¿No sabe qué vecindario le conviene?",
+    "ctaBody": "Cuénteme cómo vive y trabaja, y le indicaré las áreas que tienen sentido.",
+    "ctaButton": "Agendar una Llamada",
+    "verifiedPlaceholder": "Datos verificados en la Fase 2",
+    "quickFactLabels": {
+      "medianPrice": "Precio mediano de vivienda",
+      "pricePerSqft": "Precio por pie cuadrado",
+      "daysOnMarket": "Días en el mercado",
+      "commute": "Viaje típico",
+      "schools": "Escuelas"
+    },
+    "quickFactsTitle": "De un vistazo",
+    "localsLoveTitle": "Lo que aman los locales",
+    "backToHub": "Todos los vecindarios",
+    "guides": {
+      "westside": {
+        "name": "Westside",
+        "heroSub": "Vistas a las montañas Franklin, buenas escuelas y fácil acceso a tiendas y restaurantes.",
+        "localsLove": [
+          "Vistas a las montañas y atardeceres sobre los Franklin",
+          "Acceso rápido a la I-10 y al centro",
+          "Buenas escuelas y vecindarios familiares"
+        ],
+        "metaTitle": "Westside de El Paso | Guía de Vecindario",
+        "metaDescription": "Explore el Westside de El Paso — vistas a las montañas Franklin, buenas escuelas y fácil acceso a todo."
+      },
+      "upperValley": {
+        "name": "Upper Valley",
+        "heroSub": "Lotes arbolados, casas establecidas y un ambiente relajado y verde.",
+        "localsLove": [
+          "Lotes grandes con sombra y calles arboladas",
+          "Cerca del río y de senderos para caminar",
+          "Un ritmo más tranquilo y establecido"
+        ],
+        "metaTitle": "Upper Valley de El Paso | Guía de Vecindario",
+        "metaDescription": "Explore el Upper Valley de El Paso — casas establecidas, lotes con sombra y un ritmo tranquilo cerca del río."
+      },
+      "eastSide": {
+        "name": "East Side / Horizon City",
+        "heroSub": "De rápido crecimiento, familiar y lleno de construcciones nuevas.",
+        "localsLove": [
+          "Mucha construcción nueva y casas más recientes",
+          "Opciones de restaurantes y tiendas en crecimiento",
+          "Gran acceso a Fort Bliss y al Loop 375"
+        ],
+        "metaTitle": "East Side / Horizon City | Guía de Vecindario",
+        "metaDescription": "Explore el East Side y Horizon City de El Paso — de rápido crecimiento, familiar y lleno de construcciones nuevas."
+      },
+      "fortBliss": {
+        "name": "Área de Fort Bliss",
+        "heroSub": "Conveniente para familias militares y para cualquiera que trabaje en la base.",
+        "localsLove": [
+          "Un viaje corto y fácil a Fort Bliss",
+          "Una comunidad acogedora para familias militares",
+          "Muchos restaurantes y servicios cerca"
+        ],
+        "metaTitle": "Área de Fort Bliss | Guía de Vecindario",
+        "metaDescription": "Explore casas cerca de Fort Bliss — una comunidad conveniente y acogedora para familias militares."
+      }
+    }
+  },
+
+  "contact": {
+    "title": "Hablemos de su próximo paso.",
+    "subtitle": "Llame, escriba o envíe un mensaje — le responderé en minutos.",
+    "phoneTitle": "Llamar o enviar mensaje",
+    "emailTitle": "Correo electrónico",
+    "instagramTitle": "Instagram",
+    "formTitle": "Envíe un mensaje",
+    "formSubtitle": "Cuénteme un poco sobre su mudanza y le responderé rápido.",
+    "chatTitle": "¿Prefiere chatear?",
+    "chatSubtitle": "Escríbame aquí — incluso fuera de horario, le responderé.",
+    "iabsNote": "Revise la Información Sobre Servicios de Corretaje de la Comisión de Bienes Raíces de Texas antes de trabajar con cualquier agente."
+  },
+
+  "book": {
+    "title": "Agendar una Llamada",
+    "subtitle": "Elija un horario que le convenga — en inglés o español.",
+    "calendarNote": "Elija un día y una hora a continuación y nosotros nos encargamos del resto."
+  },
+
+  "legal": {
+    "privacy": {
+      "title": "Política de Privacidad",
+      "updated": "Fecha de entrada en vigor: 2026",
+      "intro": "Esta Política de Privacidad explica cómo Angelina Gándara (\"nosotros\", \"nuestro\") recopila, usa y protege la información que usted proporciona a través de este sitio web, incluidos los formularios y las funciones de chat.",
+      "collectTitle": "Información que recopilamos",
+      "collectBody": "Recopilamos la información que usted proporciona voluntariamente, como su nombre, correo electrónico, teléfono, dirección de la propiedad y detalles sobre sus metas inmobiliarias cuando completa un formulario, agenda una llamada o nos envía un mensaje.",
+      "useTitle": "Cómo usamos su información",
+      "useBody": "Usamos su información para responder a sus consultas, brindar servicios inmobiliarios, agendar citas y compartir los listados o valuaciones que solicite. No vendemos su información personal.",
+      "shareTitle": "Cómo compartimos su información",
+      "shareBody": "Los formularios y el chat de este sitio funcionan con GoHighLevel, nuestro sistema de gestión de clientes. La información que envíe se almacena allí para poder atenderlo. Podemos compartir información con el corredor, Home Pros Real Estate Group LLC, según sea necesario para brindar servicios.",
+      "cookiesTitle": "Cookies",
+      "cookiesBody": "Este sitio no usa cookies de publicidad ni de análisis. Nuestro sistema de gestión de clientes puede colocar cookies estrictamente necesarias para operar sus formularios, chat y calendario.",
+      "rightsTitle": "Sus opciones",
+      "rightsBody": "Puede solicitar acceso, corrección o eliminación de su información personal comunicándose con nosotros mediante los datos a continuación.",
+      "contactTitle": "Contacto",
+      "contactBody": "Para preguntas de privacidad, escriba a gandara.realtor@gmail.com o llame al (915) 355-0494."
+    },
+    "terms": {
+      "title": "Términos de Uso",
+      "updated": "Fecha de entrada en vigor: 2026",
+      "intro": "Al usar este sitio web, usted acepta los términos a continuación. Si no está de acuerdo, por favor no use el sitio.",
+      "useTitle": "Uso de este sitio",
+      "useBody": "Este sitio proporciona información general sobre servicios inmobiliarios en el área de El Paso. No constituye asesoramiento legal, fiscal ni financiero.",
+      "accuracyTitle": "Estimaciones y listados",
+      "accuracyBody": "Cualquier estimación del valor de una casa es una estimación, no una tasación, y se proporciona solo con fines informativos. Los listados y datos de mercado mostrados son marcadores de posición hasta que esté disponible una búsqueda de MLS en vivo.",
+      "representationTitle": "Sin relación de corretaje",
+      "representationBody": "Angelina Gándara es agente de ventas inmobiliarias con licencia bajo Home Pros Real Estate Group LLC. Usar este sitio web no crea una relación de agencia. Se requiere un acuerdo de representación para los servicios de corretaje.",
+      "liabilityTitle": "Limitación de responsabilidad",
+      "liabilityBody": "En la máxima medida permitida por la ley, no somos responsables por daños derivados del uso de este sitio o de la confianza depositada en su contenido.",
+      "governingTitle": "Legislación aplicable",
+      "governingBody": "Estos términos se rigen por las leyes del Estado de Texas, sin tener en cuenta los principios de conflicto de leyes.",
+      "contactTitle": "Contacto",
+      "contactBody": "¿Preguntas sobre estos términos? Escriba a gandara.realtor@gmail.com o llame al (915) 355-0494."
+    },
+    "trec": {
+      "title": "TREC y Cumplimiento",
+      "intro": "Angelina Gándara es agente de ventas inmobiliarias con licencia en el estado de Texas.",
+      "licenseTitle": "Licencias",
+      "licenseBody": "Licencia: TREC #844593-SA. Corredor: Home Pros Real Estate Group LLC.",
+      "iabsTitle": "Información Sobre Servicios de Corretaje",
+      "iabsBody": "La ley de Texas exige que los titulares de licencias inmobiliarias entreguen el formulario de Información Sobre Servicios de Corretaje. Puede revisar el formulario vigente en el sitio web de la Comisión de Bienes Raíces de Texas.",
+      "iabsLink": "Abrir el formulario de Información Sobre Servicios de Corretaje de TREC",
+      "disclaimerTitle": "Divulgación",
+      "disclaimerBody": "No afiliada, respaldada ni miembro de la Asociación Nacional de REALTORS®. Con licencia de la Comisión de Bienes Raíces de Texas.",
+      "consumerTitle": "Protección al Consumidor de TREC",
+      "consumerBody": "La Comisión de Bienes Raíces de Texas regula a los titulares de licencias inmobiliarias y acepta quejas de los consumidores. Visite trec.texas.gov para más información."
+    }
+  },
+
+  "footer": {
+    "tagline": "La realtor bilingüe y atenta de El Paso.",
+    "contactHeading": "Contacto",
+    "navHeading": "Navegación",
+    "legalHeading": "Legal",
+    "brokerLabel": "Corredor",
+    "copyright": "© {year} {name}. {rights}"
+  }
+}

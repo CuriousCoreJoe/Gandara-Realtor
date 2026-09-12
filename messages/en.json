@@ -1,0 +1,373 @@
+{
+  "meta": {
+    "home": {
+      "title": "Angelina Gándara | El Paso Real Estate Agent — Bilingual & Always Responsive",
+      "description": "Bilingual, local, and always responsive El Paso real estate agent. Find the right home or sell for the right price, in English or Spanish."
+    },
+    "about": {
+      "title": "About Angelina Gándara | El Paso Realtor",
+      "description": "From fixing and flipping houses to helping El Paso neighbors become homeowners — meet Angelina Gándara."
+    },
+    "buyers": {
+      "title": "Buying a Home in El Paso | Angelina Gándara",
+      "description": "Buying in El Paso without the guesswork. Bilingual buyer representation in English and Spanish."
+    },
+    "sellers": {
+      "title": "Sell Your Home in El Paso | Free Home Valuation",
+      "description": "Get the right price for your El Paso home, fast. Request a free, no-obligation home valuation."
+    },
+    "listings": {
+      "title": "Featured El Paso Homes | Angelina Gándara",
+      "description": "A hand-picked look at what's moving in El Paso. Full MLS search coming soon."
+    },
+    "neighborhoods": {
+      "title": "El Paso Neighborhood Guides | Angelina Gándara",
+      "description": "Explore El Paso's neighborhoods — Westside, Upper Valley, East Side / Horizon City, and Fort Bliss area."
+    },
+    "contact": {
+      "title": "Contact Angelina Gándara | El Paso Realtor",
+      "description": "Let's talk about your next move. Call, email, or message Angelina Gándara today."
+    },
+    "book": {
+      "title": "Book a Call | Angelina Gándara",
+      "description": "Book a free consultation with Angelina Gándara, your bilingual El Paso realtor."
+    },
+    "privacy": {
+      "title": "Privacy Policy | Angelina Gándara",
+      "description": "How we collect, use, and protect your personal information."
+    },
+    "terms": {
+      "title": "Terms of Use | Angelina Gándara",
+      "description": "The terms that govern use of this website."
+    },
+    "trec": {
+      "title": "TREC & Compliance | Angelina Gándara",
+      "description": "Licensing and compliance information for Angelina Gándara."
+    }
+  },
+
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "buyers": "Buyers",
+    "sellers": "Sellers",
+    "listings": "Listings",
+    "neighborhoods": "Neighborhoods",
+    "contact": "Contact",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu"
+  },
+
+  "common": {
+    "callOrText": "Call or text",
+    "email": "Email",
+    "instagram": "Instagram",
+    "licensedAgent": "Licensed Real Estate Agent",
+    "bookCall": "Book a Call",
+    "freeValuation": "Get Your Free Home Valuation",
+    "learnMore": "Learn more",
+    "comingSoon": "Coming soon",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Use",
+    "trec": "TREC & Compliance",
+    "iabsLabel": "Texas Real Estate Commission Information About Brokerage Services",
+    "fairHousing": "Equal Housing Opportunity",
+    "fairHousingStatement": "Angelina Gándara is committed to the Fair Housing Act and to providing equal professional service to all clients regardless of race, color, religion, sex, handicap, familial status, national origin, sexual orientation, or gender identity.",
+    "realtorDisclaimer": "Not affiliated with, endorsed by, or a member of the National Association of REALTORS®. Licensed by the Texas Real Estate Commission.",
+    "allRightsReserved": "All rights reserved.",
+    "switchToSpanish": "Ver en español",
+    "switchToEnglish": "View in English",
+    "language": "Language",
+    "langNames": {
+      "en": "English",
+      "es": "Español"
+    }
+  },
+
+  "ghl": {
+    "form": "GoHighLevel form embed",
+    "chat": "GoHighLevel chat widget",
+    "calendar": "GoHighLevel calendar embed",
+    "note": "This area is connected to our secure client system."
+  },
+
+  "sticky": {
+    "valuation": "Get Your Free Home Valuation",
+    "bookCall": "Book a Call"
+  },
+
+  "home": {
+    "heroTitle": "El Paso real estate, answered in minutes.",
+    "heroSubtitle": "Bilingual, local, and always responsive — find the right home or sell for the right price, without the runaround.",
+    "heroPrimary": "Book a Call",
+    "heroSecondary": "Get My Free Home Valuation",
+    "trust": {
+      "bilingual": "Bilingual — English & Español",
+      "licensed": "Licensed · TREC #844593-SA",
+      "responsive": "Answers in minutes"
+    },
+    "valueTitle": "Buying or selling — you get the full experience, in English or Spanish.",
+    "value1Title": "Find homes that fit your life",
+    "value1Body": "We listen first. Whether you need a big yard, a short commute, or the right schools, we'll target the properties that make sense for your family.",
+    "value2Title": "Instant answers, day or night",
+    "value2Body": "When you find the home you want, you need an agent who answers. We use smart automation so you're never left waiting.",
+    "value3Title": "Your language, your terms",
+    "value3Body": "From paperwork to negotiation, we provide full-service support in both English and Spanish. You'll always understand the process completely.",
+    "sellerCtaTitle": "Selling your home? See what it's worth today.",
+    "sellerCtaBody": "Get local pricing insight and honest advice — find out what your property commands in today's El Paso market.",
+    "sellerCtaButton": "Get My Free Home Valuation",
+    "neighborhoodsTitle": "Featured El Paso Neighborhoods",
+    "neighborhoodsSubtitle": "Explore the areas we know best.",
+    "featuresTitle": "The Gándara difference",
+    "feature1": "Bilingual service",
+    "feature2": "Faster response",
+    "feature3": "Local expertise",
+    "aboutTitle": "“I went from flipping houses to helping neighbors — one family at a time.”",
+    "aboutExcerpt": "I grew up watching my grandmother devotedly care for the homes she worked hard to save for. That example led me to fixing and flipping houses — and today, to helping my neighbors become homeowners, too.",
+    "aboutLink": "More about Angelina",
+    "reviewsTitle": "What El Paso is saying",
+    "reviewsSubtitle": "Reviews are coming soon — we're collecting them now.",
+    "reviewQuote": "Your testimonial could be here. Partner with Angelina for your next move.",
+    "reviewAuthor": "El Paso Homeowner",
+    "contactTitle": "Let's talk about your next move.",
+    "contactSubtitle": "Reach out and get an answer in minutes — in English or Spanish.",
+    "contactHeading": "Reach out directly"
+  },
+
+  "about": {
+    "quote": "I went from flipping houses to helping neighbors — one family at a time.",
+    "subtitle": "Meet your bilingual El Paso realtor.",
+    "paragraph1": "I grew up watching my grandmother devotedly care for the homes she worked hard to save for; those same homes later became her only source of retirement income. About 6 years ago, I decided to take a leap of faith (with some careful planning) and follow her example by investing in fixing and flipping a house.",
+    "paragraph2": "Today, I own and manage several properties in our city. The success I found inspired me to become a realtor, allowing me to help my neighbors become homeowners, too... and maybe inspire a few to venture into investment properties.",
+    "paragraph3": "Whether you're buying your first home, selling to start a new chapter, or exploring investment, I'll walk you through every step — in English or Spanish.",
+    "licenseTitle": "License & Brokerage",
+    "ctaTitle": "Let's make your next move together.",
+    "ctaButton": "Book a Call",
+    "imageAlt": "Portrait of Angelina Gándara, El Paso real estate agent"
+  },
+
+  "buyers": {
+    "title": "Buying in El Paso, without the guesswork.",
+    "subtitle": "Clear guidance from your first conversation to your closing — in English or Spanish.",
+    "stepsTitle": "How we'll work together",
+    "step1Title": "Let's talk",
+    "step1Body": "We start with a conversation about what you need — budget, timing, and the neighborhoods that fit your life.",
+    "step2Title": "We'll find your shortlist",
+    "step2Body": "I'll curate homes that actually match your criteria, so you're not scrolling through hundreds of listings.",
+    "step3Title": "See the homes that fit",
+    "step3Body": "We'll tour the shortlist together and narrow in on the right home — fast, because good homes move quickly here.",
+    "step4Title": "Close with confidence",
+    "step4Body": "From offer to closing, I'll handle the paperwork and negotiations and keep you informed at every step.",
+    "statsTitle": "El Paso by the numbers",
+    "statsDisclaimer": "Figures are approximate market estimates for illustration. Ask for current market data.",
+    "stat1Value": "~$265K",
+    "stat1Label": "Median El Paso home",
+    "stat2Value": "~17 days",
+    "stat2Label": "Homes under contract",
+    "stat3Value": "EN + ES",
+    "stat3Label": "Buyers served in both languages",
+    "faqTitle": "Buyer questions, answered",
+    "faq1Q": "I'm a first-time buyer. Where do I start?",
+    "faq1A": "With a conversation. We'll talk through your budget, get you connected with a lender, and map out a plan — no pressure, just clarity.",
+    "faq2Q": "Do you work with Spanish-speaking buyers?",
+    "faq2A": "Absolutely. I'm fluent in Spanish and can guide you through the entire process — paperwork and negotiations included — in your language.",
+    "faq3Q": "How fast will you respond?",
+    "faq3A": "In minutes, day or night. Speed is my promise; you'll never be left waiting on the home you want.",
+    "faq4Q": "How do I compete in a fast market?",
+    "faq4A": "With preparation. We'll get you pre-approved and ready to move quickly, so when the right home appears, your offer is strong.",
+    "faq5Q": "How long does the process take start to finish?",
+    "faq5A": "It varies, but most buyers go from first conversation to closing within a few weeks once we find the right home. I'll keep you on track the whole way.",
+    "ctaTitle": "Ready to start your search?",
+    "ctaButton": "Book a Call",
+    "formTitle": "Get new listings first",
+    "formSubtitle": "Tell me what you're looking for, and I'll send homes that fit as soon as they hit the market."
+  },
+
+  "sellers": {
+    "title": "Selling your home? Let's get you the right price, fast.",
+    "subtitle": "Know your home's value, sell on your timeline, and reach real buyers.",
+    "value1Title": "Know what your home is worth",
+    "value1Body": "Get a free, data-backed estimate of your home's value in today's El Paso market.",
+    "value2Title": "Sell on your timeline",
+    "value2Body": "Whether you need to move quickly or wait for the right offer, we'll build a plan around your schedule.",
+    "value3Title": "Marketing that reaches real buyers",
+    "value3Body": "Professional photos, listing exposure, and targeted promotion so the right buyers actually see your home.",
+    "formTitle": "Get Your Free Home Valuation",
+    "formSubtitle": "Tell us about your property and we'll send your estimate.",
+    "fieldAddress": "Property address",
+    "fieldAddressPlaceholder": "123 Example St, El Paso, TX",
+    "fieldPropertyType": "Property type",
+    "typeSingleFamily": "Single-family home",
+    "typeTownhome": "Townhome / Condo",
+    "typeMultiFamily": "Multi-family",
+    "typeLand": "Land / Lot",
+    "fieldEmail": "Email",
+    "fieldPhone": "Phone",
+    "submit": "Get My Free Valuation",
+    "disclaimer": "This is an estimate of value, not an appraisal. It is provided for information purposes only.",
+    "faqTitle": "Seller questions, answered",
+    "faq1Q": "How do you price my home?",
+    "faq1A": "We look at recent sales, market trends, and your home's condition to find a price that attracts buyers while maximizing your return.",
+    "faq2Q": "What marketing do you do?",
+    "faq2A": "Professional photos, an optimized listing, and targeted promotion to get your home in front of real, qualified buyers.",
+    "faq3Q": "What about commission?",
+    "faq3A": "Commission is negotiable and we'll discuss it openly up front — no surprises, no fine print."
+  },
+
+  "listings": {
+    "title": "Featured El Paso Homes",
+    "subtitle": "A hand-picked look at what's moving. Full MLS search coming soon.",
+    "cardLabel": "Featured El Paso home",
+    "cardPlaceholder": "Full listing details coming soon.",
+    "cardCta": "Ask about this home",
+    "imageAlt": "Placeholder image: featured El Paso home",
+    "ctaTitle": "Live search coming soon",
+    "ctaBody": "Want to be first to see new listings? Book a call.",
+    "ctaButton": "Book a Call"
+  },
+
+  "neighborhoods": {
+    "hubTitle": "El Paso Neighborhood Guides",
+    "hubSubtitle": "Real neighborhoods, straight from a local. Market data is being verified and will be added in Phase 2.",
+    "hubIntro": "Whether you're after mountain views, great schools, a short commute to Fort Bliss, or room to grow, one of these areas is likely your fit. Explore the guides, then let's talk.",
+    "viewGuide": "View guide",
+    "ctaTitle": "Not sure which neighborhood fits?",
+    "ctaBody": "Tell me how you live and work, and I'll point you to the areas that make sense.",
+    "ctaButton": "Book a Call",
+    "verifiedPlaceholder": "Data verified in Phase 2",
+    "quickFactLabels": {
+      "medianPrice": "Median home price",
+      "pricePerSqft": "Price per sq ft",
+      "daysOnMarket": "Days on market",
+      "commute": "Typical commute",
+      "schools": "Schools"
+    },
+    "quickFactsTitle": "At a glance",
+    "localsLoveTitle": "What locals love",
+    "backToHub": "All neighborhoods",
+    "guides": {
+      "westside": {
+        "name": "Westside",
+        "heroSub": "Franklin Mountain views, great schools, and easy access to shopping and dining.",
+        "localsLove": [
+          "Mountain views and sunsets over the Franklins",
+          "Quick access to I-10 and downtown",
+          "Great schools and family-friendly neighborhoods"
+        ],
+        "metaTitle": "Westside El Paso | Neighborhood Guide",
+        "metaDescription": "Explore the Westside of El Paso — Franklin Mountain views, great schools, and easy access to everything."
+      },
+      "upperValley": {
+        "name": "Upper Valley",
+        "heroSub": "Tree-lined lots, established homes, and a relaxed, leafy feel.",
+        "localsLove": [
+          "Large, shaded lots and green streets",
+          "Close to the river and walking trails",
+          "A quieter, more established pace"
+        ],
+        "metaTitle": "Upper Valley El Paso | Neighborhood Guide",
+        "metaDescription": "Explore El Paso's Upper Valley — established homes, shaded lots, and a relaxed pace close to the river."
+      },
+      "eastSide": {
+        "name": "East Side / Horizon City",
+        "heroSub": "Fast-growing, family-friendly, and full of new construction.",
+        "localsLove": [
+          "Lots of new construction and newer homes",
+          "Growing dining and shopping options",
+          "Strong access to Fort Bliss and Loop 375"
+        ],
+        "metaTitle": "East Side / Horizon City | Neighborhood Guide",
+        "metaDescription": "Explore El Paso's East Side and Horizon City — fast-growing, family-friendly, and full of new construction."
+      },
+      "fortBliss": {
+        "name": "Fort Bliss Area",
+        "heroSub": "Convenient for military families and anyone working on base.",
+        "localsLove": [
+          "A short, easy commute to Fort Bliss",
+          "A welcoming community for military families",
+          "Plenty of restaurants and services nearby"
+        ],
+        "metaTitle": "Fort Bliss Area | Neighborhood Guide",
+        "metaDescription": "Explore homes near Fort Bliss — a convenient, welcoming community for military families."
+      }
+    }
+  },
+
+  "contact": {
+    "title": "Let's talk about your next move.",
+    "subtitle": "Call, email, or send a message — I'll get back to you in minutes.",
+    "phoneTitle": "Call or text",
+    "emailTitle": "Email",
+    "instagramTitle": "Instagram",
+    "formTitle": "Send a message",
+    "formSubtitle": "Tell me a little about your move and I'll follow up fast.",
+    "chatTitle": "Prefer to chat?",
+    "chatSubtitle": "Message me here — even after hours, I'll follow up.",
+    "iabsNote": "Review the Texas Real Estate Commission Information About Brokerage Services before working with any agent."
+  },
+
+  "book": {
+    "title": "Book a Call",
+    "subtitle": "Pick a time that works for you — in English or Spanish.",
+    "calendarNote": "Choose a day and time below and we'll take it from there."
+  },
+
+  "legal": {
+    "privacy": {
+      "title": "Privacy Policy",
+      "updated": "Effective date: 2026",
+      "intro": "This Privacy Policy explains how Angelina Gándara (\"we\", \"our\") collects, uses, and protects information you provide through this website, including any forms and chat features.",
+      "collectTitle": "Information we collect",
+      "collectBody": "We collect information you voluntarily provide, such as your name, email address, phone number, property address, and details about your real estate goals when you complete a form, book a call, or message us.",
+      "useTitle": "How we use your information",
+      "useBody": "We use your information to respond to your inquiries, provide real estate services, schedule appointments, and share listings or valuations you request. We do not sell your personal information.",
+      "shareTitle": "How we share your information",
+      "shareBody": "Forms and chat on this site are powered by GoHighLevel, our client-relationship system. Information you submit is stored there so we can serve you. We may share information with the broker, Home Pros Real Estate Group LLC, as needed to provide services.",
+      "cookiesTitle": "Cookies",
+      "cookiesBody": "This site does not use advertising or analytics cookies. Our client-relationship system may place cookies that are strictly necessary to operate its forms, chat, and calendar features.",
+      "rightsTitle": "Your choices",
+      "rightsBody": "You may request access to, correction of, or deletion of your personal information by contacting us using the details below.",
+      "contactTitle": "Contact",
+      "contactBody": "For privacy questions, email gandara.realtor@gmail.com or call (915) 355-0494."
+    },
+    "terms": {
+      "title": "Terms of Use",
+      "updated": "Effective date: 2026",
+      "intro": "By using this website, you agree to the terms below. If you do not agree, please do not use the site.",
+      "useTitle": "Use of this site",
+      "useBody": "This site provides general information about real estate services in the El Paso area. It is not legal, tax, or financial advice.",
+      "accuracyTitle": "Estimates and listings",
+      "accuracyBody": "Any home value estimate is an estimate, not an appraisal, and is provided for information only. Listings and market data shown are placeholders until a live MLS search is available.",
+      "representationTitle": "No brokerage relationship",
+      "representationBody": "Angelina Gándara is a licensed real estate sales agent under Home Pros Real Estate Group LLC. Using this website does not create an agency relationship. A representation agreement is required for brokerage services.",
+      "liabilityTitle": "Limitation of liability",
+      "liabilityBody": "To the fullest extent permitted by law, we are not liable for damages arising from your use of this site or reliance on its content.",
+      "governingTitle": "Governing law",
+      "governingBody": "These terms are governed by the laws of the State of Texas, without regard to conflict-of-law principles.",
+      "contactTitle": "Contact",
+      "contactBody": "Questions about these terms? Email gandara.realtor@gmail.com or call (915) 355-0494."
+    },
+    "trec": {
+      "title": "TREC & Compliance",
+      "intro": "Angelina Gándara is a licensed real estate sales agent in the state of Texas.",
+      "licenseTitle": "Licensing",
+      "licenseBody": "License: TREC #844593-SA. Broker: Home Pros Real Estate Group LLC.",
+      "iabsTitle": "Information About Brokerage Services",
+      "iabsBody": "Texas law requires real estate license holders to provide the Information About Brokerage Services form. You can review the current form on the Texas Real Estate Commission website.",
+      "iabsLink": "Open the TREC Information About Brokerage Services form",
+      "disclaimerTitle": "Disclosure",
+      "disclaimerBody": "Not affiliated with, endorsed by, or a member of the National Association of REALTORS®. Licensed by the Texas Real Estate Commission.",
+      "consumerTitle": "TREC Consumer Protection",
+      "consumerBody": "The Texas Real Estate Commission regulates real estate license holders and accepts consumer complaints. Visit trec.texas.gov for more information."
+    }
+  },
+
+  "footer": {
+    "tagline": "El Paso's responsive, bilingual realtor.",
+    "contactHeading": "Contact",
+    "navHeading": "Navigation",
+    "legalHeading": "Legal",
+    "brokerLabel": "Broker",
+    "copyright": "© {year} {name}. {rights}"
+  }
+}
