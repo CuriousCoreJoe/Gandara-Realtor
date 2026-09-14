@@ -40,7 +40,7 @@ export default async function LocaleLayout({ children, params }: LocaleLayoutPro
 
   return (
     <html lang={locale} className={`${inter.variable} ${fraunces.variable}`}>
-      {/* NOTE: no NextIntlClientProvider here — all translations are consumed
+      {/* NOTE: no NextIntlClientProvider here all translations are consumed
           in Server Components (getTranslations). The only client component
           (MobileMenu) receives its labels as props, so serializing the full
           message files to the client would be pure overhead. */}

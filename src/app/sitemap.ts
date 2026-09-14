@@ -16,7 +16,6 @@ const ROUTE_KEYS: RouteKey[] = [
   'eastSide',
   'fortBliss',
   'contact',
-  'book',
   'links',
   'privacy',
   'terms',

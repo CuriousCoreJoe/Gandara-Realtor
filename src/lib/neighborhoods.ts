@@ -1,7 +1,7 @@
 import type { RouteKey } from '@/lib/routes';
 
 /**
- * The four featured El Paso neighborhoods. Real places only — no invented
+ * The four featured El Paso neighborhoods. Real places only no invented
  * neighborhoods. Copy lives in the translation files under
  * `neighborhoods.guides.<key>`. Market figures are placeholders and are
  * labelled "Data verified in Phase 2" (see `neighborhoods.verifiedPlaceholder`).

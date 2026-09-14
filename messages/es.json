@@ -1,47 +1,43 @@
 {
   "meta": {
     "home": {
-      "title": "Angelina Gándara — Agente de Bienes Raíces en El Paso | Bilingüe",
+      "title": "Angelina Gándara Agente de Bienes Raíces en El Paso | Bilingüe",
       "description": "Agente de bienes raíces bilingüe en El Paso. Compra o vende tu casa en inglés o español con una experta local que responde en minutos."
     },
     "about": {
-      "title": "Sobre Angelina Gándara — Agente de Bienes Raíces e Inversionista en El Paso",
-      "description": "Agente de bienes raíces con licencia en El Paso, Angelina Gándara comparte su historia — de invertir en casas a ayudar a sus vecinos, en inglés o español."
+      "title": "Sobre Angelina Gándara Agente de Bienes Raíces e Inversionista en El Paso",
+      "description": "Agente de bienes raíces con licencia en El Paso, Angelina Gándara comparte su historia de invertir en casas a ayudar a sus vecinos, en inglés o español."
     },
     "buyers": {
-      "title": "Comprar Casa en El Paso — Guía Bilingüe para Compradores | Angelina Gándara",
-      "description": "Compra una casa en El Paso sin incertidumbre. Primera compra o de regreso — el proceso, los vecindarios y el papeleo, simplificados, en tu idioma."
+      "title": "Comprar Casa en El Paso Guía Bilingüe para Compradores | Angelina Gándara",
+      "description": "Compra una casa en El Paso sin incertidumbre. Primera compra o de regreso el proceso, los vecindarios y el papeleo, simplificados, en tu idioma."
     },
     "sellers": {
-      "title": "Vende tu Casa en El Paso — Valuación Gratis y Marketing | Angelina Gándara",
-      "description": "¿Vendes tu casa en El Paso? Obtén una valuación gratis y sin obligación, y un plan de marketing que llega a compradores reales — bilingüe, local y responde rápido."
+      "title": "Vende tu Casa en El Paso Valuación Gratis y Marketing | Angelina Gándara",
+      "description": "¿Vendes tu casa en El Paso? Obtén una valuación gratis y sin obligación, y un plan de marketing que llega a compradores reales bilingüe, local y responde rápido."
     },
     "listings": {
       "title": "Casas destacadas en El Paso | Angelina Gándara",
-      "description": "Explora casas destacadas en El Paso — Westside, Upper Valley, East Side y más. Búsqueda completa del MLS próximamente."
+      "description": "Explora casas destacadas en El Paso Westside, Upper Valley, East Side y más. Búsqueda completa del MLS próximamente."
     },
     "neighborhoods": {
       "title": "Guía de Vecindarios de El Paso | Angelina Gándara",
-      "description": "Explora los vecindarios de El Paso — Westside, Upper Valley, East Side / Horizon City y el área de Fort Bliss. Datos rápidos, precios medianos y lo que la gente ama."
+      "description": "Explora los vecindarios de El Paso Westside, Upper Valley, East Side / Horizon City y el área de Fort Bliss. Datos rápidos, precios medianos y lo que la gente ama."
     },
     "contact": {
-      "title": "Contacto — Angelina Gándara, Agente de Bienes Raíces en El Paso",
-      "description": "Contáctate con Angelina Gándara, agente de bienes raíces bilingüe en El Paso. Llama, envía un mensaje, correo o agenda en línea — inglés o español."
-    },
-    "book": {
-      "title": "Agendar una Llamada | Angelina Gándara",
-      "description": "Agende una consulta gratuita con Angelina Gándara, su realtor bilingüe en El Paso."
+      "title": "Contacto Angelina Gándara, Agente de Bienes Raíces en El Paso",
+      "description": "Contáctate con Angelina Gándara, agente de bienes raíces bilingüe en El Paso. Llama, envía un mensaje, correo o agenda en línea inglés o español."
     },
     "links": {
-      "title": "Enlaces | Angelina Gándara — Bienes Raíces en El Paso",
+      "title": "Enlaces | Angelina Gándara Bienes Raíces en El Paso",
       "description": "Agenda una llamada, obtén una valuación gratis, explora propiedades o conoce los vecindarios de El Paso con Angelina Gándara."
     },
     "privacy": {
-      "title": "Política de Privacidad | Angelina Gándara — Bienes Raíces en El Paso",
+      "title": "Política de Privacidad | Angelina Gándara Bienes Raíces en El Paso",
       "description": "Cómo Angelina Gándara recopila, usa y protege tu información personal cuando usas nuestros formularios o navegas este sitio."
     },
     "terms": {
-      "title": "Términos de Uso y Divulgación FTC | Angelina Gándara — Bienes Raíces en El Paso",
+      "title": "Términos de Uso y Divulgación FTC | Angelina Gándara Bienes Raíces en El Paso",
       "description": "Términos de uso para angelinagandara.com, incluyendo la divulgación de afiliados de la FTC, descargos de información de propiedades y ley aplicable."
     },
     "trec": {
@@ -87,13 +83,6 @@
     }
   },
 
-  "ghl": {
-    "form": "Formulario de GoHighLevel",
-    "chat": "Widget de chat de GoHighLevel",
-    "calendar": "Calendario de GoHighLevel",
-    "note": "Esta área está conectada a nuestro sistema seguro de clientes."
-  },
-
   "sticky": {
     "valuation": "Obtén mi valuación gratis",
     "bookCall": "Agenda una llamada"
@@ -102,7 +91,7 @@
   "home": {
     "heroEyebrow": "El Paso · Bienes Raíces Bilingües",
     "heroTitle": "Bienes raíces en El Paso, respuestas en minutos.",
-    "heroLead": "Bilingüe, local y siempre disponible — encuentra el hogar ideal o vende al mejor precio, sin complicaciones.",
+    "heroLead": "Bilingüe, local y siempre disponible encuentra el hogar ideal o vende al mejor precio, sin complicaciones.",
     "heroPrimary": "Agenda una llamada",
     "heroSecondary": "Ver propiedades",
     "stat1Value": "200+",
@@ -113,19 +102,19 @@
     "stat3Label": "Calificación de clientes",
 
     "buyersEyebrow": "Para compradores",
-    "buyersTitle": "Al comprar o vender — recibes la experiencia completa, en inglés o español.",
-    "buyersLead": "Desde la primera visita hasta el día del cierre, trabajas directamente con Angelina — nunca te pasan a un asistente o a otro agente a mitad del proceso.",
+    "buyersTitle": "Al comprar o vender recibes la experiencia completa, en inglés o español.",
+    "buyersLead": "Desde la primera visita hasta el día del cierre, trabajas directamente con Angelina nunca te pasan a un asistente o a otro agente a mitad del proceso.",
     "buyer1Title": "Encuentra casas que se ajusten a tu vida",
-    "buyer1Body": "Listados selectos en Westside, el Valle y East Side — según tu presupuesto, tu traslado y tu estilo de vida.",
+    "buyer1Body": "Listados selectos en Westside, el Valle y East Side según tu presupuesto, tu traslado y tu estilo de vida.",
     "buyer2Title": "Respuestas inmediatas, de día o de noche",
     "buyer2Body": "Mensajes respondidos en minutos, no en días. Visitas confirmadas el mismo día. Nunca te preguntas dónde está tu agente.",
     "buyer3Title": "Tu idioma, tus términos",
-    "buyer3Body": "Cada conversación, contrato y negociación en inglés o español — bilingüe de principio a fin, desde la llamada hasta el cierre.",
+    "buyer3Body": "Cada conversación, contrato y negociación en inglés o español bilingüe de principio a fin, desde la llamada hasta el cierre.",
     "buyersLink": "Conoce cómo funciona comprar",
 
     "sellersEyebrow": "Para vendedores",
     "sellersTitle": "¿Vendes tu casa? Descubre cuánto vale hoy.",
-    "sellersLead": "Obtén un análisis comparativo de mercado gratis y sin obligación, basado en ventas reales de El Paso — no en algoritmos genéricos.",
+    "sellersLead": "Obtén un análisis comparativo de mercado gratis y sin obligación, basado en ventas reales de El Paso no en algoritmos genéricos.",
     "sellersCta": "Obtén mi valuación gratis",
     "sellersRecentSales": "Ver ventas recientes",
     "sellerPoint1": "Estrategia de precios con datos locales",
@@ -137,7 +126,7 @@
 
     "neighborhoodsEyebrow": "Vecindarios destacados",
     "neighborhoodsTitle": "Dónde vive El Paso.",
-    "neighborhoodsLead": "Desde las faldas de los montes Franklin hasta el Río Grande — explora los vecindarios que Angelina conoce calle por calle.",
+    "neighborhoodsLead": "Desde las faldas de los montes Franklin hasta el Río Grande explora los vecindarios que Angelina conoce calle por calle.",
     "neighborhoodsLink": "Explorar todos los vecindarios",
     "westsideBody": "Faldas de montes, golf, escuelas destacadas.",
     "westsideImageAlt": "Foto de una casa en Westside El Paso",
@@ -151,20 +140,20 @@
     "whyEyebrow": "Por qué Angelina",
     "whyTitle": "Un tipo diferente de agente en El Paso.",
     "why1Title": "Servicio bilingüe",
-    "why1Body": "Inglés o español — tus llamadas, tus contratos, tu cierre. Sin traductores, sin malentendidos.",
+    "why1Body": "Inglés o español tus llamadas, tus contratos, tu cierre. Sin traductores, sin malentendidos.",
     "why2Title": "Respuesta rápida",
     "why2Body": "La mayoría de los mensajes respondidos en minutos. Visitas el mismo día. Nunca te dejamos esperando.",
     "why3Title": "Experiencia local",
-    "why3Body": "Nacida y criada en El Paso. Conoce las escuelas, el traslado, los precios — y qué calles evitar.",
+    "why3Body": "Nacida y criada en El Paso. Conoce las escuelas, el traslado, los precios y qué calles evitar.",
 
     "ctaTitle": "¿Listo para hablar con una agente que sí responde?",
-    "ctaBody": "Agenda una llamada gratuita de 20 minutos. Inglés o español — tú eliges. Sin presión, sin guiones.",
+    "ctaBody": "Agenda una llamada gratuita de 20 minutos. Inglés o español tú eliges. Sin presión, sin guiones.",
     "ctaButton": "Agenda una llamada"
   },
 
   "about": {
     "heroEyebrow": "Sobre Angelina",
-    "heroTitle": "\u201cPasé de invertir en casas a ayudar a mis vecinos — una familia a la vez.\u201d",
+    "heroTitle": "\u201cPasé de invertir en casas a ayudar a mis vecinos una familia a la vez.\u201d",
     "heroLead": "Nacida en El Paso, bilingüe, y construyendo comunidad una transacción a la vez.",
     "heroPrimary": "Trabaja con Angelina",
     "heroSecondary": "Ver propiedades activas",
@@ -176,8 +165,8 @@
     "paragraph1": "Crecí viendo a mi abuela dedicarse al cuidado de las casas por las que tanto ahorró; esas mismas casas se convirtieron después en su única fuente de ingresos para el retiro.",
     "paragraph2": "Hace unos 6 años, decidí dar un salto de fe (con algo de planificación) y seguir su ejemplo invirtiendo en reparar y vender una casa.",
     "paragraph3": "Hoy poseo y administro varias propiedades en nuestra ciudad. El éxito que encontré me inspiró a convertirme en agente de bienes raíces, lo que me permite ayudar a mis vecinos a ser propietarios también… y quizás inspirar a algunos a incursionar en propiedades de inversión.",
-    "quote": "\u201cMi abuela me enseñó que un hogar es más que un techo — es seguridad, es legado, es el cimiento sobre el que se construye todo lo demás.\u201d",
-    "quoteCite": "— Angelina Gándara",
+    "quote": "\u201cMi abuela me enseñó que un hogar es más que un techo es seguridad, es legado, es el cimiento sobre el que se construye todo lo demás.\u201d",
+    "quoteCite": "Angelina Gándara",
     "credentialsEyebrow": "Credenciales",
     "credentialsTitle": "Con licencia. Local. Responsable.",
     "credentialsBody": "Agente de Bienes Raíces con Licencia · TREC #844593-SA · Con Home Pros Real Estate Group LLC.",
@@ -186,34 +175,34 @@
     "valuesTitle": "Tres cosas que puedes esperar.",
     "valuesLead": "Sin call centers, sin barreras de idioma, sin sorpresas en el cierre.",
     "value1Title": "Yo respondo mi propio teléfono",
-    "value1Body": "Sin asistentes, sin call centers. Cuando llamas o escribes a Angelina, hablas con Angelina — generalmente en minutos.",
+    "value1Body": "Sin asistentes, sin call centers. Cuando llamas o escribes a Angelina, hablas con Angelina generalmente en minutos.",
     "value2Title": "Tu idioma, tu negocio",
-    "value2Body": "Cada visita, contrato y negociación en inglés o español — totalmente bilingüe desde el primer saludo hasta la mesa de cierre.",
+    "value2Body": "Cada visita, contrato y negociación en inglés o español totalmente bilingüe desde el primer saludo hasta la mesa de cierre.",
     "value3Title": "El Paso es mi hogar",
-    "value3Body": "Nacida y criada aquí. Conozco las escuelas, el traslado, los precios comparables — y qué calles son las indicadas para tu familia.",
+    "value3Body": "Nacida y criada aquí. Conozco las escuelas, el traslado, los precios comparables y qué calles son las indicadas para tu familia.",
     "ctaTitle": "Encontremos tu lugar en El Paso.",
-    "ctaBody": "Agenda una llamada gratuita de 20 minutos — inglés o español. Sin guiones, sin presión.",
+    "ctaBody": "Agenda una llamada gratuita de 20 minutos inglés o español. Sin guiones, sin presión.",
     "ctaButton": "Agenda una llamada"
   },
 
   "buyers": {
     "heroEyebrow": "Para compradores",
     "heroTitle": "Comprar en El Paso, sin incertidumbre.",
-    "heroLead": "Primera compra o de regreso a casa — el proceso, los vecindarios y el papeleo, simplificados, en tu idioma.",
+    "heroLead": "Primera compra o de regreso a casa el proceso, los vecindarios y el papeleo, simplificados, en tu idioma.",
     "heroPrimary": "Comienza tu búsqueda",
     "heroSecondary": "Ver propiedades",
     "processEyebrow": "El proceso",
     "processTitle": "Cuatro pasos, cero estrés.",
-    "processLead": "Desde \u201csolo mirando\u201d hasta llaves en mano — así es exactamente como trabajamos juntos.",
+    "processLead": "Desde \u201csolo mirando\u201d hasta llaves en mano así es exactamente como trabajamos juntos.",
     "step1Badge": "Paso 01",
-    "step1Title": "Hablemos — cuéntame qué buscas.",
+    "step1Title": "Hablemos cuéntame qué buscas.",
     "step1Body": "Una llamada de 20 minutos para entender tu presupuesto, tu timeline, vecindarios y prioridades. Inglés o español.",
     "step2Badge": "Paso 02",
     "step2Title": "Encontraremos tu lista de opciones.",
     "step2Body": "Recibes alertas de propiedades al instante cuando entra una casa que te interesa. Yo filtro cada una para que solo veas las que valen tu tiempo.",
     "step3Badge": "Paso 03",
     "step3Title": "Ve las casas que te convienen.",
-    "step3Body": "Visitamos según tu horario — noches y fines de semana incluidos. Señalo lo que un ojo sin entrenar podría perder: condición, valor y alertas rojas.",
+    "step3Body": "Visitamos según tu horario noches y fines de semana incluidos. Señalo lo que un ojo sin entrenar podría perder: condición, valor y alertas rojas.",
     "step4Badge": "Paso 04",
     "step4Title": "Cierra con confianza.",
     "step4Body": "Precio de oferta preciso, negociación firme, y coordinación de inspecciones y prestamistas hasta el día del cierre. Firmas con total claridad.",
@@ -228,20 +217,20 @@
     "statsDisclaimer": "Cifras aproximadas, basadas en datos locales recientes del MLS. Tu experiencia varía según vecindario, precio y temporada.",
     "faqEyebrow": "Preguntas frecuentes",
     "faqTitle": "Lo que me preguntan los compradores.",
-    "faqLead": "¿No ves tu pregunta? Pregúntame — generalmente respondo en minutos.",
+    "faqLead": "¿No ves tu pregunta? Pregúntame generalmente respondo en minutos.",
     "faqLeadLink": "Pregúntame",
     "faq1Q": "¿Trabajas con compradores primerizos?",
     "faq1A": "¡Por supuesto! Los compradores primerizos son de mis clientes favoritos. Te guío en cada paso, del pre-aprobado al cierre, sin tecnicismos y sin presión. Sabrás qué esperar en cada etapa y nunca te sentirás apresurada.",
     "faq2Q": "¿Atiendes a compradores hispanohablantes?",
-    "faq2A": "Sí. Todo el proceso — visitas, contratos, negociaciones y cierre — está disponible completamente en español. Revisas y firmas documentos en el idioma en que te sientas más cómoda, y traduzco el papeleo del prestamista y la aseguradora de título.",
+    "faq2A": "Sí. Todo el proceso visitas, contratos, negociaciones y cierre está disponible completamente en español. Revisas y firmas documentos en el idioma en que te sientas más cómoda, y traduzco el papeleo del prestamista y la aseguradora de título.",
     "faq3Q": "¿Qué tan rápido respondes?",
-    "faq3A": "La mayoría de los mensajes y llamadas se responden en minutos durante el día, siempre en pocas horas. Si estoy en un cierre, recibes un aviso automático con una ventana de retorno de llamada — nunca te quedas esperando a tu agente.",
+    "faq3A": "La mayoría de los mensajes y llamadas se responden en minutos durante el día, siempre en pocas horas. Si estoy en un cierre, recibes un aviso automático con una ventana de retorno de llamada nunca te quedas esperando a tu agente.",
     "faq4Q": "¿Cómo me ayudas a competir en un mercado rápido?",
-    "faq4A": "Te configuro con alertas de listados al instante, me aseguro de que tu pre-aprobado sea sólido, y visitamos casas el mismo día que salen. Al hacer una oferta, la precio con precisión y estructuro términos que ganan sin sobrepagar — con cláusulas de escalamiento y fechas flexibles cuando tiene sentido.",
+    "faq4A": "Te configuro con alertas de listados al instante, me aseguro de que tu pre-aprobado sea sólido, y visitamos casas el mismo día que salen. Al hacer una oferta, la precio con precisión y estructuro términos que ganan sin sobrepagar con cláusulas de escalamiento y fechas flexibles cuando tiene sentido.",
     "faq5Q": "¿Cuál es el proceso de principio a fin?",
-    "faq5A": "Empezamos con una llamada para conocernos, luego pre-aprobado, visitas y recorridos, oferta y negociación, inspección y debida diligencia, y finalmente el día del cierre. Te mantengo informada en cada paso en inglés o español, y estoy contigo en la mesa de cierre — sin pasarte a un asistente.",
+    "faq5A": "Empezamos con una llamada para conocernos, luego pre-aprobado, visitas y recorridos, oferta y negociación, inspección y debida diligencia, y finalmente el día del cierre. Te mantengo informada en cada paso en inglés o español, y estoy contigo en la mesa de cierre sin pasarte a un asistente.",
     "ctaTitle": "¿Listo para comenzar tu búsqueda?",
-    "ctaBody": "Agenda una consulta gratuita de 20 minutos — inglés o español, sin compromiso.",
+    "ctaBody": "Agenda una consulta gratuita de 20 minutos inglés o español, sin compromiso.",
     "ctaButton": "Agenda una llamada",
     "ctaSecondary": "Ver propiedades"
   },
@@ -249,37 +238,37 @@
   "sellers": {
     "heroEyebrow": "Para vendedores",
     "heroTitle": "¿Vendes tu casa? Conseguimos el precio correcto, rápido.",
-    "heroLead": "Inteligencia de precios local, consejos honestos y un equipo que responde — para que tu casa se venda en tu tiempo.",
+    "heroLead": "Inteligencia de precios local, consejos honestos y un equipo que responde para que tu casa se venda en tu tiempo.",
     "heroPrimary": "Obtén mi valuación gratis",
     "heroSecondary": "Ver ventas recientes",
     "valuationEyebrow": "Gratis · Sin obligación",
     "valuationTitle": "Obtén mi valuación gratis",
-    "valuationLead": "Cuéntame sobre tu casa y te envío un análisis comparativo de mercado sin obligación en 24 horas — basado en ventas reales de El Paso, no en algoritmos genéricos.",
+    "valuationLead": "Cuéntame sobre tu casa y te envío un análisis comparativo de mercado sin obligación en 24 horas basado en ventas reales de El Paso, no en algoritmos genéricos.",
     "valuationFormRegionLabel": "Formulario de valuación gratis",
     "iabsLinkLabel": "Texas Real Estate Commission Information About Brokerage Services (IABS)",
     "valuationDisclaimerStrong": "Aviso sobre valores estimados:",
     "valuationDisclaimer": "Cualquier valor estimado proporcionado a través de este formulario es una opinión no vinculante del valor probable de mercado, basada en datos públicos y ventas comparables recientes. No es un avalúo formal y el valor real de mercado puede diferir. Un avalúo formal solo puede realizarlo un perito licenciado de Texas. Enviar este formulario no crea relación de agencia; se requiere un acuerdo de representación por escrito para contratar a Angelina Gándara / Home Pros Real Estate Group LLC como su agente.",
     "whyEyebrow": "Por qué vendedores eligen a Angelina",
     "whyTitle": "Una estrategia de listado que sí funciona en El Paso.",
-    "whyLead": "Sin promesas infladas — solo precios honestos, comunicación rápida y marketing que llega a compradores reales.",
+    "whyLead": "Sin promesas infladas solo precios honestos, comunicación rápida y marketing que llega a compradores reales.",
     "value1Title": "Conoce el valor de tu casa",
-    "value1Body": "Un análisis comparativo real con ventas recientes de El Paso — no un estimado de Zillow. Verás los comparables, los ajustes y la estrategia detrás de tu número.",
+    "value1Body": "Un análisis comparativo real con ventas recientes de El Paso no un estimado de Zillow. Verás los comparables, los ajustes y la estrategia detrás de tu número.",
     "value2Title": "Vende a tu ritmo",
-    "value2Body": "¿Cerrar en 30 días? ¿Necesitas tiempo para encontrar tu próxima casa? Organizo el listado, las visitas y el cierre según tu vida — no al revés.",
+    "value2Body": "¿Cerrar en 30 días? ¿Necesitas tiempo para encontrar tu próxima casa? Organizo el listado, las visitas y el cierre según tu vida no al revés.",
     "value3Title": "Marketing que llega a compradores reales",
     "value3Body": "Fotografía profesional, texto bilingüe, distribución en MLS a Zillow y Realtor.com, más alcance social segmentado. Más ojos, mejores ofertas, más rápido.",
     "faqEyebrow": "Preguntas frecuentes",
     "faqTitle": "Respuestas rápidas antes de listar.",
     "faq1Q": "¿Cómo determinas el precio de una casa?",
-    "faq1A": "Reviso ventas comparables de los últimos 90 días en un radio cercano, ajusto por condición, características y lote, y considero la competencia actual. Recibes un rango recomendado claro con los datos que lo respaldan — sin halagos inflados, solo estrategia honesta para vender al mejor precio en el tiempo adecuado.",
+    "faq1A": "Reviso ventas comparables de los últimos 90 días en un radio cercano, ajusto por condición, características y lote, y considero la competencia actual. Recibes un rango recomendado claro con los datos que lo respaldan sin halagos inflados, solo estrategia honesta para vender al mejor precio en el tiempo adecuado.",
     "faq2Q": "¿Cómo promocionas mi casa?",
     "faq2A": "Fotografía profesional, descripción bilingüe del listado, distribución completa en MLS a Zillow, Realtor.com y portales secundarios, más alcance social y por correo a mi red de compradores. También aprovecho contactos locales de inversionistas y compradores para generar interés antes de que la casa salga al mercado.",
     "faq3Q": "¿Cuánto cobras?",
-    "faq3A": "La comisión es totalmente negociable y depende del alcance de la venta. Discutimos el número exacto desde el principio durante tu consulta de listado — sin sorpresas ni cargos ocultos. La ley de Texas no fija las comisiones; siempre se determinan entre tú y tu corredor.",
+    "faq3A": "La comisión es totalmente negociable y depende del alcance de la venta. Discutimos el número exacto desde el principio durante tu consulta de listado sin sorpresas ni cargos ocultos. La ley de Texas no fija las comisiones; siempre se determinan entre tú y tu corredor.",
     "faqMore": "¿Tienes otra pregunta? Pregúntale a Angelina directamente.",
     "faqMoreLink": "Pregúntale a Angelina directamente",
     "ctaTitle": "¿Listo para saber cuánto vale tu casa?",
-    "ctaBody": "Obtén tu valuación gratuita de El Paso en 24 horas — inglés o español.",
+    "ctaBody": "Obtén tu valuación gratuita de El Paso en 24 horas inglés o español.",
     "ctaButton": "Obtén mi valuación gratis",
     "ctaSecondary": "Agenda una llamada"
   },
@@ -309,13 +298,13 @@
   "neighborhoods": {
     "hubEyebrow": "Vecindarios de El Paso",
     "hubHeroTitle": "Vecindarios de El Paso, calle por calle.",
-    "hubHeroLead": "Datos rápidos, precios medianos y lo que la gente realmente ama — por las cuatro esquinas de la Ciudad del Sol.",
+    "hubHeroLead": "Datos rápidos, precios medianos y lo que la gente realmente ama por las cuatro esquinas de la Ciudad del Sol.",
     "hubAreasTitle": "Guías de áreas de El Paso",
     "whatLocalsLove": "Lo que la gente ama:",
     "hubBookCall": "Agenda una llamada",
     "hubNote": "Los datos del mercado son ilustrativos. Datos verificados en la Fase 2 del desarrollo del sitio.",
     "hubCtaTitle": "¿No sabes qué área te conviene?",
-    "hubCtaBody": "Agenda una llamada gratuita de 20 minutos y te ayudo a reducir tus opciones — en inglés o español.",
+    "hubCtaBody": "Agenda una llamada gratuita de 20 minutos y te ayudo a reducir tus opciones en inglés o español.",
     "hubCtaButton": "Agenda una llamada",
     "overviewEyebrow": "Descripción general",
     "localsLoveLabel": "Lo que la gente ama",
@@ -329,9 +318,9 @@
         "name": "Westside",
         "badge": "Faldas de montes",
         "metaTitle": "Guía del vecindario Westside El Paso | Angelina Gándara",
-        "metaDescription": "Westside El Paso — faldas de montes, campos de golf, escuelas destacadas. Datos rápidos, precios medianos y lo que la gente ama de vivir en Westside.",
+        "metaDescription": "Westside El Paso faldas de montes, campos de golf, escuelas destacadas. Datos rápidos, precios medianos y lo que la gente ama de vivir en Westside.",
         "heroTitle": "Westside El Paso",
-        "heroLead": "Faldas de montes, campos de golf y escuelas destacadas — la zona residencial premier de El Paso en las laderas occidentales de los montes Franklin.",
+        "heroLead": "Faldas de montes, campos de golf y escuelas destacadas la zona residencial premier de El Paso en las laderas occidentales de los montes Franklin.",
         "factLabel": "Datos rápidos de Westside",
         "facts": [
           { "label": "Precio mediano", "value": "$425,000" },
@@ -343,24 +332,24 @@
         "localsLove": "Senderos en las faldas, Keller Park y atardeceres sobre los Franklins.",
         "overviewTitle": "Vivir en Westside",
         "overview1": "Westside es donde las faldas de El Paso se encuentran con sus calles residenciales más establecidas. Las casas aquí van desde ranchos de mediados de siglo en Mountain View hasta construcciones a medida en Coronado Heights, todo a minutos de senderos, campos de golf y de la mejor comida de la ciudad en Mesa Street.",
-        "overview2": "Es el vecindario para quienes buscan espacio, buenas escuelas y vistas a los montes — sin salir de los límites de la ciudad.",
+        "overview2": "Es el vecindario para quienes buscan espacio, buenas escuelas y vistas a los montes sin salir de los límites de la ciudad.",
         "bookAreaCta": "Agenda una llamada sobre Westside",
         "livingTitle": "Lo que hace especial a Westside.",
         "highlights": [
           { "title": "Senderos de los montes Franklin", "body": "Cientos de millas de senderos para caminar y andar en bicicleta empiezan prácticamente en tu puerta. Tom Mays y Franklin Mountains State Park están a minutos." },
-          { "title": "Escuelas destacadas", "body": "Servido por el distrito de Coronado High School de EPISD — una de las zonas escolares más solicitadas de El Paso." },
-          { "title": "La escena de Mesa Street", "body": "Restaurantes, cafeterías y tiendas a lo largo de Mesa Street — la columna comercial del Westside, caminable desde muchos vecindarios." }
+          { "title": "Escuelas destacadas", "body": "Servido por el distrito de Coronado High School de EPISD una de las zonas escolares más solicitadas de El Paso." },
+          { "title": "La escena de Mesa Street", "body": "Restaurantes, cafeterías y tiendas a lo largo de Mesa Street la columna comercial del Westside, caminable desde muchos vecindarios." }
         ],
         "ctaTitle": "¿Piensas en Westside?",
-        "ctaBody": "Agenda una llamada gratuita de 20 minutos. Te explico el inventario actual, los precios y qué esperar — en inglés o español."
+        "ctaBody": "Agenda una llamada gratuita de 20 minutos. Te explico el inventario actual, los precios y qué esperar en inglés o español."
       },
       "upperValley": {
         "name": "Upper Valley",
         "badge": "Junto al río",
         "metaTitle": "Guía del vecindario Upper Valley El Paso | Angelina Gándara",
-        "metaDescription": "Upper Valley El Paso — árboles maduros, vistas del río, lotes grandes. Datos rápidos, precios medianos y lo que la gente ama.",
+        "metaDescription": "Upper Valley El Paso árboles maduros, vistas del río, lotes grandes. Datos rápidos, precios medianos y lo que la gente ama.",
         "heroTitle": "Upper Valley, El Paso",
-        "heroLead": "Árboles maduros, vistas del río y lotes grandes con carácter a lo largo del Río Grande — uno de los corredores más establecidos y encantadores de El Paso.",
+        "heroLead": "Árboles maduros, vistas del río y lotes grandes con carácter a lo largo del Río Grande uno de los corredores más establecidos y encantadores de El Paso.",
         "factLabel": "Datos rápidos de Upper Valley",
         "facts": [
           { "label": "Precio mediano", "value": "$310,000" },
@@ -371,25 +360,25 @@
         ],
         "localsLove": "Árboles maduros, el camino de la barda del Río Grande y lotes grandes con carácter.",
         "overviewTitle": "Vivir en Upper Valley",
-        "overview1": "Upper Valley sigue el Río Grande por algunas de las calles residenciales más antiguas de El Paso. Calles con árboles frondosos, lotes irrigados y una mezcla de ranchos de mediados de siglo y casas a medida le dan a esta área un sentir verde y establecido — raro en una ciudad desértica.",
+        "overview1": "Upper Valley sigue el Río Grande por algunas de las calles residenciales más antiguas de El Paso. Calles con árboles frondosos, lotes irrigados y una mezcla de ranchos de mediados de siglo y casas a medida le dan a esta área un sentir verde y establecido raro en una ciudad desértica.",
         "overview2": "Es el vecindario para compradores que quieren árboles, espacio entre casas y diez minutos al centro.",
         "bookAreaCta": "Agenda una llamada sobre Upper Valley",
         "livingTitle": "Lo que hace especial a Upper Valley.",
         "highlights": [
-          { "title": "Camino de la barda del Río Grande", "body": "Un sendero pavimentado para caminar y andar en bicicleta corre a lo largo de la barda — los residentes lo usan diariamente para ejercicio, pasear perros y atardeceres junto al río." },
-          { "title": "Casas con carácter y lotes grandes", "body": "Lotes irrigados, árboles de sombra maduros y variedad arquitectónica — desde ranchos de mediados de siglo hasta construcciones a medida con proximidad al río." },
-          { "title": "Minutos al centro", "body": "Una de las áreas residenciales más cercanas al centro de El Paso, los hospitales y UTEP — sin la densidad de los vecindarios céntricos." }
+          { "title": "Camino de la barda del Río Grande", "body": "Un sendero pavimentado para caminar y andar en bicicleta corre a lo largo de la barda los residentes lo usan diariamente para ejercicio, pasear perros y atardeceres junto al río." },
+          { "title": "Casas con carácter y lotes grandes", "body": "Lotes irrigados, árboles de sombra maduros y variedad arquitectónica desde ranchos de mediados de siglo hasta construcciones a medida con proximidad al río." },
+          { "title": "Minutos al centro", "body": "Una de las áreas residenciales más cercanas al centro de El Paso, los hospitales y UTEP sin la densidad de los vecindarios céntricos." }
         ],
         "ctaTitle": "¿Piensas en Upper Valley?",
-        "ctaBody": "Agenda una llamada gratuita de 20 minutos. Te explico el inventario actual, los precios y qué esperar — en inglés o español."
+        "ctaBody": "Agenda una llamada gratuita de 20 minutos. Te explico el inventario actual, los precios y qué esperar en inglés o español."
       },
       "eastSide": {
         "name": "East Side / Horizon City",
         "badge": "En crecimiento",
         "metaTitle": "Guía del vecindario East Side / Horizon City El Paso | Angelina Gándara",
-        "metaDescription": "East Side / Horizon City El Paso — casas nuevas, familias creciendo, buen precio. Datos rápidos, precios medianos y lo que la gente ama.",
+        "metaDescription": "East Side / Horizon City El Paso casas nuevas, familias creciendo, buen precio. Datos rápidos, precios medianos y lo que la gente ama.",
         "heroTitle": "East Side / Horizon City",
-        "heroLead": "Casas nuevas, familias creciendo y buen precio en el corredor este en expansión de El Paso — donde tu dinero rinde más y los vecindarios siguen creciendo.",
+        "heroLead": "Casas nuevas, familias creciendo y buen precio en el corredor este en expansión de El Paso donde tu dinero rinde más y los vecindarios siguen creciendo.",
         "factLabel": "Datos rápidos de East Side / Horizon City",
         "facts": [
           { "label": "Precio mediano", "value": "$248,000" },
@@ -400,25 +389,25 @@
         ],
         "localsLove": "Casas nuevas, vecindarios familiares en crecimiento y acceso rápido a Joe Battle.",
         "overviewTitle": "Vivir en East Side / Horizon City",
-        "overview1": "East Side es el corredor residencial de más rápido crecimiento de El Paso, extendiéndose desde los vecindarios establecidos cerca de Zaragoza hacia Horizon City. La construcción nueva domina aquí — casas unifamiliares construidas en la última década, con planos modernos, características energéticamente eficientes y precios que hacen que compradores primerizos y de crecimiento se detengan a mirar.",
+        "overview1": "East Side es el corredor residencial de más rápido crecimiento de El Paso, extendiéndose desde los vecindarios establecidos cerca de Zaragoza hacia Horizon City. La construcción nueva domina aquí casas unifamiliares construidas en la última década, con planos modernos, características energéticamente eficientes y precios que hacen que compradores primerizos y de crecimiento se detengan a mirar.",
         "overview2": "Es el vecindario para compradores que quieren más casa por su presupuesto, buenas escuelas y espacio para crecer.",
         "bookAreaCta": "Agenda una llamada sobre East Side",
         "livingTitle": "Lo que hace especial a East Side.",
         "highlights": [
-          { "title": "Construcción nueva", "body": "El inventario más grande de El Paso de casas nuevas — planos modernos, construcción energéticamente eficiente e incentivos de constructores que pueden reducir tus costos de cierre." },
-          { "title": "Comunidad familiar", "body": "Parques, fuentes de agua, ligas de deportes juveniles y escuelas más nuevas — East Side está construido para familias en cada etapa." },
-          { "title": "Buen precio", "body": "Más pies cuadrados, lotes más grandes y construcción más nueva por dólar que en cualquier otro lugar de El Paso — el mejor valor para compradores primerizos y de crecimiento." }
+          { "title": "Construcción nueva", "body": "El inventario más grande de El Paso de casas nuevas planos modernos, construcción energéticamente eficiente e incentivos de constructores que pueden reducir tus costos de cierre." },
+          { "title": "Comunidad familiar", "body": "Parques, fuentes de agua, ligas de deportes juveniles y escuelas más nuevas East Side está construido para familias en cada etapa." },
+          { "title": "Buen precio", "body": "Más pies cuadrados, lotes más grandes y construcción más nueva por dólar que en cualquier otro lugar de El Paso el mejor valor para compradores primerizos y de crecimiento." }
         ],
         "ctaTitle": "¿Piensas en East Side?",
-        "ctaBody": "Agenda una llamada gratuita de 20 minutos. Te explico el inventario de casas nuevas, la reputación de los constructores y qué esperar — en inglés o español."
+        "ctaBody": "Agenda una llamada gratuita de 20 minutos. Te explico el inventario de casas nuevas, la reputación de los constructores y qué esperar en inglés o español."
       },
       "fortBliss": {
         "name": "Área de Fort Bliss",
         "badge": "Reubicación",
         "metaTitle": "Guía del vecindario Área de Fort Bliss El Paso | Angelina Gándara",
-        "metaDescription": "Área de Fort Bliss El Paso — experta en VA, lista para reubicación, minutos del fuerte. Datos rápidos, precios medianos y lo que la gente ama.",
+        "metaDescription": "Área de Fort Bliss El Paso experta en VA, lista para reubicación, minutos del fuerte. Datos rápidos, precios medianos y lo que la gente ama.",
         "heroTitle": "Área de Fort Bliss",
-        "heroLead": "Experta en VA, lista para reubicación y a minutos del fuerte — la zona militar-friendly de El Paso donde el traslado es corto y los vecindarios son tranquilos.",
+        "heroLead": "Experta en VA, lista para reubicación y a minutos del fuerte la zona militar-friendly de El Paso donde el traslado es corto y los vecindarios son tranquilos.",
         "factLabel": "Datos rápidos del área de Fort Bliss",
         "facts": [
           { "label": "Precio mediano", "value": "$295,000" },
@@ -429,17 +418,17 @@
         ],
         "localsLove": "Prestamistas expertos en VA, traslado corto al fuerte y calles residenciales tranquilas.",
         "overviewTitle": "Vivir cerca de Fort Bliss",
-        "overview1": "Los vecindarios alrededor de Fort Bliss — incluyendo Northeast El Paso, el Lower Valley y el área de Castner Heights — están construidos para la vida militar. Traslados cortos al fuerte, casas unifamiliares accesibles y acceso a escuelas de EPISD y Ysleta ISD hacen de esta una opción práctica para familias en servicio activo y veteranos por igual.",
-        "overview2": "Angelina entiende los préstamos VA, los cálculos de BAH y la presión de tiempo de los traslados PCS — ha ayudado a docenas de familias militares a comprar y vender con horarios ajustados.",
+        "overview1": "Los vecindarios alrededor de Fort Bliss incluyendo Northeast El Paso, el Lower Valley y el área de Castner Heights están construidos para la vida militar. Traslados cortos al fuerte, casas unifamiliares accesibles y acceso a escuelas de EPISD y Ysleta ISD hacen de esta una opción práctica para familias en servicio activo y veteranos por igual.",
+        "overview2": "Angelina entiende los préstamos VA, los cálculos de BAH y la presión de tiempo de los traslados PCS ha ayudado a docenas de familias militares a comprar y vender con horarios ajustados.",
         "bookAreaCta": "Agenda una llamada sobre Fort Bliss",
         "livingTitle": "Lo que hace especial al área de Fort Bliss.",
         "highlights": [
-          { "title": "Experiencia en préstamos VA", "body": "Angelina trabaja con prestamistas aprobados por VA que conocen El Paso. Sin enganche, sin PMI y contribuciones a costos de cierre — se asegura de que uses cada beneficio que te has ganado." },
-          { "title": "Minutos del fuerte", "body": "Vecindarios a 10-15 minutos de la puerta — Castner Heights, Logan Heights y Northeast El Paso te dan el traslado más corto posible a formación." },
-          { "title": "Calles residenciales tranquilas", "body": "Vecindarios establecidos con árboles maduros, bajo tráfico y calles sin salida familiares — no la densidad uniforme que esperarías cerca de una instalación militar." }
+          { "title": "Experiencia en préstamos VA", "body": "Angelina trabaja con prestamistas aprobados por VA que conocen El Paso. Sin enganche, sin PMI y contribuciones a costos de cierre se asegura de que uses cada beneficio que te has ganado." },
+          { "title": "Minutos del fuerte", "body": "Vecindarios a 10-15 minutos de la puerta Castner Heights, Logan Heights y Northeast El Paso te dan el traslado más corto posible a formación." },
+          { "title": "Calles residenciales tranquilas", "body": "Vecindarios establecidos con árboles maduros, bajo tráfico y calles sin salida familiares no la densidad uniforme que esperarías cerca de una instalación militar." }
         ],
         "ctaTitle": "¿Te trasladas a El Paso?",
-        "ctaBody": "Agenda una llamada gratuita de 20 minutos de reubicación. Te explico vecindarios, escuelas y la logística de préstamos VA — en inglés o español."
+        "ctaBody": "Agenda una llamada gratuita de 20 minutos de reubicación. Te explico vecindarios, escuelas y la logística de préstamos VA en inglés o español."
       }
     }
   },
@@ -447,24 +436,18 @@
   "contact": {
     "heroEyebrow": "Contacto",
     "heroTitle": "Hablemos de tu próximo paso.",
-    "heroLead": "Bilingüe, local y disponible — generalmente respondo en minutos. Llama, envía un mensaje, correo o agenda en línea.",
+    "heroLead": "Bilingüe, local y disponible generalmente respondo en minutos. Llama, envía un mensaje, correo o agenda en línea.",
     "phoneTitle": "Llama o escribe",
     "emailTitle": "Correo electrónico",
     "instagramTitle": "Instagram",
     "bookEyebrow": "Agenda en línea",
     "bookTitle": "Agenda una llamada o envía un mensaje.",
-    "bookLead": "Elige el horario que te funcione, o deja tus datos y te contacto — generalmente en minutos.",
+    "bookLead": "Elige el horario que te funcione, o deja tus datos y te contacto generalmente en minutos.",
     "formTitle": "Envía un mensaje",
     "formSubtitle": "Cuéntame qué buscas y te respondo el mismo día.",
     "calendarTitle": "Elige un horario",
-    "calendarSubtitle": "Agenda una llamada gratuita de 20 minutos — inglés o español.",
+    "calendarSubtitle": "Agenda una llamada gratuita de 20 minutos inglés o español.",
     "iabsNote": "Revisa la Información Sobre Servicios de Corretaje de la Comisión de Bienes Raíces de Texas antes de trabajar con cualquier agente."
-  },
-
-  "book": {
-    "title": "Agendar una Llamada",
-    "subtitle": "Elija un horario que le convenga — en inglés o español.",
-    "calendarNote": "Elija un día y una hora a continuación y nosotros nos encargamos del resto."
   },
 
   "links": {
@@ -489,14 +472,14 @@
       "lead": "Cómo recopilamos, usamos y protegemos tu información personal cuando usas nuestros formularios o navegas este sitio.",
       "updated": "Última actualización: Enero 2025",
       "ctaTitle": "¿Preguntas sobre tus datos?",
-      "ctaBody": "Llama o escribe a Angelina directamente — con gusto explicamos cómo se usa tu información.",
+      "ctaBody": "Llama o escribe a Angelina directamente con gusto explicamos cómo se usa tu información.",
       "ctaButton": "Contáctanos",
       "sections": [
         {
           "title": "1. Información que recopilamos",
           "blocks": [
             { "kind": "h3", "text": "Información que proporcionas" },
-            { "kind": "p", "text": "Cuando llenas un formulario en este sitio — incluyendo el formulario de contacto, la solicitud de valuación gratis o la solicitud de consulta de comprador — puedes proporcionar:" },
+            { "kind": "p", "text": "Cuando llenas un formulario en este sitio incluyendo el formulario de contacto, la solicitud de valuación gratis o la solicitud de consulta de comprador puedes proporcionar:" },
             { "kind": "ul", "items": ["Nombre completo", "Correo electrónico", "Número de teléfono", "Dirección de la propiedad (para valuaciones)", "Detalles de la propiedad (recámaras, baños, pies cuadrados, condición)", "Rango de presupuesto y tiempo para comprar o vender", "Idioma preferido (inglés o español)"] },
             { "kind": "note", "text": "Esta información de identificación personal (PII) se envía voluntariamente. No estás obligado a proporcionarla, pero hacerlo nos permite responder a tu consulta." },
             { "kind": "h3", "text": "Información recopilada automáticamente" },
@@ -508,21 +491,21 @@
           "title": "2. Cómo usamos tu información",
           "blocks": [
             { "kind": "p", "text": "Usamos la información que proporcionas para:" },
-            { "kind": "ul", "items": ["Responder a tu consulta — generalmente en minutos", "Preparar un análisis comparativo de mercado (ACM) o valuación de propiedad", "Buscar propiedades que se ajusten a tus criterios", "Agendar visitas y consultas", "Enviar alertas de propiedades y actualizaciones del mercado (solo si te suscribes)", "Proporcionar servicio bilingüe en tu idioma preferido"] }
+            { "kind": "ul", "items": ["Responder a tu consulta generalmente en minutos", "Preparar un análisis comparativo de mercado (ACM) o valuación de propiedad", "Buscar propiedades que se ajusten a tus criterios", "Agendar visitas y consultas", "Enviar alertas de propiedades y actualizaciones del mercado (solo si te suscribes)", "Proporcionar servicio bilingüe en tu idioma preferido"] }
           ]
         },
         {
           "title": "3. Compartición de información",
           "blocks": [
             { "kind": "p", "text": "No vendemos tu información personal. La podemos compartir con:" },
-            { "kind": "ul", "items": ["GoHighLevel — nuestro proveedor de CRM, usado para gestionar tu consulta y seguimiento", "El Paso MLS — para configurar alertas de propiedades y preparar ACMs", "Compañías de título y prestamistas — solo cuando hayas contratado nuestros servicios y dado permiso", "Home Pros Real Estate Group LLC — nuestro corretaje de registro", "Autoridades legales — si lo requiere la ley, orden judicial o regulación de TREC"] }
+            { "kind": "ul", "items": ["GoHighLevel nuestro proveedor de CRM, usado para gestionar tu consulta y seguimiento", "El Paso MLS para configurar alertas de propiedades y preparar ACMs", "Compañías de título y prestamistas solo cuando hayas contratado nuestros servicios y dado permiso", "Home Pros Real Estate Group LLC nuestro corretaje de registro", "Autoridades legales si lo requiere la ley, orden judicial o regulación de TREC"] }
           ]
         },
         {
           "title": "4. Cookies y rastreo",
           "blocks": [
             { "kind": "p", "text": "Este sitio usa cookies y tecnologías similares para los siguientes propósitos:" },
-            { "kind": "ul", "items": ["Cookies esenciales — requeridas para el envío de formularios y funcionalidad básica del sitio", "Cookies de análisis — Google Analytics, para entender cómo los visitantes usan el sitio (si está activado)", "Cookies de marketing — Facebook Pixel, para retargeting de visitantes que iniciaron un formulario (si está activado)"] },
+            { "kind": "ul", "items": ["Cookies esenciales requeridas para el envío de formularios y funcionalidad básica del sitio", "Cookies de análisis Google Analytics, para entender cómo los visitantes usan el sitio (si está activado)", "Cookies de marketing Facebook Pixel, para retargeting de visitantes que iniciaron un formulario (si está activado)"] },
             { "kind": "p", "text": "Puedes desactivar las cookies en la configuración de tu navegador. Algunas funciones (como el envío de formularios) pueden no funcionar correctamente sin cookies esenciales." }
           ]
         },
@@ -574,7 +557,7 @@
       "lead": "Los términos y condiciones para usar este sitio web, incluyendo la divulgación de afiliados de la FTC.",
       "updated": "Última actualización: Enero 2025",
       "ctaTitle": "¿Listo para trabajar con una agente transparente?",
-      "ctaBody": "Agenda una llamada gratuita de 20 minutos. Inglés o español — tu elección.",
+      "ctaBody": "Agenda una llamada gratuita de 20 minutos. Inglés o español tu elección.",
       "ctaButton": "Agenda una llamada",
       "sections": [
         {
@@ -602,14 +585,14 @@
           "id": "ftc-disclosure",
           "blocks": [
             { "kind": "p", "text": "De acuerdo con las directrices de la Federal Trade Commission sobre el uso de respaldos y testimonios en publicidad (16 CFR Part 255), divulgamos lo siguiente:" },
-            { "kind": "ul", "items": ["Angelina Gándara puede recibir honorarios de referencia o compensación de prestamistas, compañías de título, inspectores de casas, contratistas u otros proveedores de servicios recomendados", "Cualquier relación de este tipo se divulgará al momento de la referencia", "Las recomendaciones se basan en la experiencia profesional de la agente y los resultados de los clientes, no únicamente en la compensación", "Nunca estás obligado a usar ningún proveedor recomendado — puedes elegir el tuyo", "Este sitio puede contener enlaces a sitios afiliados; podemos ganar una comisión si haces una compra a través de estos enlaces, sin costo adicional para ti", "Cualquier testimonio o reseña mostrado proviene de clientes reales que no fueron compensados por sus declaraciones"] },
+            { "kind": "ul", "items": ["Angelina Gándara puede recibir honorarios de referencia o compensación de prestamistas, compañías de título, inspectores de casas, contratistas u otros proveedores de servicios recomendados", "Cualquier relación de este tipo se divulgará al momento de la referencia", "Las recomendaciones se basan en la experiencia profesional de la agente y los resultados de los clientes, no únicamente en la compensación", "Nunca estás obligado a usar ningún proveedor recomendado puedes elegir el tuyo", "Este sitio puede contener enlaces a sitios afiliados; podemos ganar una comisión si haces una compra a través de estos enlaces, sin costo adicional para ti", "Cualquier testimonio o reseña mostrado proviene de clientes reales que no fueron compensados por sus declaraciones"] },
             { "kind": "note", "text": "Esta divulgación se proporciona en cumplimiento de la FTC Act y las Guías sobre el Uso de Respaldo y Testimonios en Publicidad." }
           ]
         },
         {
           "title": "5. Propiedad intelectual",
           "blocks": [
-            { "kind": "p", "text": "Todo el contenido de este sitio — incluyendo texto, gráficos, logotipos, fotografía, diseño y código — es propiedad de Angelina Gándara / Home Pros Real Estate Group LLC a menos que se indique lo contrario. No puedes reproducir, distribuir o crear obras derivadas sin permiso previo por escrito." }
+            { "kind": "p", "text": "Todo el contenido de este sitio incluyendo texto, gráficos, logotipos, fotografía, diseño y código es propiedad de Angelina Gándara / Home Pros Real Estate Group LLC a menos que se indique lo contrario. No puedes reproducir, distribuir o crear obras derivadas sin permiso previo por escrito." }
           ]
         },
         {

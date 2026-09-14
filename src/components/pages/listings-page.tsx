@@ -82,7 +82,7 @@ export default async function ListingsPage({ locale }: { locale: Locale }) {
             <h2 className="mt-4 text-3xl font-semibold text-ink sm:text-4xl">{t('comingSoonTitle')}</h2>
             <p className="mt-4 text-lg text-muted">{t('comingSoonBody')}</p>
             <div className="mt-8">
-              <ButtonLink href={localizedPath(locale, 'book')}>{t('comingSoonCta')}</ButtonLink>
+              <ButtonLink href={localizedPath(locale, 'contact')}>{t('comingSoonCta')}</ButtonLink>
             </div>
           </div>
         </Container>

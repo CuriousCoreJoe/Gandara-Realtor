@@ -39,7 +39,6 @@ export type MetaNamespace =
   | 'meta.listings'
   | 'meta.neighborhoods'
   | 'meta.contact'
-  | 'meta.book'
   | 'meta.links'
   | 'meta.privacy'
   | 'meta.terms'

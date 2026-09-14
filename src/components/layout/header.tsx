@@ -60,7 +60,7 @@ export default async function Header({ locale, routeKey }: { locale: Locale; rou
         <Container className="flex h-16 items-center justify-between gap-4">
           <a
             href={localizedPath(locale, 'home')}
-            aria-label={`${SITE.agentName}, ${locale === 'en' ? 'El Paso real estate — home' : 'bienes raíces en El Paso — inicio'}`}
+            aria-label={`${SITE.agentName}, ${locale === 'en' ? 'El Paso real estate home' : 'bienes raíces en El Paso inicio'}`}
             className="flex min-h-[44px] items-center gap-2"
           >
             <HouseMark className="h-7 w-7 shrink-0 text-copyblue" />
@@ -87,16 +87,17 @@ export default async function Header({ locale, routeKey }: { locale: Locale; rou
           </nav>
 
           <div className="flex items-center gap-3">
-            <ButtonLink
-              href={localizedPath(locale, 'book')}
-              className="hidden sm:inline-flex"
-            >
-              {c('bookCall')}
-            </ButtonLink>
+            <div className="hidden lg:block">
+              <ButtonLink
+                href={localizedPath(locale, 'contact')}
+              >
+                {c('bookCall')}
+              </ButtonLink>
+            </div>
             <div className="lg:hidden">
               <MobileMenu
                 links={links}
-                ctaHref={localizedPath(locale, 'book')}
+                ctaHref={localizedPath(locale, 'contact')}
                 ctaLabel={c('bookCall')}
                 phoneHref={SITE.phoneHref}
                 phoneLabel={SITE.phoneDisplay}

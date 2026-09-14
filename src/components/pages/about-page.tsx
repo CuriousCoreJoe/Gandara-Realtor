@@ -123,7 +123,7 @@ export default async function AboutPage({ locale }: { locale: Locale }) {
               <p className="mt-4 text-lg text-white">{t('ctaBody')}</p>
             </div>
             <div className="flex md:justify-end">
-              <ButtonLink href={localizedPath(locale, 'book')} variant="accent">
+              <ButtonLink href={localizedPath(locale, 'contact')} variant="accent">
                 {t('ctaButton')}
               </ButtonLink>
             </div>

@@ -15,7 +15,7 @@ export default async function StickyCtaBar({ locale }: { locale: Locale }) {
           {t('valuation')}
         </a>
         <a
-          href={localizedPath(locale, 'book')}
+          href={localizedPath(locale, 'contact')}
           className="flex min-h-[44px] flex-1 items-center justify-center rounded-full bg-copyblue px-4 text-center text-sm font-semibold text-white transition-colors hover:bg-copyblue-dark sm:text-base"
         >
           {t('bookCall')}

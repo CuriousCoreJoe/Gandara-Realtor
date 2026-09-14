@@ -146,7 +146,7 @@ export default async function NeighborhoodGuidePage({
               <p className="mt-4 max-w-2xl text-lg text-white">{guide.ctaBody}</p>
             </div>
             <div className="flex md:justify-end">
-              <ButtonLink href={localizedPath(locale, 'book')} variant="accent">
+              <ButtonLink href={localizedPath(locale, 'contact')} variant="accent">
                 {t('hubBookCall')}
               </ButtonLink>
             </div>

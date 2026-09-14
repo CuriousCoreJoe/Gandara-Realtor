@@ -1,47 +1,43 @@
 {
   "meta": {
     "home": {
-      "title": "Angelina Gándara — El Paso Real Estate Agent | Bilingual & Local",
+      "title": "Angelina Gándara El Paso Real Estate Agent | Bilingual & Local",
       "description": "Bilingual El Paso real estate agent. Buy or sell your home in English or Spanish with a local expert who responds in minutes, not days."
     },
     "about": {
-      "title": "About Angelina Gándara — El Paso Real Estate Agent & Investor",
-      "description": "Licensed El Paso real estate agent Angelina Gándara shares her story — from flipping houses to helping neighbors become homeowners, in English or Spanish."
+      "title": "About Angelina Gándara El Paso Real Estate Agent & Investor",
+      "description": "Licensed El Paso real estate agent Angelina Gándara shares her story from flipping houses to helping neighbors become homeowners, in English or Spanish."
     },
     "buyers": {
-      "title": "Buying a Home in El Paso — Bilingual Buyer's Guide | Angelina Gándara",
-      "description": "Buy a home in El Paso without the guesswork. First-time or moving back — the process, neighborhoods, and paperwork, made simple, in English or Spanish."
+      "title": "Buying a Home in El Paso Bilingual Buyer's Guide | Angelina Gándara",
+      "description": "Buy a home in El Paso without the guesswork. First-time or moving back the process, neighborhoods, and paperwork, made simple, in English or Spanish."
     },
     "sellers": {
-      "title": "Sell Your El Paso Home — Free Valuation & Marketing Strategy | Angelina Gándara",
-      "description": "Selling your home in El Paso? Get a free, no-obligation home valuation and a marketing plan that reaches real buyers — bilingual, local, and responsive."
+      "title": "Sell Your El Paso Home Free Valuation & Marketing Strategy | Angelina Gándara",
+      "description": "Selling your home in El Paso? Get a free, no-obligation home valuation and a marketing plan that reaches real buyers bilingual, local, and responsive."
     },
     "listings": {
       "title": "Featured El Paso Homes for Sale | Angelina Gándara",
-      "description": "Browse featured El Paso homes for sale — Westside, Upper Valley, East Side, and more. Full MLS search coming soon."
+      "description": "Browse featured El Paso homes for sale Westside, Upper Valley, East Side, and more. Full MLS search coming soon."
     },
     "neighborhoods": {
       "title": "El Paso Neighborhoods Guide | Angelina Gándara",
-      "description": "Explore El Paso neighborhoods — Westside, Upper Valley, East Side / Horizon City, and Fort Bliss area. Quick facts, median prices, and what locals love."
+      "description": "Explore El Paso neighborhoods Westside, Upper Valley, East Side / Horizon City, and Fort Bliss area. Quick facts, median prices, and what locals love."
     },
     "contact": {
-      "title": "Contact Angelina Gándara — El Paso Real Estate Agent",
-      "description": "Get in touch with Angelina Gándara, bilingual El Paso real estate agent. Call, text, email, or book online — English or Spanish."
-    },
-    "book": {
-      "title": "Book a Call | Angelina Gándara",
-      "description": "Book a free consultation with Angelina Gándara, your bilingual El Paso realtor."
+      "title": "Contact Angelina Gándara El Paso Real Estate Agent",
+      "description": "Get in touch with Angelina Gándara, bilingual El Paso real estate agent. Call, text, email, or book online English or Spanish."
     },
     "links": {
-      "title": "Links | Angelina Gándara — El Paso Real Estate",
+      "title": "Links | Angelina Gándara El Paso Real Estate",
       "description": "Book a call, get a free home valuation, browse listings, or explore El Paso neighborhoods with Angelina Gándara."
     },
     "privacy": {
-      "title": "Privacy Policy | Angelina Gándara — El Paso Real Estate",
+      "title": "Privacy Policy | Angelina Gándara El Paso Real Estate",
       "description": "How Angelina Gándara collects, uses, and protects your personal information when you use our forms or browse this site."
     },
     "terms": {
-      "title": "Terms of Use & FTC Disclosure | Angelina Gándara — El Paso Real Estate",
+      "title": "Terms of Use & FTC Disclosure | Angelina Gándara El Paso Real Estate",
       "description": "Terms of Use for angelinagandara.com, including FTC affiliate disclosure, property information disclaimers, and governing law."
     },
     "trec": {
@@ -87,13 +83,6 @@
     }
   },
 
-  "ghl": {
-    "form": "GoHighLevel form embed",
-    "chat": "GoHighLevel chat widget",
-    "calendar": "GoHighLevel calendar embed",
-    "note": "This area is connected to our secure client system."
-  },
-
   "sticky": {
     "valuation": "Get My Free Home Valuation",
     "bookCall": "Book a Call"
@@ -102,7 +91,7 @@
   "home": {
     "heroEyebrow": "El Paso · Bilingual Real Estate",
     "heroTitle": "El Paso real estate, answered in minutes.",
-    "heroLead": "Bilingual, local, and always responsive — find the right home or sell for the right price, without the runaround.",
+    "heroLead": "Bilingual, local, and always responsive find the right home or sell for the right price, without the runaround.",
     "heroPrimary": "Book a Call",
     "heroSecondary": "Browse Listings",
     "stat1Value": "200+",
@@ -113,19 +102,19 @@
     "stat3Label": "Client rating",
 
     "buyersEyebrow": "For Buyers",
-    "buyersTitle": "Buying or selling — you get the full experience, in English or Spanish.",
-    "buyersLead": "From first tour to closing day, you work directly with Angelina — never passed off to an assistant or a different agent halfway through.",
+    "buyersTitle": "Buying or selling you get the full experience, in English or Spanish.",
+    "buyersLead": "From first tour to closing day, you work directly with Angelina never passed off to an assistant or a different agent halfway through.",
     "buyer1Title": "Find homes that fit your life",
-    "buyer1Body": "Curated listings across Westside, the Valley, and East Side — matched to your budget, your commute, and the way you actually live.",
+    "buyer1Body": "Curated listings across Westside, the Valley, and East Side matched to your budget, your commute, and the way you actually live.",
     "buyer2Title": "Instant answers, day or night",
     "buyer2Body": "Texts answered in minutes, not days. Tour requests confirmed the same day. You'll never wonder where your agent went.",
     "buyer3Title": "Your language, your terms",
-    "buyer3Body": "Every conversation, contract, and negotiation in English or Spanish — fully bilingual from the first call to the closing table.",
+    "buyer3Body": "Every conversation, contract, and negotiation in English or Spanish fully bilingual from the first call to the closing table.",
     "buyersLink": "See how buying works",
 
     "sellersEyebrow": "For Sellers",
     "sellersTitle": "Selling your home? See what it's worth today.",
-    "sellersLead": "Get a free, no-obligation comparative market analysis based on real El Paso sales — not a generic algorithm. Know your number before you list.",
+    "sellersLead": "Get a free, no-obligation comparative market analysis based on real El Paso sales not a generic algorithm. Know your number before you list.",
     "sellersCta": "Get My Free Home Valuation",
     "sellersRecentSales": "View recent sales",
     "sellerPoint1": "Pricing strategy built on local comps",
@@ -137,7 +126,7 @@
 
     "neighborhoodsEyebrow": "Featured Neighborhoods",
     "neighborhoodsTitle": "Where El Paso lives.",
-    "neighborhoodsLead": "From the foothills of the Franklin Mountains to the Rio Grande — explore the neighborhoods Angelina knows block by block.",
+    "neighborhoodsLead": "From the foothills of the Franklin Mountains to the Rio Grande explore the neighborhoods Angelina knows block by block.",
     "neighborhoodsLink": "Explore all El Paso neighborhoods",
     "westsideBody": "Foothills, golf courses, top-rated schools.",
     "westsideImageAlt": "Photo of a Westside El Paso home",
@@ -151,20 +140,20 @@
     "whyEyebrow": "Why Angelina",
     "whyTitle": "A different kind of El Paso agent.",
     "why1Title": "Bilingual service",
-    "why1Body": "English or Spanish — your call, your contracts, your closing. No translators, no misunderstandings.",
+    "why1Body": "English or Spanish your call, your contracts, your closing. No translators, no misunderstandings.",
     "why2Title": "Faster response",
     "why2Body": "Most messages answered within minutes. Tours booked the same day. You're never left waiting on your agent.",
     "why3Title": "Local expertise",
-    "why3Body": "Born and raised in El Paso. She knows the schools, the commute, the comp — and which streets to avoid.",
+    "why3Body": "Born and raised in El Paso. She knows the schools, the commute, the comp and which streets to avoid.",
 
     "ctaTitle": "Ready to talk to an agent who actually answers?",
-    "ctaBody": "Book a free 20-minute call. English or Spanish — your choice. No pressure, no scripts.",
+    "ctaBody": "Book a free 20-minute call. English or Spanish your choice. No pressure, no scripts.",
     "ctaButton": "Book a Call"
   },
 
   "about": {
     "heroEyebrow": "About Angelina",
-    "heroTitle": "\u201cI went from flipping houses to helping neighbors — one family at a time.\u201d",
+    "heroTitle": "\u201cI went from flipping houses to helping neighbors one family at a time.\u201d",
     "heroLead": "El Paso born, bilingual, and building community one transaction at a time.",
     "heroPrimary": "Work With Angelina",
     "heroSecondary": "See Active Listings",
@@ -176,8 +165,8 @@
     "paragraph1": "I grew up watching my grandmother devotedly care for the homes she worked hard to save for; those same homes later became her only source of retirement income.",
     "paragraph2": "About 6 years ago, I decided to take a leap of faith (with some careful planning) and follow her example by investing in fixing and flipping a house.",
     "paragraph3": "Today, I own and manage several properties in our city. The success I found inspired me to become a realtor, allowing me to help my neighbors become homeowners, too… and maybe inspire a few to venture into investment properties.",
-    "quote": "\u201cMy grandmother taught me that a home is more than a roof — it's security, it's legacy, it's the foundation everything else is built on.\u201d",
-    "quoteCite": "— Angelina Gándara",
+    "quote": "\u201cMy grandmother taught me that a home is more than a roof it's security, it's legacy, it's the foundation everything else is built on.\u201d",
+    "quoteCite": "Angelina Gándara",
     "credentialsEyebrow": "Credentials",
     "credentialsTitle": "Licensed. Local. Accountable.",
     "credentialsBody": "Licensed Real Estate Agent · TREC #844593-SA · With Home Pros Real Estate Group LLC.",
@@ -186,34 +175,34 @@
     "valuesTitle": "Three things you can count on.",
     "valuesLead": "No call centers, no language barriers, no surprises at closing.",
     "value1Title": "I answer my own phone",
-    "value1Body": "No assistants, no call centers, no chasing. When you call or text Angelina, you get Angelina — usually within minutes.",
+    "value1Body": "No assistants, no call centers, no chasing. When you call or text Angelina, you get Angelina usually within minutes.",
     "value2Title": "Your language, your deal",
-    "value2Body": "Every showing, contract, and negotiation in English or Spanish — fully bilingual from the first hello to the closing table.",
+    "value2Body": "Every showing, contract, and negotiation in English or Spanish fully bilingual from the first hello to the closing table.",
     "value3Title": "El Paso is home",
-    "value3Body": "Born and raised here. I know the schools, the commute, the comps — and which streets feel right for your family.",
+    "value3Body": "Born and raised here. I know the schools, the commute, the comps and which streets feel right for your family.",
     "ctaTitle": "Let's find your place in El Paso.",
-    "ctaBody": "Book a free 20-minute call — English or Spanish. No scripts, no pressure.",
+    "ctaBody": "Book a free 20-minute call English or Spanish. No scripts, no pressure.",
     "ctaButton": "Book a Call"
   },
 
   "buyers": {
     "heroEyebrow": "For Buyers",
     "heroTitle": "Buying in El Paso, without the guesswork.",
-    "heroLead": "First-time or moving back — the process, the neighborhoods, and the paperwork, made simple, in your language.",
+    "heroLead": "First-time or moving back the process, the neighborhoods, and the paperwork, made simple, in your language.",
     "heroPrimary": "Start Your Search",
     "heroSecondary": "Browse Listings",
     "processEyebrow": "The Process",
     "processTitle": "Four steps, zero stress.",
-    "processLead": "From \u201cjust looking\u201d to keys in hand — here's exactly what working together looks like.",
+    "processLead": "From \u201cjust looking\u201d to keys in hand here's exactly what working together looks like.",
     "step1Badge": "Step 01",
-    "step1Title": "Let's talk — share what you're looking for.",
-    "step1Body": "A 20-minute call to understand your budget, timeline, neighborhoods, and must-haves. English or Spanish — your call.",
+    "step1Title": "Let's talk share what you're looking for.",
+    "step1Body": "A 20-minute call to understand your budget, timeline, neighborhoods, and must-haves. English or Spanish your call.",
     "step2Badge": "Step 02",
     "step2Title": "We'll find your shortlist.",
     "step2Body": "You get instant listing alerts the moment a matching home hits the MLS. I pre-screen each one so you only tour the ones worth your time.",
     "step3Badge": "Step 03",
     "step3Title": "See the homes that fit.",
-    "step3Body": "We tour on your schedule — evenings and weekends included. I point out what an untrained eye might miss: condition, value, and red flags.",
+    "step3Body": "We tour on your schedule evenings and weekends included. I point out what an untrained eye might miss: condition, value, and red flags.",
     "step4Badge": "Step 04",
     "step4Title": "Close with confidence.",
     "step4Body": "I price your offer sharp, negotiate hard, and coordinate inspections and lenders right through closing day. You sign with full clarity.",
@@ -228,20 +217,20 @@
     "statsDisclaimer": "Figures are approximate, based on recent local MLS data. Your experience will vary by neighborhood, price band, and season.",
     "faqEyebrow": "Buyer FAQ",
     "faqTitle": "Questions buyers ask me.",
-    "faqLead": "Don't see yours? Just ask — usually answered within minutes.",
+    "faqLead": "Don't see yours? Just ask usually answered within minutes.",
     "faqLeadLink": "Just ask",
     "faq1Q": "Do you work with first-time buyers?",
-    "faq1A": "Absolutely — first-time buyers are some of my favorite clients. I walk you through every step, from pre-approval to closing, with no jargon and no pressure. You'll know exactly what to expect at every milestone, and you'll never feel rushed into a decision.",
+    "faq1A": "Absolutely first-time buyers are some of my favorite clients. I walk you through every step, from pre-approval to closing, with no jargon and no pressure. You'll know exactly what to expect at every milestone, and you'll never feel rushed into a decision.",
     "faq2Q": "Do you serve Spanish-speaking buyers?",
-    "faq2A": "Yes. Every part of the process — showings, contracts, negotiations, and closing — is available fully in Spanish. You review and sign documents in the language you're most comfortable in, and I translate lender and title paperwork so nothing gets lost in the gap.",
+    "faq2A": "Yes. Every part of the process showings, contracts, negotiations, and closing is available fully in Spanish. You review and sign documents in the language you're most comfortable in, and I translate lender and title paperwork so nothing gets lost in the gap.",
     "faq3Q": "How fast will you respond?",
-    "faq3A": "Most texts and calls are answered within minutes during the day, and always within a few hours. If I'm in a closing, you'll get an automated heads-up with a callback window — you'll never wonder where your agent went.",
+    "faq3A": "Most texts and calls are answered within minutes during the day, and always within a few hours. If I'm in a closing, you'll get an automated heads-up with a callback window you'll never wonder where your agent went.",
     "faq4Q": "How do you help me compete in a fast market?",
-    "faq4A": "I set you up with instant listing alerts, make sure your pre-approval is airtight, and tour homes the day they hit the market. When it's time to write an offer, I'll price it sharp and structure terms that win without overpaying — including escalation clauses, flexible closing, and seller-friendly timelines where it makes sense.",
+    "faq4A": "I set you up with instant listing alerts, make sure your pre-approval is airtight, and tour homes the day they hit the market. When it's time to write an offer, I'll price it sharp and structure terms that win without overpaying including escalation clauses, flexible closing, and seller-friendly timelines where it makes sense.",
     "faq5Q": "What's the process start to finish?",
-    "faq5A": "We start with a getting-to-know-you call, then pre-approval, then showings and tours, then offer and negotiation, inspection and due diligence, and finally closing day. I keep you informed at every step in English or Spanish, and I'm with you at the closing table — not handing you off to an assistant.",
+    "faq5A": "We start with a getting-to-know-you call, then pre-approval, then showings and tours, then offer and negotiation, inspection and due diligence, and finally closing day. I keep you informed at every step in English or Spanish, and I'm with you at the closing table not handing you off to an assistant.",
     "ctaTitle": "Ready to start your search?",
-    "ctaBody": "Book a free 20-minute buyer consultation — English or Spanish, no obligation.",
+    "ctaBody": "Book a free 20-minute buyer consultation English or Spanish, no obligation.",
     "ctaButton": "Book a Call",
     "ctaSecondary": "Browse Listings"
   },
@@ -249,37 +238,37 @@
   "sellers": {
     "heroEyebrow": "For Sellers",
     "heroTitle": "Selling your home? Let's get you the right price, fast.",
-    "heroLead": "Local pricing intelligence, honest advice, and a team that answers — so your home sells on your schedule.",
+    "heroLead": "Local pricing intelligence, honest advice, and a team that answers so your home sells on your schedule.",
     "heroPrimary": "Get My Free Home Valuation",
     "heroSecondary": "See Recent Sales",
     "valuationEyebrow": "Free · No Obligation",
     "valuationTitle": "Get My Free Home Valuation",
-    "valuationLead": "Tell me a little about your home and I'll send a no-obligation comparative market analysis within 24 hours — based on real El Paso sales, not a generic algorithm.",
+    "valuationLead": "Tell me a little about your home and I'll send a no-obligation comparative market analysis within 24 hours based on real El Paso sales, not a generic algorithm.",
     "valuationFormRegionLabel": "Free home valuation form",
     "iabsLinkLabel": "Texas Real Estate Commission Information About Brokerage Services (IABS)",
     "valuationDisclaimerStrong": "Estimated-value disclaimer:",
     "valuationDisclaimer": "Any estimated home value provided through this form is a non-binding opinion of probable market value based on publicly available data and recent comparable sales. It is not a formal appraisal, and actual market value may differ. A formal appraisal can only be performed by a licensed Texas appraiser. Submitting this form does not create an agency relationship; a written representation agreement is required to engage Angelina Gándara / Home Pros Real Estate Group LLC as your agent.",
     "whyEyebrow": "Why Sellers Choose Angelina",
     "whyTitle": "A listing strategy that actually works in El Paso.",
-    "whyLead": "No inflated promises — just honest pricing, responsive communication, and marketing that reaches real buyers.",
+    "whyLead": "No inflated promises just honest pricing, responsive communication, and marketing that reaches real buyers.",
     "value1Title": "Know what your home is worth",
-    "value1Body": "A real comparative market analysis built from recent El Paso sales — not a Zestimate guess. You'll see the comps, the adjustments, and the strategy behind your number.",
+    "value1Body": "A real comparative market analysis built from recent El Paso sales not a Zestimate guess. You'll see the comps, the adjustments, and the strategy behind your number.",
     "value2Title": "Sell on your timeline",
-    "value2Body": "Need to close in 30 days? Need time to find your next home? I'll build the listing, showings, and closing dates around your life — not the other way around.",
+    "value2Body": "Need to close in 30 days? Need time to find your next home? I'll build the listing, showings, and closing dates around your life not the other way around.",
     "value3Title": "Marketing that gets your home in front of real buyers",
     "value3Body": "Professional photography, bilingual listing copy, MLS syndication to Zillow and Realtor.com, plus targeted social reach. More eyes, better offers, faster.",
     "faqEyebrow": "Seller FAQ",
     "faqTitle": "Quick answers before we list.",
     "faq1Q": "How do you price a home?",
-    "faq1A": "I pull recent comparable sales within the last 90 days within a tight radius, adjust for condition, features, and lot, and factor in current competition. You get a clear recommended range with the data behind it — no inflated flattery, just honest strategy designed to sell at the best price in the right timeframe.",
+    "faq1A": "I pull recent comparable sales within the last 90 days within a tight radius, adjust for condition, features, and lot, and factor in current competition. You get a clear recommended range with the data behind it no inflated flattery, just honest strategy designed to sell at the best price in the right timeframe.",
     "faq2Q": "How do you market my home?",
     "faq2A": "Professional photography, a bilingual listing description, full MLS syndication to Zillow, Realtor.com, and downstream portals, plus targeted social and email reach to my buyer network. I also leverage local investor and buyer contacts for pre-listing buzz before the home even goes live.",
     "faq3Q": "What do you charge?",
-    "faq3A": "Commission is fully negotiable and depends on the scope of the sale. We'll discuss the exact number up front during your listing consultation — no surprises and no hidden fees. Texas law does not set commission rates; they are always determined between you and your broker.",
+    "faq3A": "Commission is fully negotiable and depends on the scope of the sale. We'll discuss the exact number up front during your listing consultation no surprises and no hidden fees. Texas law does not set commission rates; they are always determined between you and your broker.",
     "faqMore": "Have a different question? Ask Angelina directly.",
     "faqMoreLink": "Ask Angelina directly",
     "ctaTitle": "Ready to see what your home is worth?",
-    "ctaBody": "Get your free, no-obligation El Paso home valuation in 24 hours — English or Spanish.",
+    "ctaBody": "Get your free, no-obligation El Paso home valuation in 24 hours English or Spanish.",
     "ctaButton": "Get My Free Valuation",
     "ctaSecondary": "Book a Call"
   },
@@ -309,13 +298,13 @@
   "neighborhoods": {
     "hubEyebrow": "El Paso Neighborhoods",
     "hubHeroTitle": "El Paso neighborhoods, block by block.",
-    "hubHeroLead": "Quick facts, median prices, and what locals actually love — across the four corners of the Sun City.",
+    "hubHeroLead": "Quick facts, median prices, and what locals actually love across the four corners of the Sun City.",
     "hubAreasTitle": "El Paso area guides",
     "whatLocalsLove": "What locals love:",
     "hubBookCall": "Book a Call",
     "hubNote": "Market data shown is illustrative. Data verified in Phase 2 of site development.",
     "hubCtaTitle": "Not sure which area fits you?",
-    "hubCtaBody": "Book a free 20-minute neighborhood-matching call — I'll help you narrow it down in English or Spanish.",
+    "hubCtaBody": "Book a free 20-minute neighborhood-matching call I'll help you narrow it down in English or Spanish.",
     "hubCtaButton": "Book a Call",
     "overviewEyebrow": "Overview",
     "localsLoveLabel": "What locals love",
@@ -329,9 +318,9 @@
         "name": "Westside",
         "badge": "Foothills",
         "metaTitle": "Westside El Paso Neighborhood Guide | Angelina Gándara",
-        "metaDescription": "Westside El Paso — foothills, golf courses, top-rated schools. Quick facts, median prices, and what locals love about living in Westside.",
+        "metaDescription": "Westside El Paso foothills, golf courses, top-rated schools. Quick facts, median prices, and what locals love about living in Westside.",
         "heroTitle": "Westside El Paso",
-        "heroLead": "Foothills, golf courses, and top-rated schools — El Paso's premier residential area along the western slopes of the Franklin Mountains.",
+        "heroLead": "Foothills, golf courses, and top-rated schools El Paso's premier residential area along the western slopes of the Franklin Mountains.",
         "factLabel": "Westside quick facts",
         "facts": [
           { "label": "Median Price", "value": "$425,000" },
@@ -343,24 +332,24 @@
         "localsLove": "Foothill trails, Keller Park, and sunset views over the Franklins.",
         "overviewTitle": "Living in Westside",
         "overview1": "The Westside is where El Paso's foothills meet its most established residential streets. Homes here range from mid-century ranches in Mountain View to custom builds in Coronado Heights, all within minutes of hiking trails, golf courses, and some of the city's best dining on Mesa Street.",
-        "overview2": "It's the neighborhood people move to when they want space, good schools, and mountain views — without leaving city limits.",
+        "overview2": "It's the neighborhood people move to when they want space, good schools, and mountain views without leaving city limits.",
         "bookAreaCta": "Book a Call About Westside",
         "livingTitle": "What makes Westside special.",
         "highlights": [
           { "title": "Franklin Mountain trails", "body": "Hundreds of miles of hiking and biking trails start practically at your doorstep. The Tom Mays Unit and Franklin Mountains State Park are minutes away." },
-          { "title": "Top-rated schools", "body": "Served by EPISD's Coronado High School feeder pattern — one of El Paso's most sought-after school zones." },
-          { "title": "Mesa Street scene", "body": "Restaurants, coffee shops, and retail along Mesa Street — El Paso's westside commercial spine, walkable from many neighborhoods." }
+          { "title": "Top-rated schools", "body": "Served by EPISD's Coronado High School feeder pattern one of El Paso's most sought-after school zones." },
+          { "title": "Mesa Street scene", "body": "Restaurants, coffee shops, and retail along Mesa Street El Paso's westside commercial spine, walkable from many neighborhoods." }
         ],
         "ctaTitle": "Thinking about Westside?",
-        "ctaBody": "Book a free 20-minute call. I'll walk you through current inventory, pricing, and what to expect — in English or Spanish."
+        "ctaBody": "Book a free 20-minute call. I'll walk you through current inventory, pricing, and what to expect in English or Spanish."
       },
       "upperValley": {
         "name": "Upper Valley",
         "badge": "River-side",
         "metaTitle": "Upper Valley El Paso Neighborhood Guide | Angelina Gándara",
-        "metaDescription": "Upper Valley El Paso — mature trees, river views, big lots. Quick facts, median prices, and what locals love about living in Upper Valley.",
+        "metaDescription": "Upper Valley El Paso mature trees, river views, big lots. Quick facts, median prices, and what locals love about living in Upper Valley.",
         "heroTitle": "Upper Valley, El Paso",
-        "heroLead": "Mature trees, river views, and big lots with character along the Rio Grande — one of El Paso's most established and charming corridors.",
+        "heroLead": "Mature trees, river views, and big lots with character along the Rio Grande one of El Paso's most established and charming corridors.",
         "factLabel": "Upper Valley quick facts",
         "facts": [
           { "label": "Median Price", "value": "$310,000" },
@@ -371,25 +360,25 @@
         ],
         "localsLove": "Mature trees, the Rio Grande levee path, and big lots with character.",
         "overviewTitle": "Living in Upper Valley",
-        "overview1": "The Upper Valley follows the Rio Grande through some of El Paso's oldest residential streets. Canopy roads, irrigated lots, and a mix of mid-century ranches and custom homes give this area a distinctly green, established feel — rare in a desert city.",
+        "overview1": "The Upper Valley follows the Rio Grande through some of El Paso's oldest residential streets. Canopy roads, irrigated lots, and a mix of mid-century ranches and custom homes give this area a distinctly green, established feel rare in a desert city.",
         "overview2": "It's the neighborhood for buyers who want trees, space between houses, and a ten-minute drive to downtown.",
         "bookAreaCta": "Book a Call About Upper Valley",
         "livingTitle": "What makes Upper Valley special.",
         "highlights": [
-          { "title": "Rio Grande levee path", "body": "A paved walking and biking trail runs along the levee — residents use it daily for exercise, dog walks, and riverside sunsets." },
-          { "title": "Character homes & big lots", "body": "Irrigated lots, mature shade trees, and architectural variety — from mid-century ranches to custom builds with river proximity." },
-          { "title": "Minutes to downtown", "body": "One of El Paso's closest residential areas to downtown, the hospitals, and UTEP — without the density of central neighborhoods." }
+          { "title": "Rio Grande levee path", "body": "A paved walking and biking trail runs along the levee residents use it daily for exercise, dog walks, and riverside sunsets." },
+          { "title": "Character homes & big lots", "body": "Irrigated lots, mature shade trees, and architectural variety from mid-century ranches to custom builds with river proximity." },
+          { "title": "Minutes to downtown", "body": "One of El Paso's closest residential areas to downtown, the hospitals, and UTEP without the density of central neighborhoods." }
         ],
         "ctaTitle": "Thinking about Upper Valley?",
-        "ctaBody": "Book a free 20-minute call. I'll walk you through current inventory, pricing, and what to expect — in English or Spanish."
+        "ctaBody": "Book a free 20-minute call. I'll walk you through current inventory, pricing, and what to expect in English or Spanish."
       },
       "eastSide": {
         "name": "East Side / Horizon City",
         "badge": "Growing",
         "metaTitle": "East Side / Horizon City El Paso Neighborhood Guide | Angelina Gándara",
-        "metaDescription": "East Side / Horizon City El Paso — new builds, growing families, value pricing. Quick facts, median prices, and what locals love.",
+        "metaDescription": "East Side / Horizon City El Paso new builds, growing families, value pricing. Quick facts, median prices, and what locals love.",
         "heroTitle": "East Side / Horizon City",
-        "heroLead": "New builds, growing families, and value pricing on El Paso's expanding east corridor — where your dollar goes further and the neighborhoods are still growing.",
+        "heroLead": "New builds, growing families, and value pricing on El Paso's expanding east corridor where your dollar goes further and the neighborhoods are still growing.",
         "factLabel": "East Side / Horizon City quick facts",
         "facts": [
           { "label": "Median Price", "value": "$248,000" },
@@ -400,25 +389,25 @@
         ],
         "localsLove": "New builds, growing family neighborhoods, and quick access to Joe Battle Blvd.",
         "overviewTitle": "Living in East Side / Horizon City",
-        "overview1": "The East Side is El Paso's fastest-growing residential corridor, stretching from the established neighborhoods near Zaragoza out toward Horizon City. New construction dominates here — single-family homes built in the last decade, with modern floor plans, energy-efficient features, and prices that make first-time and move-up buyers take notice.",
+        "overview1": "The East Side is El Paso's fastest-growing residential corridor, stretching from the established neighborhoods near Zaragoza out toward Horizon City. New construction dominates here single-family homes built in the last decade, with modern floor plans, energy-efficient features, and prices that make first-time and move-up buyers take notice.",
         "overview2": "It's the neighborhood for buyers who want more house for their budget, good schools, and room to grow.",
         "bookAreaCta": "Book a Call About East Side",
         "livingTitle": "What makes East Side special.",
         "highlights": [
-          { "title": "New construction", "body": "El Paso's largest inventory of new builds — modern floor plans, energy-efficient construction, and builder incentives that can lower your closing costs." },
-          { "title": "Family-friendly community", "body": "Parks, splash pads, youth sports leagues, and newer schools — the East Side is built for families at every stage." },
-          { "title": "Value pricing", "body": "More square footage, larger lots, and newer construction per dollar than anywhere else in El Paso — the best value for first-time and move-up buyers." }
+          { "title": "New construction", "body": "El Paso's largest inventory of new builds modern floor plans, energy-efficient construction, and builder incentives that can lower your closing costs." },
+          { "title": "Family-friendly community", "body": "Parks, splash pads, youth sports leagues, and newer schools the East Side is built for families at every stage." },
+          { "title": "Value pricing", "body": "More square footage, larger lots, and newer construction per dollar than anywhere else in El Paso the best value for first-time and move-up buyers." }
         ],
         "ctaTitle": "Thinking about East Side?",
-        "ctaBody": "Book a free 20-minute call. I'll walk you through new-build inventory, builder reputations, and what to expect — in English or Spanish."
+        "ctaBody": "Book a free 20-minute call. I'll walk you through new-build inventory, builder reputations, and what to expect in English or Spanish."
       },
       "fortBliss": {
         "name": "Fort Bliss Area",
         "badge": "Relocation",
         "metaTitle": "Fort Bliss Area El Paso Neighborhood Guide | Angelina Gándara",
-        "metaDescription": "Fort Bliss area El Paso — VA-savvy, relocation-ready, minutes from post. Quick facts, median prices, and what locals love about living near Fort Bliss.",
+        "metaDescription": "Fort Bliss area El Paso VA-savvy, relocation-ready, minutes from post. Quick facts, median prices, and what locals love about living near Fort Bliss.",
         "heroTitle": "Fort Bliss Area",
-        "heroLead": "VA-savvy, relocation-ready, and minutes from post — El Paso's military-friendly zone where the commute is short and the neighborhoods are quiet.",
+        "heroLead": "VA-savvy, relocation-ready, and minutes from post El Paso's military-friendly zone where the commute is short and the neighborhoods are quiet.",
         "factLabel": "Fort Bliss area quick facts",
         "facts": [
           { "label": "Median Price", "value": "$295,000" },
@@ -429,17 +418,17 @@
         ],
         "localsLove": "VA-savvy lenders, short commute to post, and quiet residential streets.",
         "overviewTitle": "Living Near Fort Bliss",
-        "overview1": "The neighborhoods surrounding Fort Bliss — including Northeast El Paso, the Lower Valley, and the Castner Heights area — are built for military life. Short commutes to post, affordable single-family homes, and access to both EPISD and Ysleta ISD schools make this a practical choice for active-duty families and veterans alike.",
-        "overview2": "Angelina understands VA loans, BAH calculations, and the timeline pressures of PCS moves — she's helped dozens of military families buy and sell on tight schedules.",
+        "overview1": "The neighborhoods surrounding Fort Bliss including Northeast El Paso, the Lower Valley, and the Castner Heights area are built for military life. Short commutes to post, affordable single-family homes, and access to both EPISD and Ysleta ISD schools make this a practical choice for active-duty families and veterans alike.",
+        "overview2": "Angelina understands VA loans, BAH calculations, and the timeline pressures of PCS moves she's helped dozens of military families buy and sell on tight schedules.",
         "bookAreaCta": "Book a Call About Fort Bliss",
         "livingTitle": "What makes Fort Bliss area special.",
         "highlights": [
-          { "title": "VA loan expertise", "body": "Angelina works with VA-approved lenders who know El Paso. Zero-down, no PMI, and closing cost contributions — she'll make sure you use every benefit you've earned." },
-          { "title": "Minutes from post", "body": "Neighborhoods within 10-15 minutes of the gate — Castner Heights, Logan Heights, and Northeast El Paso give you the shortest possible commute to formation." },
-          { "title": "Quiet residential streets", "body": "Established neighborhoods with mature trees, low traffic, and family-friendly cul-de-sacs — not the cookie-cutter density you might expect near a military installation." }
+          { "title": "VA loan expertise", "body": "Angelina works with VA-approved lenders who know El Paso. Zero-down, no PMI, and closing cost contributions she'll make sure you use every benefit you've earned." },
+          { "title": "Minutes from post", "body": "Neighborhoods within 10-15 minutes of the gate Castner Heights, Logan Heights, and Northeast El Paso give you the shortest possible commute to formation." },
+          { "title": "Quiet residential streets", "body": "Established neighborhoods with mature trees, low traffic, and family-friendly cul-de-sacs not the cookie-cutter density you might expect near a military installation." }
         ],
         "ctaTitle": "PCSing to El Paso?",
-        "ctaBody": "Book a free 20-minute relocation call. I'll walk you through neighborhoods, schools, and VA loan logistics — in English or Spanish."
+        "ctaBody": "Book a free 20-minute relocation call. I'll walk you through neighborhoods, schools, and VA loan logistics in English or Spanish."
       }
     }
   },
@@ -447,24 +436,18 @@
   "contact": {
     "heroEyebrow": "Contact",
     "heroTitle": "Let's talk about your next move.",
-    "heroLead": "Bilingual, local, and responsive — usually answering within minutes. Call, text, email, or book online.",
+    "heroLead": "Bilingual, local, and responsive usually answering within minutes. Call, text, email, or book online.",
     "phoneTitle": "Call or text",
     "emailTitle": "Email",
     "instagramTitle": "Instagram",
     "bookEyebrow": "Book Online",
     "bookTitle": "Schedule a call or send a message.",
-    "bookLead": "Pick a time that works for you, or drop your details and I'll reach out — usually within minutes.",
+    "bookLead": "Pick a time that works for you, or drop your details and I'll reach out usually within minutes.",
     "formTitle": "Send a message",
     "formSubtitle": "Tell me what you're looking for and I'll reply within the day.",
     "calendarTitle": "Pick a time",
-    "calendarSubtitle": "Book a free 20-minute call — English or Spanish.",
+    "calendarSubtitle": "Book a free 20-minute call English or Spanish.",
     "iabsNote": "Review the Texas Real Estate Commission Information About Brokerage Services before working with any agent."
-  },
-
-  "book": {
-    "title": "Book a Call",
-    "subtitle": "Pick a time that works for you — in English or Spanish.",
-    "calendarNote": "Choose a day and time below and we'll take it from there."
   },
 
   "links": {
@@ -489,14 +472,14 @@
       "lead": "How we collect, use, and protect your personal information when you use our forms or browse this site.",
       "updated": "Last updated: January 2025",
       "ctaTitle": "Have questions about your data?",
-      "ctaBody": "Call or text Angelina directly — we're happy to explain exactly how your information is used.",
+      "ctaBody": "Call or text Angelina directly we're happy to explain exactly how your information is used.",
       "ctaButton": "Contact Us",
       "sections": [
         {
           "title": "1. Information We Collect",
           "blocks": [
             { "kind": "h3", "text": "Information You Provide" },
-            { "kind": "p", "text": "When you fill out a form on this site — including the contact form, free home valuation request, or buyer consultation request — you may provide:" },
+            { "kind": "p", "text": "When you fill out a form on this site including the contact form, free home valuation request, or buyer consultation request you may provide:" },
             { "kind": "ul", "items": ["Full name", "Email address", "Phone number", "Property address (for valuations)", "Property details (bedrooms, bathrooms, square footage, condition)", "Budget range and timeline for buying or selling", "Preferred language (English or Spanish)"] },
             { "kind": "note", "text": "This personally identifiable information (PII) is submitted voluntarily. You are not required to provide it, but doing so enables us to respond to your inquiry." },
             { "kind": "h3", "text": "Information Collected Automatically" },
@@ -508,21 +491,21 @@
           "title": "2. How We Use Your Information",
           "blocks": [
             { "kind": "p", "text": "We use the information you provide to:" },
-            { "kind": "ul", "items": ["Respond to your inquiry — usually within minutes", "Prepare a comparative market analysis (CMA) or property valuation", "Match you with properties that fit your criteria", "Schedule showings and consultations", "Send listing alerts and market updates (only if you opt in)", "Provide bilingual service in your preferred language"] }
+            { "kind": "ul", "items": ["Respond to your inquiry usually within minutes", "Prepare a comparative market analysis (CMA) or property valuation", "Match you with properties that fit your criteria", "Schedule showings and consultations", "Send listing alerts and market updates (only if you opt in)", "Provide bilingual service in your preferred language"] }
           ]
         },
         {
           "title": "3. Information Sharing",
           "blocks": [
             { "kind": "p", "text": "We do not sell your personal information. We may share it with:" },
-            { "kind": "ul", "items": ["GoHighLevel — our CRM provider, used to manage your inquiry and follow-up", "El Paso MLS — to set up listing alerts and prepare CMAs", "Title companies and lenders — only when you have engaged our services and given permission", "Home Pros Real Estate Group LLC — our brokerage of record", "Legal authorities — if required by law, court order, or TREC regulation"] }
+            { "kind": "ul", "items": ["GoHighLevel our CRM provider, used to manage your inquiry and follow-up", "El Paso MLS to set up listing alerts and prepare CMAs", "Title companies and lenders only when you have engaged our services and given permission", "Home Pros Real Estate Group LLC our brokerage of record", "Legal authorities if required by law, court order, or TREC regulation"] }
           ]
         },
         {
           "title": "4. Cookies and Tracking",
           "blocks": [
             { "kind": "p", "text": "This site uses cookies and similar technologies for the following purposes:" },
-            { "kind": "ul", "items": ["Essential cookies — required for form submission and basic site functionality", "Analytics cookies — Google Analytics, to understand how visitors use the site (if enabled)", "Marketing cookies — Facebook Pixel, for retargeting visitors who started a form (if enabled)"] },
+            { "kind": "ul", "items": ["Essential cookies required for form submission and basic site functionality", "Analytics cookies Google Analytics, to understand how visitors use the site (if enabled)", "Marketing cookies Facebook Pixel, for retargeting visitors who started a form (if enabled)"] },
             { "kind": "p", "text": "You can disable cookies in your browser settings. Some features (such as form submission) may not function properly without essential cookies." }
           ]
         },
@@ -574,7 +557,7 @@
       "lead": "The terms and conditions for using this website, including the FTC affiliate disclosure.",
       "updated": "Last updated: January 2025",
       "ctaTitle": "Ready to work with a transparent agent?",
-      "ctaBody": "Book a free 20-minute call. English or Spanish — your choice.",
+      "ctaBody": "Book a free 20-minute call. English or Spanish your choice.",
       "ctaButton": "Book a Call",
       "sections": [
         {
@@ -602,14 +585,14 @@
           "id": "ftc-disclosure",
           "blocks": [
             { "kind": "p", "text": "In accordance with the Federal Trade Commission guidelines on the use of endorsements and testimonials in advertising (16 CFR Part 255), we disclose the following:" },
-            { "kind": "ul", "items": ["Angelina Gándara may receive referral fees or compensation from recommended lenders, title companies, home inspectors, contractors, or other service providers", "Any such relationships will be disclosed at the time of referral", "Recommendations are based on the agent's professional experience and client outcomes, not solely on compensation", "You are never obligated to use any recommended provider — you may choose your own", "This site may contain links to affiliate websites; we may earn a commission if you make a purchase through these links, at no additional cost to you", "Any testimonials or reviews shown are from real clients who were not compensated for their statements"] },
+            { "kind": "ul", "items": ["Angelina Gándara may receive referral fees or compensation from recommended lenders, title companies, home inspectors, contractors, or other service providers", "Any such relationships will be disclosed at the time of referral", "Recommendations are based on the agent's professional experience and client outcomes, not solely on compensation", "You are never obligated to use any recommended provider you may choose your own", "This site may contain links to affiliate websites; we may earn a commission if you make a purchase through these links, at no additional cost to you", "Any testimonials or reviews shown are from real clients who were not compensated for their statements"] },
             { "kind": "note", "text": "This disclosure is provided in compliance with the FTC Act and the Guides Concerning the Use of Endorsements and Testimonials in Advertising." }
           ]
         },
         {
           "title": "5. Intellectual Property",
           "blocks": [
-            { "kind": "p", "text": "All content on this site — including text, graphics, logos, photography, design, and code — is the property of Angelina Gándara / Home Pros Real Estate Group LLC unless otherwise noted. You may not reproduce, distribute, or create derivative works without prior written permission." }
+            { "kind": "p", "text": "All content on this site including text, graphics, logos, photography, design, and code is the property of Angelina Gándara / Home Pros Real Estate Group LLC unless otherwise noted. You may not reproduce, distribute, or create derivative works without prior written permission." }
           ]
         },
         {

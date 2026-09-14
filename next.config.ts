@@ -25,7 +25,7 @@ if (
 }
 
 const nextConfig: NextConfig = {
-  // Static export — no Node server, no ISR, no edge functions.
+  // Static export no Node server, no ISR, no edge functions.
   output: 'export',
   trailingSlash: true,
   images: {

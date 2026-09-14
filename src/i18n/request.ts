@@ -4,7 +4,7 @@ import { routing } from './routing';
 
 export default getRequestConfig(async ({ requestLocale }) => {
   // `requestLocale` is populated by `setRequestLocale()` in the
-  // `[locale]` layout/page below (legacy API — enables static rendering).
+  // `[locale]` layout/page below (legacy API enables static rendering).
   const requested = await requestLocale;
   const locale = hasLocale(routing.locales, requested)
     ? requested

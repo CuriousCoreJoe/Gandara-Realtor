@@ -3,6 +3,7 @@ import type { Locale } from '@/i18n/routing';
 import { localizedPath } from '@/lib/routes';
 import Container from '@/components/ui/container';
 import ButtonLink from '@/components/ui/button-link';
+import { GhlCalendar } from '@/components/ghl/ghl-embeds';
 
 export default async function BuyersPage({ locale }: { locale: Locale }) {
   const t = await getTranslations('buyers');
@@ -30,9 +31,8 @@ export default async function BuyersPage({ locale }: { locale: Locale }) {
 
   return (
     <>
-      {/* Hero */}
       <section className="bg-gray-soft">
-        <Container className="py-16 text-center sm:py-24">
+        <Container className="py-12 text-center sm:py-16">
           <p className="mb-4 text-sm font-semibold uppercase tracking-[0.14em] text-copyblue">{t('heroEyebrow')}</p>
           <h1 className="mx-auto max-w-3xl text-4xl font-semibold text-ink sm:text-5xl">{t('heroTitle')}</h1>
           <p className="mx-auto mt-6 max-w-2xl text-lg text-muted sm:text-xl">{t('heroLead')}</p>
@@ -47,7 +47,16 @@ export default async function BuyersPage({ locale }: { locale: Locale }) {
         </Container>
       </section>
 
-      {/* Process steps */}
+      <section id="calendar" className="bg-gray-soft scroll-mt-24">
+        <Container className="py-12 sm:py-16">
+            <h2 className="text-3xl font-semibold text-ink sm:text-4xl">{t('ctaTitle')}</h2>
+            <p className="mt-4 text-lg text-muted">{t('ctaBody')}</p>
+            <div className="mt-8">
+              <GhlCalendar locale={locale} />
+            </div>
+        </Container>
+      </section>
+
       <section className="bg-white">
         <Container className="py-16 sm:py-20">
           <p className="text-sm font-semibold uppercase tracking-[0.14em] text-copyblue">{t('processEyebrow')}</p>
@@ -66,7 +75,6 @@ export default async function BuyersPage({ locale }: { locale: Locale }) {
         </Container>
       </section>
 
-      {/* Stats */}
       <section className="bg-gray-soft">
         <Container className="py-16 sm:py-20">
           <p className="text-sm font-semibold uppercase tracking-[0.14em] text-copyblue">{t('marketEyebrow')}</p>
@@ -84,7 +92,6 @@ export default async function BuyersPage({ locale }: { locale: Locale }) {
         </Container>
       </section>
 
-      {/* FAQ */}
       <section className="bg-white">
         <Container className="py-16 sm:py-20">
           <p className="text-sm font-semibold uppercase tracking-[0.14em] text-copyblue">{t('faqEyebrow')}</p>
@@ -107,7 +114,6 @@ export default async function BuyersPage({ locale }: { locale: Locale }) {
         </Container>
       </section>
 
-      {/* CTA band */}
       <section className="bg-copyblue">
         <Container className="py-16 sm:py-20">
           <div className="grid items-center gap-8 md:grid-cols-2">
@@ -116,7 +122,7 @@ export default async function BuyersPage({ locale }: { locale: Locale }) {
               <p className="mt-4 max-w-2xl text-lg text-white">{t('ctaBody')}</p>
             </div>
             <div className="flex flex-wrap gap-4 md:justify-end">
-              <ButtonLink href={localizedPath(locale, 'book')} variant="accent">
+              <ButtonLink href={localizedPath(locale, 'contact')} variant="accent">
                 {t('ctaButton')}
               </ButtonLink>
               <ButtonLink href={localizedPath(locale, 'listings')} variant="whiteOutline">

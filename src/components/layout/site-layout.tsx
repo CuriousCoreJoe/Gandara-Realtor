@@ -24,7 +24,7 @@ export default function SiteLayout({
       </div>
       <StickyCtaBar locale={locale} />
 
-      {/* GHL CHAT — global floating widget (after-hours capture).
+      {/* GHL CHAT global floating widget (after-hours capture).
           Paste the chat loader script here, e.g.:
           <script src="https://widgets.leadconnectorhq.com/loader.js" data-resources-url="https://widgets.leadconnectorhq.com/chat-widget/loader.js"></script>
           The visible, labelled placeholder lives on the Contact page. */}

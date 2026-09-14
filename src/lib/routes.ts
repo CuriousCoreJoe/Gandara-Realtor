@@ -20,7 +20,6 @@ export type RouteKey =
   | 'fortBliss'
   | 'links'
   | 'contact'
-  | 'book'
   | 'privacy'
   | 'terms'
   | 'trec';
@@ -41,7 +40,6 @@ export const routes: Record<RouteKey, { en: string; es: string }> = {
   fortBliss: { en: '/neighborhoods/fort-bliss', es: '/neighborhoods/fort-bliss' },
   links: { en: '/links', es: '/enlaces' },
   contact: { en: '/contact', es: '/contacto' },
-  book: { en: '/book', es: '/reservar' },
   privacy: { en: '/legal/privacy', es: '/legal/privacidad' },
   terms: { en: '/legal/terms', es: '/legal/terminos' },
   trec: { en: '/legal/trec', es: '/legal/trec' },

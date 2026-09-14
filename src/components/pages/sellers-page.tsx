@@ -5,7 +5,7 @@ import { localizedPath } from '@/lib/routes';
 import { SITE } from '@/lib/site';
 import Container from '@/components/ui/container';
 import ButtonLink from '@/components/ui/button-link';
-import { GhlForm } from '@/components/ghl/ghl-embeds';
+import { GhlCalendar } from '@/components/ghl/ghl-embeds';
 
 export default async function SellersPage({ locale }: { locale: Locale }) {
   const t = await getTranslations('sellers');
@@ -26,7 +26,7 @@ export default async function SellersPage({ locale }: { locale: Locale }) {
     <>
       {/* Hero */}
       <section className="bg-gray-soft">
-        <Container className="py-16 text-center sm:py-24">
+        <Container className="py-12 text-center sm:py-16">
           <p className="mb-4 text-sm font-semibold uppercase tracking-[0.14em] text-copyblue">{t('heroEyebrow')}</p>
           <h1 className="mx-auto max-w-3xl text-4xl font-semibold text-ink sm:text-5xl">{t('heroTitle')}</h1>
           <p className="mx-auto mt-6 max-w-2xl text-lg text-muted sm:text-xl">{t('heroLead')}</p>
@@ -43,14 +43,13 @@ export default async function SellersPage({ locale }: { locale: Locale }) {
 
       {/* Valuation CTA + embed */}
       <section id="valuation" className="bg-gray-soft scroll-mt-24">
-        <Container className="py-16 sm:py-20">
-          <div className="mx-auto max-w-3xl">
+        <Container className="py-12 sm:py-16">
             <p className="text-sm font-semibold uppercase tracking-[0.14em] text-copyblue">{t('valuationEyebrow')}</p>
             <h2 className="mt-3 text-3xl font-semibold text-ink sm:text-4xl">{t('valuationTitle')}</h2>
             <p className="mt-4 text-lg text-muted">{t('valuationLead')}</p>
 
             <div id="ghl-valuation-embed" role="region" aria-label={t('valuationFormRegionLabel')} className="mt-8">
-              <GhlForm />
+              <GhlCalendar locale={locale} />
             </div>
 
             <div className="mt-8 space-y-4">
@@ -63,7 +62,6 @@ export default async function SellersPage({ locale }: { locale: Locale }) {
                 <strong className="font-semibold text-ink">{t('valuationDisclaimerStrong')}</strong> {t('valuationDisclaimer')}
               </p>
             </div>
-          </div>
         </Container>
       </section>
 
@@ -126,7 +124,7 @@ export default async function SellersPage({ locale }: { locale: Locale }) {
               <ButtonLink href="#valuation" variant="accent">
                 {t('ctaButton')}
               </ButtonLink>
-              <ButtonLink href={localizedPath(locale, 'book')} variant="whiteOutline">
+              <ButtonLink href={localizedPath(locale, 'contact')} variant="whiteOutline">
                 {t('ctaSecondary')}
               </ButtonLink>
             </div>

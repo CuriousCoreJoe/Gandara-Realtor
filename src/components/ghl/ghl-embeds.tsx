@@ -1,67 +1,69 @@
-import { getTranslations } from 'next-intl/server';
+import type { Locale } from '@/i18n/routing';
 
-// ---------------------------------------------------------------------------
-// GoHighLevel embed slots.
-//
-// The GHL vendor will wire these later. Each component renders a clearly
-// marked placeholder with an HTML comment showing exactly where the snippet /
-// iframe goes. Capture is 100% GHL — there is no backend or custom form
-// handler in this app.
-//
-// Typical GHL embed shapes:
-//   Form     <script src="https://link.<account>.msgsndr.com/js/form_embed.js"></script>
-//            <iframe src="https://link.<account>.msgsndr.com/widget/form/<formId>" ...></iframe>
-//   Chat     <script src="https://widgets.leadconnectorhq.com/loader.js" data-resources-url="..."></script>
-//   Calendar <iframe src="https://link.<account>.msgsndr.com/widget/booking/<calendarId>" ...></iframe>
-//
-// NOTE: after wiring, add the client's GHL origins to the Content-Security-Policy
-// in netlify.toml (script-src / frame-src / form-action).
-// ---------------------------------------------------------------------------
+const FORM_EMBED_SCRIPT = 'https://link.msgsndr.com/js/form_embed.js' as const;
 
-function SlotFrame({ label, note }: { label: string; note: string }) {
+const FORMS = {
+  en: {
+    formId: 'zlxmR7tfh8p88jF7Km0f',
+    formName: 'Lead Contact EN',
+  },
+  es: {
+    formId: 'rOqy4osPogv3rFQ4GEjy',
+    formName: 'Lead Contact ES',
+  },
+} as const;
+
+const CALENDARS = {
+  en: {
+    bookingId: '7sRdxBWd4WlO8YFx3oZ0',
+  },
+  es: {
+    bookingId: 'peSGQuzXL4eQt7xFuARE',
+  },
+} as const;
+
+export function GhlForm({ locale }: { locale: Locale }) {
+  const { formId, formName } = FORMS[locale];
+
   return (
-    <div className="flex min-h-[260px] w-full flex-col items-center justify-center rounded-2xl border-2 border-dashed border-copyblue/30 bg-gray-soft/50 p-6 text-center">
-      <span className="mb-2 inline-block rounded-full bg-copyblue/10 px-3 py-1 text-xs font-semibold uppercase tracking-wider text-copyblue">
-        GoHighLevel
-      </span>
-      <p className="font-semibold text-ink">{label}</p>
-      <p className="mt-1 max-w-sm text-sm text-muted">{note}</p>
+    <div className="w-full">
+      <script src={FORM_EMBED_SCRIPT} />
+      <iframe
+        src={`https://api.leadconnectorhq.com/widget/form/${formId}`}
+        style={{ width: '100%', height: '100%', border: 'none', borderRadius: '8px' }}
+        id={`inline-${formId}`}
+        data-layout="{'id':'INLINE'}"
+        data-trigger-type="alwaysShow"
+        data-trigger-value=""
+        data-activation-type="alwaysActivated"
+        data-activation-value=""
+        data-deactivation-type="neverDeactivate"
+        data-deactivation-value=""
+        data-form-name={formName}
+        data-height="1479"
+        data-layout-iframe-id={`inline-${formId}`}
+        data-form-id={formId}
+        data-cookie-consent="true"
+        data-cookie-consent-provider="auto"
+        title={formName}
+      />
     </div>
   );
 }
 
-export async function GhlForm({ label }: { label?: string }) {
-  const t = await getTranslations('ghl');
-  return (
-    <div>
-      {/* GHL: paste form embed here (script + iframe). */}
-      <div id="ghl-form-embed" className="w-full">
-        <SlotFrame label={label ?? t('form')} note={t('note')} />
-      </div>
-    </div>
-  );
-}
+export function GhlCalendar({ locale }: { locale: Locale }) {
+  const { bookingId } = CALENDARS[locale];
 
-export async function GhlChat({ label }: { label?: string }) {
-  const t = await getTranslations('ghl');
   return (
-    <div>
-      {/* GHL: paste chat widget loader script here (after-hours capture). */}
-      <div id="ghl-chat-embed" className="w-full">
-        <SlotFrame label={label ?? t('chat')} note={t('note')} />
-      </div>
-    </div>
-  );
-}
-
-export async function GhlCalendar({ label }: { label?: string }) {
-  const t = await getTranslations('ghl');
-  return (
-    <div>
-      {/* GHL: paste calendar/booking iframe here. */}
-      <div id="ghl-calendar-embed" className="w-full">
-        <SlotFrame label={label ?? t('calendar')} note={t('note')} />
-      </div>
+    <div className="w-full">
+      <script src={FORM_EMBED_SCRIPT} type="text/javascript" />
+      <iframe
+        src={`https://api.leadconnectorhq.com/widget/booking/${bookingId}`}
+        allow="payment"
+        style={{ width: '100%', border: 'none' }}
+        scrolling="no"
+        id={`${bookingId}_1789349075919`}
+      />
     </div>
   );
 }

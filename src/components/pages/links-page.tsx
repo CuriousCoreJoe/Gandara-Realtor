@@ -6,7 +6,7 @@ import { SITE } from '@/lib/site';
 import PlaceholderImage from '@/components/ui/placeholder-image';
 
 /**
- * Bio-link hub ("links" page). Standalone route — no header/footer chrome.
+ * Bio-link hub ("links" page). Standalone route no header/footer chrome.
  * A single centered card over a brand-gradient backdrop.
  */
 export default async function LinksPage({ locale }: { locale: Locale }) {
@@ -21,7 +21,7 @@ export default async function LinksPage({ locale }: { locale: Locale }) {
   const cards = [
     {
       Icon: Calendar,
-      href: localizedPath(locale, 'book'),
+      href: localizedPath(locale, 'contact'),
       title: t('bookTitle'),
       subtitle: t('bookSubtitle'),
     },
@@ -156,7 +156,7 @@ export default async function LinksPage({ locale }: { locale: Locale }) {
 
             {/* CTA */}
             <a
-              href={localizedPath(locale, 'book')}
+              href={localizedPath(locale, 'contact')}
               className="mt-6 block w-full rounded-[14px] bg-gradient-to-r from-copyblue to-copyblue-dark px-4 py-4 text-center text-lg font-semibold uppercase tracking-[0.3px] text-white shadow-[0_10px_25px_-5px_rgba(0,87,121,0.5)] transition-all duration-300 hover:-translate-y-0.5 hover:from-yellow hover:to-yellow-dark hover:text-ink"
             >
               {t('ctaLabel')}

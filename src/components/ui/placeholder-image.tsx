@@ -8,7 +8,7 @@ interface PlaceholderImageProps {
 
 /**
  * Gray-gradient placeholder for any image asset that hasn't been supplied yet
- * (headshot, property photos). Real assets arrive in a later phase — no stock
+ * (headshot, property photos). Real assets arrive in a later phase no stock
  * photos, no external image CDNs.
  */
 export default function PlaceholderImage({ label, className = '', children }: PlaceholderImageProps) {
