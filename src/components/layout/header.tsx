@@ -26,6 +26,11 @@ export default async function Header({ locale, routeKey }: { locale: Locale; rou
     label: t(labelKey),
   }));
 
+  const isHome = routeKey === 'home';
+  const allLinks: NavLink[] = isHome
+    ? links
+    : [{ href: localizedPath(locale, 'home'), label: t('home') }, ...links];
+
   const otherLocale: Locale = locale === 'en' ? 'es' : 'en';
   const toggleHref = alternatePath(locale, routeKey);
   const toggleLabel = locale === 'en' ? c('langNames.es') : c('langNames.en');
@@ -75,7 +80,7 @@ export default async function Header({ locale, routeKey }: { locale: Locale; rou
           </a>
 
           <nav aria-label="Primary" className="hidden items-center gap-7 lg:flex">
-            {links.map((link) => (
+            {allLinks.map((link) => (
               <a
                 key={link.href}
                 href={link.href}
@@ -90,13 +95,14 @@ export default async function Header({ locale, routeKey }: { locale: Locale; rou
             <div className="hidden lg:block">
               <ButtonLink
                 href={localizedPath(locale, 'contact')}
+                variant="accent"
               >
                 {c('bookCall')}
               </ButtonLink>
             </div>
             <div className="lg:hidden">
               <MobileMenu
-                links={links}
+                links={allLinks}
                 ctaHref={localizedPath(locale, 'contact')}
                 ctaLabel={c('bookCall')}
                 phoneHref={SITE.phoneHref}

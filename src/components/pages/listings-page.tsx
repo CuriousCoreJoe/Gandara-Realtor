@@ -61,7 +61,7 @@ export default async function ListingsPage({ locale }: { locale: Locale }) {
                   <p className="mt-1 text-sm text-muted">{item.details}</p>
                   <p className="mt-1 text-sm text-muted">{item.area}</p>
                   <div className="mt-5 pt-1">
-                    <ButtonLink href={localizedPath(locale, 'contact')} className="w-full">
+<ButtonLink href={localizedPath(locale, 'contact')} variant="accent" className="w-full">
                       {t('viewDetails')}
                     </ButtonLink>
                   </div>
@@ -82,7 +82,7 @@ export default async function ListingsPage({ locale }: { locale: Locale }) {
             <h2 className="mt-4 text-3xl font-semibold text-ink sm:text-4xl">{t('comingSoonTitle')}</h2>
             <p className="mt-4 text-lg text-muted">{t('comingSoonBody')}</p>
             <div className="mt-8">
-              <ButtonLink href={localizedPath(locale, 'contact')}>{t('comingSoonCta')}</ButtonLink>
+              <ButtonLink href={localizedPath(locale, 'contact')} className="w-full">{t('comingSoonCta')}</ButtonLink>
             </div>
           </div>
         </Container>

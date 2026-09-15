@@ -58,7 +58,7 @@ export default async function NeighborhoodGuidePage({
           <h1 className="mx-auto max-w-3xl text-4xl font-semibold text-ink sm:text-5xl">{guide.heroTitle}</h1>
           <p className="mx-auto mt-6 max-w-2xl text-lg text-muted sm:text-xl">{guide.heroLead}</p>
           <div className="mt-8 flex flex-col items-center justify-center gap-4 sm:flex-row">
-            <ButtonLink href={localizedPath(locale, 'contact')} className="w-full sm:w-auto">
+            <ButtonLink href={localizedPath(locale, 'contact')} variant="accent" className="w-full sm:w-auto">
               {t('hubBookCall')}
             </ButtonLink>
             <ButtonLink href={localizedPath(locale, 'neighborhoods')} variant="outline" className="w-full sm:w-auto">
@@ -145,8 +145,8 @@ export default async function NeighborhoodGuidePage({
               <h2 className="text-3xl font-semibold text-white sm:text-4xl">{guide.ctaTitle}</h2>
               <p className="mt-4 max-w-2xl text-lg text-white">{guide.ctaBody}</p>
             </div>
-            <div className="flex md:justify-end">
-              <ButtonLink href={localizedPath(locale, 'contact')} variant="accent">
+            <div className="flex justify-center md:justify-end">
+              <ButtonLink href={localizedPath(locale, 'contact')} variant="accent" className="w-full sm:w-auto">
                 {t('hubBookCall')}
               </ButtonLink>
             </div>

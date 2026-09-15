@@ -88,7 +88,7 @@ export default async function NeighborhoodsHubPage({ locale }: { locale: Locale 
               <h2 className="text-3xl font-semibold text-white sm:text-4xl">{t('hubCtaTitle')}</h2>
               <p className="mt-4 max-w-2xl text-lg text-white">{t('hubCtaBody')}</p>
             </div>
-            <div className="flex md:justify-end">
+            <div className="flex justify-center md:justify-end">
               <ButtonLink href={localizedPath(locale, 'contact')} variant="accent">
                 {t('hubCtaButton')}
               </ButtonLink>

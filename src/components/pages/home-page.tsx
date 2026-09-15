@@ -67,7 +67,7 @@ export default async function HomePage({ locale }: { locale: Locale }) {
           <h1 className="mx-auto max-w-4xl text-4xl font-semibold text-ink sm:text-5xl lg:text-6xl">{t('heroTitle')}</h1>
           <p className="mx-auto mt-6 max-w-2xl text-lg text-muted sm:text-xl">{t('heroLead')}</p>
           <div className="mt-8 flex flex-col items-center justify-center gap-4 sm:flex-row">
-            <ButtonLink href={localizedPath(locale, 'contact')} className="w-full sm:w-auto">
+            <ButtonLink href={localizedPath(locale, 'contact')} variant="accent" className="w-full lg:min-w-[260px]">
               {t('heroPrimary')}
             </ButtonLink>
             <ButtonLink href={localizedPath(locale, 'listings')} variant="outline" className="w-full sm:w-auto">
@@ -122,7 +122,7 @@ export default async function HomePage({ locale }: { locale: Locale }) {
               <p className="text-sm font-semibold uppercase tracking-[0.14em] text-copyblue">{t('sellersEyebrow')}</p>
               <h2 className="mt-3 text-3xl font-semibold text-ink sm:text-4xl">{t('sellersTitle')}</h2>
               <p className="mt-4 text-lg text-muted">{t('sellersLead')}</p>
-              <div className="mt-6 flex flex-wrap items-center gap-4">
+              <div className="mt-6 flex flex-wrap items-center justify-center gap-4 sm:justify-start">
                 <ButtonLink href={localizedPath(locale, 'sellers')}>{t('sellersCta')}</ButtonLink>
                 <a href={localizedPath(locale, 'listings')} className="inline-flex min-h-[44px] items-center font-semibold text-copyblue underline underline-offset-4 transition-colors hover:text-copyblue-dark">
                   {t('sellersRecentSales')}
@@ -211,7 +211,7 @@ export default async function HomePage({ locale }: { locale: Locale }) {
               <h2 className="text-3xl font-semibold text-white sm:text-4xl">{t('ctaTitle')}</h2>
               <p className="mt-4 max-w-2xl text-lg text-white/90">{t('ctaBody')}</p>
             </div>
-            <div className="flex md:justify-end">
+            <div className="flex justify-center md:justify-end">
               <ButtonLink href={localizedPath(locale, 'contact')} variant="accent">
                 {t('ctaButton')}
               </ButtonLink>

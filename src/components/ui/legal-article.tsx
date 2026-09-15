@@ -105,7 +105,7 @@ export default function LegalArticle({ eyebrow, title, lead, updated, sections, 
                 <h2 className="text-3xl font-semibold text-white sm:text-4xl">{cta.title}</h2>
                 <p className="mt-4 max-w-2xl text-lg text-white">{cta.body}</p>
               </div>
-              <div className="flex md:justify-end">
+              <div className="flex justify-center md:justify-end">
                 <a
                   href={cta.href}
                   className="inline-flex min-h-[44px] items-center justify-center rounded-full bg-yellow px-6 py-2.5 text-base font-semibold text-ink transition-colors hover:bg-yellow-dark"

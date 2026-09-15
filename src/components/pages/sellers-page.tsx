@@ -31,7 +31,7 @@ export default async function SellersPage({ locale }: { locale: Locale }) {
           <h1 className="mx-auto max-w-3xl text-4xl font-semibold text-ink sm:text-5xl">{t('heroTitle')}</h1>
           <p className="mx-auto mt-6 max-w-2xl text-lg text-muted sm:text-xl">{t('heroLead')}</p>
           <div className="mt-8 flex flex-col items-center justify-center gap-4 sm:flex-row">
-            <ButtonLink href="#valuation" className="w-full sm:w-auto">
+            <ButtonLink href="#valuation" variant="accent" className="w-full sm:w-auto">
               {t('heroPrimary')}
             </ButtonLink>
             <ButtonLink href={localizedPath(locale, 'listings')} variant="outline" className="w-full sm:w-auto">
@@ -120,11 +120,8 @@ export default async function SellersPage({ locale }: { locale: Locale }) {
               <h2 className="text-3xl font-semibold text-white sm:text-4xl">{t('ctaTitle')}</h2>
               <p className="mt-4 max-w-2xl text-lg text-white">{t('ctaBody')}</p>
             </div>
-            <div className="flex flex-wrap gap-4 md:justify-end">
-              <ButtonLink href="#valuation" variant="accent">
-                {t('ctaButton')}
-              </ButtonLink>
-              <ButtonLink href={localizedPath(locale, 'contact')} variant="whiteOutline">
+            <div className="flex justify-center gap-4 md:justify-end">
+              <ButtonLink href={localizedPath(locale, 'contact')} variant="accent">
                 {t('ctaSecondary')}
               </ButtonLink>
             </div>

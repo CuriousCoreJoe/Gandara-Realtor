@@ -24,7 +24,7 @@ export default async function Footer({ locale }: { locale: Locale }) {
   return (
     <footer className="bg-ink text-white">
       <Container className="py-14">
-        <div className="grid gap-10 md:grid-cols-[2fr_1fr_1fr_1.25fr]">
+        <div className="grid gap-10 md:grid-cols-[2fr_1fr_1fr_1fr]">
           {/* Brand + tagline */}
           <div>
             <a href={localizedPath(locale, 'home')} className="inline-flex min-h-[44px] items-center gap-2 font-display text-2xl font-semibold text-white">
@@ -87,33 +87,9 @@ export default async function Footer({ locale }: { locale: Locale }) {
             </ul>
           </div>
 
-          {/* Language + Legal */}
+          {/* Legal */}
           <div>
             <h2 className="mb-4 text-xs font-semibold uppercase tracking-widest text-yellow">
-              {t('languageHeading')}
-            </h2>
-            <div className="flex flex-wrap gap-2">
-              <a
-                href={localizedPath('en', 'home')}
-                lang="en"
-                className={`inline-flex min-h-[32px] items-center rounded-full px-3 text-xs font-semibold ${
-                  locale === 'en' ? 'bg-yellow text-ink' : 'bg-white/10 text-white'
-                }`}
-              >
-                EN
-              </a>
-              <a
-                href={localizedPath('es', 'home')}
-                lang="es"
-                className={`inline-flex min-h-[32px] items-center rounded-full px-3 text-xs font-semibold ${
-                  locale === 'es' ? 'bg-yellow text-ink' : 'bg-white/10 text-white'
-                }`}
-              >
-                ES
-              </a>
-            </div>
-
-            <h2 className="mb-4 mt-6 text-xs font-semibold uppercase tracking-widest text-yellow">
               {t('legalHeading')}
             </h2>
             <ul className="space-y-1">
