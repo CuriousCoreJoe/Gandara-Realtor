@@ -103,11 +103,6 @@ export default async function Footer({ locale }: { locale: Locale }) {
                   {c('terms')}
                 </a>
               </li>
-              <li>
-                <a href={`${localizedPath(locale, 'terms')}#ftc-disclosure`} className="flex min-h-[40px] items-center text-sm text-white/80 transition-colors hover:text-white">
-                  {c('ftcDisclosure')}
-                </a>
-              </li>
             </ul>
           </div>
         </div>

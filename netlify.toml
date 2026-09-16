@@ -46,3 +46,28 @@
   to = "/en/"
   status = 301
   force = true
+
+# Legal pages moved from /legal/* to top-level (Sept 2026).
+[[redirects]]
+  from = "/en/legal/terms/*"
+  to = "/en/terms/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/es/legal/terminos/*"
+  to = "/es/terminos/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/legal/privacy/*"
+  to = "/en/privacy/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/es/legal/privacidad/*"
+  to = "/es/privacidad/"
+  status = 301
+  force = true

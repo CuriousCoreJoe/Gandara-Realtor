@@ -37,8 +37,8 @@
       "description": "Cómo Angelina Gándara recopila, usa y protege tu información personal cuando usas nuestros formularios o navegas este sitio."
     },
     "terms": {
-      "title": "Términos de Uso y Divulgación FTC | Angelina Gándara Bienes Raíces en El Paso",
-      "description": "Términos de uso para angelinagandara.com, incluyendo la divulgación de afiliados de la FTC, descargos de información de propiedades y ley aplicable."
+      "title": "Términos del Servicio | Angelina Gándara Bienes Raíces en El Paso",
+      "description": "Términos del Servicio de Angelina Gándara, agente de ventas de bienes raíces con licencia en Texas, con Home Pros Real Estate Group LLC, sobre el uso del sitio, listados, vivienda justa y responsabilidad."
     },
     "trec": {
       "title": "TREC y Cumplimiento | Angelina Gándara",
@@ -66,8 +66,7 @@
     "allNeighborhoods": "Todos los vecindarios",
     "licensedAgent": "Agente de Bienes Raíces con Licencia",
     "privacy": "Política de Privacidad",
-    "terms": "Términos de Uso",
-    "ftcDisclosure": "Divulgación FTC",
+    "terms": "Términos del Servicio",
     "trec": "TREC y Cumplimiento",
     "byAppointment": "Con cita previa · El Paso, TX 79902",
     "iabsLabel": "Texas Real Estate Commission Information About Brokerage Services",
@@ -469,8 +468,8 @@
     "privacy": {
       "heroEyebrow": "Legal",
       "title": "Política de Privacidad",
-      "lead": "Cómo recopilamos, usamos y protegemos tu información personal cuando usas nuestros formularios o navegas este sitio.",
-      "updated": "Última actualización: Enero 2025",
+      "lead": "Angelina Gándara (que opera con Home Pros Real Estate Group LLC) respeta tu privacidad. Esta Política de Privacidad explica qué información recopilamos a través de este sitio web, cómo la usamos y las opciones que tienes. Al usar este sitio, aceptas esta política.",
+      "updated": "Fecha de entrada en vigor: 16 de septiembre de 2026",
       "ctaTitle": "¿Preguntas sobre tus datos?",
       "ctaBody": "Llama o escribe a Angelina directamente con gusto explicamos cómo se usa tu información.",
       "ctaButton": "Contáctanos",
@@ -478,160 +477,152 @@
         {
           "title": "1. Información que recopilamos",
           "blocks": [
-            { "kind": "h3", "text": "Información que proporcionas" },
-            { "kind": "p", "text": "Cuando llenas un formulario en este sitio incluyendo el formulario de contacto, la solicitud de valuación gratis o la solicitud de consulta de comprador puedes proporcionar:" },
-            { "kind": "ul", "items": ["Nombre completo", "Correo electrónico", "Número de teléfono", "Dirección de la propiedad (para valuaciones)", "Detalles de la propiedad (recámaras, baños, pies cuadrados, condición)", "Rango de presupuesto y tiempo para comprar o vender", "Idioma preferido (inglés o español)"] },
-            { "kind": "note", "text": "Esta información de identificación personal (PII) se envía voluntariamente. No estás obligado a proporcionarla, pero hacerlo nos permite responder a tu consulta." },
-            { "kind": "h3", "text": "Información recopilada automáticamente" },
-            { "kind": "p", "text": "Como la mayoría de los sitios web, recopilamos automáticamente ciertos datos no personales cuando visitas:" },
-            { "kind": "ul", "items": ["Dirección IP y ubicación geográfica aproximada (nivel de ciudad)", "Tipo de navegador, versión e información del dispositivo", "Páginas visitadas, tiempo en la página y URL de referencia", "Datos de sesión de Google Analytics (si está activado)"] }
+            { "kind": "p", "text": "Recopilamos la información que decides compartir con nosotros, que puede incluir:" },
+            { "kind": "ul", "items": ["Datos de contacto: nombre, correo electrónico, número de teléfono", "Datos de la propiedad: dirección de una propiedad que nos pides evaluar, tipo de propiedad y detalles relacionados", "Datos de comprador: tu rango de precio, área preferida y otras preferencias de búsqueda", "Datos de reserva: si agendas una llamada, la hora y la información de contacto que proporcionas", "Comunicaciones: el contenido de los mensajes o chats que nos envías"] },
+            { "kind": "p", "text": "Recopilamos información técnica limitada automáticamente (como el tipo de navegador y las páginas visitadas) para mantener el sitio funcionando y seguro." }
           ]
         },
         {
           "title": "2. Cómo usamos tu información",
           "blocks": [
-            { "kind": "p", "text": "Usamos la información que proporcionas para:" },
-            { "kind": "ul", "items": ["Responder a tu consulta generalmente en minutos", "Preparar un análisis comparativo de mercado (ACM) o valuación de propiedad", "Buscar propiedades que se ajusten a tus criterios", "Agendar visitas y consultas", "Enviar alertas de propiedades y actualizaciones del mercado (solo si te suscribes)", "Proporcionar servicio bilingüe en tu idioma preferido"] }
+            { "kind": "p", "text": "Usamos tu información para:" },
+            { "kind": "ul", "items": ["Responder a tus consultas (por teléfono, mensaje de texto o correo electrónico)", "Proporcionar los servicios que solicitas, incluyendo valuaciones, consultas y apoyo para listar o comprar", "Agendar y gestionar citas", "Mantener y mejorar nuestro sitio web y nuestros servicios", "Enviarte la información que has solicitado (y, cuando hayas aceptado, actualizaciones que creemos que pueden ser útiles)"] }
           ]
         },
         {
-          "title": "3. Compartición de información",
+          "title": "3. Base legal (Texas)",
           "blocks": [
-            { "kind": "p", "text": "No vendemos tu información personal. La podemos compartir con:" },
-            { "kind": "ul", "items": ["GoHighLevel nuestro proveedor de CRM, usado para gestionar tu consulta y seguimiento", "El Paso MLS para configurar alertas de propiedades y preparar ACMs", "Compañías de título y prestamistas solo cuando hayas contratado nuestros servicios y dado permiso", "Home Pros Real Estate Group LLC nuestro corretaje de registro", "Autoridades legales si lo requiere la ley, orden judicial o regulación de TREC"] }
+            { "kind": "p", "text": "Recopilamos y procesamos tu información para proporcionar los servicios que solicitas y para perseguir nuestros intereses comerciales legítimos, de acuerdo con la ley aplicable de Texas y de los Estados Unidos." }
           ]
         },
         {
-          "title": "4. Cookies y rastreo",
+          "title": "4. Cómo compartimos tu información",
           "blocks": [
-            { "kind": "p", "text": "Este sitio usa cookies y tecnologías similares para los siguientes propósitos:" },
-            { "kind": "ul", "items": ["Cookies esenciales requeridas para el envío de formularios y funcionalidad básica del sitio", "Cookies de análisis Google Analytics, para entender cómo los visitantes usan el sitio (si está activado)", "Cookies de marketing Facebook Pixel, para retargeting de visitantes que iniciaron un formulario (si está activado)"] },
-            { "kind": "p", "text": "Puedes desactivar las cookies en la configuración de tu navegador. Algunas funciones (como el envío de formularios) pueden no funcionar correctamente sin cookies esenciales." }
+            { "kind": "p", "text": "No vendemos tu información personal. Podemos compartirla con:" },
+            { "kind": "ul", "items": ["Nuestro corretaje, Home Pros Real Estate Group LLC, y sus proveedores de servicios, según sea necesario para atenderte", "Proveedores de servicios que nos ayudan a operar (por ejemplo, nuestras plataformas de contacto, agendamiento, chat y mensajería)", "Terceros cuando lo exija la ley, un proceso legal o para proteger derechos y seguridad"] }
           ]
         },
         {
-          "title": "5. Retención de datos",
+          "title": "5. Formularios, chat y reservas (GoHighLevel)",
           "blocks": [
-            { "kind": "p", "text": "Retenemos tu información mientras sea necesario para proporcionar nuestros servicios y cumplir con las obligaciones legales de bienes raíces de Texas. Si solicitas eliminación, removeremos tus datos de nuestros sistemas activos dentro de 30 días, excepto cuando la retención sea requerida por las reglas de TREC u otra ley aplicable." }
+            { "kind": "p", "text": "Nuestros formularios de contacto, chat y reserva de citas funcionan con nuestra plataforma de gestión de relaciones con clientes (GoHighLevel). La información enviada a través de estas herramientas se transmite y almacena en esa plataforma y pasa a formar parte de nuestros registros de clientes. Sus propias prácticas de privacidad se aplican a la forma en que almacenan y protegen los datos." }
           ]
         },
         {
-          "title": "6. Tus derechos",
+          "title": "6. Tus opciones",
           "blocks": [
-            { "kind": "p", "text": "Tienes derecho a:" },
-            { "kind": "ul", "items": ["Acceder a la información personal que tenemos sobre ti", "Corregir información inexacta o desactualizada", "Solicitar la eliminación de tus datos personales", "Excluirte de comunicaciones de marketing en cualquier momento", "Presentar una queja ante la Procuraduría General de Texas"] },
-            { "kind": "contact", "text": "Para ejercer cualquiera de estos derechos, contacta a Angelina Gándara." }
+            { "kind": "ul", "items": ["Puedes pedirnos una copia de la información personal que tenemos sobre ti.", "Puedes pedirnos corregir o eliminar tu información personal, cuando corresponda.", "Puedes excluirte de correos o mensajes de marketing en cualquier momento respondiendo \"STOP\" o contactándonos directamente.", "Puedes desactivar las cookies en la configuración de tu navegador; algunas partes del sitio (incluidos algunos formularios) pueden seguir funcionando, y cualquier función de terceros se rige por sus propias políticas.", "No recopilamos información de menores de 13 años a sabiendas."] }
           ]
         },
         {
-          "title": "7. Enlaces a terceros",
+          "title": "7. Retención de datos y seguridad",
           "blocks": [
-            { "kind": "p", "text": "Este sitio enlaza a recursos externos incluyendo la Texas Real Estate Commission (TREC), Zillow, Realtor.com e Instagram. No somos responsables de las prácticas de privacidad o el contenido de estos sitios de terceros. Te recomendamos revisar sus políticas de privacidad." }
+            { "kind": "p", "text": "Conservamos tu información solo el tiempo necesario para atenderte y cumplir con las obligaciones legales. Usamos medidas razonables para proteger tus datos, aunque ningún método de transmisión es 100% seguro." }
           ]
         },
         {
-          "title": "8. Seguridad",
+          "title": "8. Enlaces a terceros",
           "blocks": [
-            { "kind": "p", "text": "Usamos medidas técnicas y organizativas razonables para proteger tu información, incluyendo envío de formularios cifrado vía HTTPS y almacenamiento CRM con control de acceso. Sin embargo, ningún método de transmisión por internet es 100% seguro, y no podemos garantizar seguridad absoluta." }
+            { "kind": "p", "text": "Nuestro sitio puede enlazar a sitios web de terceros (como Instagram, guías de vecindarios o portales de listados). No somos responsables de sus prácticas de privacidad." }
           ]
         },
         {
-          "title": "9. Cambios a esta política",
+          "title": "9. Derechos de privacidad de Texas / Contacto",
           "blocks": [
-            { "kind": "p", "text": "Podemos actualizar esta Política de Privacidad de vez en cuando. Los cambios se publicarán en esta página con una fecha de revisión actualizada. Te recomendamos revisar esta página periódicamente." }
-          ]
-        },
-        {
-          "title": "10. Contáctanos",
-          "blocks": [
-            { "kind": "p", "text": "¿Preguntas sobre esta política de privacidad? Contacta:" },
-            { "kind": "ul", "items": ["Angelina Gándara, Agente de Bienes Raíces con Licencia, TREC #844593-SA", "Home Pros Real Estate Group LLC"] },
-            { "kind": "contact", "text": "" }
+            { "kind": "p", "text": "Atenderemos las solicitudes para acceder, corregir o eliminar tu información personal, de acuerdo con la ley estatal y federal aplicable." },
+            { "kind": "p", "text": "Para cualquier solicitud o pregunta, contacta:" },
+            { "kind": "contact", "text": "", "separator": "o" }
           ]
         }
       ]
     },
     "terms": {
       "heroEyebrow": "Legal",
-      "title": "Términos de Uso",
-      "lead": "Los términos y condiciones para usar este sitio web, incluyendo la divulgación de afiliados de la FTC.",
-      "updated": "Última actualización: Enero 2025",
+      "title": "Términos del Servicio",
+      "lead": "Bienvenido al sitio web de Angelina Gándara, agente de ventas de bienes raíces con licencia en Texas que opera bajo Home Pros Real Estate Group LLC. Al acceder o usar este sitio web, aceptas estos Términos del Servicio. Si no estás de acuerdo, no uses el sitio.",
+      "updated": "Fecha de entrada en vigor: 16 de septiembre de 2026",
       "ctaTitle": "¿Listo para trabajar con una agente transparente?",
       "ctaBody": "Agenda una llamada gratuita de 20 minutos. Inglés o español tu elección.",
       "ctaButton": "Agenda una llamada",
       "sections": [
         {
-          "title": "1. Aceptación de términos",
+          "title": "1. Quiénes somos",
           "blocks": [
-            { "kind": "p", "text": "Al acceder y usar este sitio web, aceptas y acuerdas estar sujeto a estos Términos de Uso. Si no estás de acuerdo con estos términos, por favor no uses el sitio. Tu uso continuo del sitio constituye la aceptación de cualquier actualización." }
+            { "kind": "p", "text": "Angelina Gándara es agente de ventas de bienes raíces con licencia en Texas (TREC #844593-SA), patrocinada por Home Pros Real Estate Group LLC. Nada en este sitio constituye asesoría legal, fiscal, financiera, de valuación o profesional." }
           ]
         },
         {
-          "title": "2. Uso del sitio web",
+          "title": "2. El sitio web es informativo",
           "blocks": [
-            { "kind": "p", "text": "Puedes usar este sitio solo para fines lícitos. Aceptas no:" },
-            { "kind": "ul", "items": ["Usar el sitio de forma que viole leyes locales, estatales o federales", "Intentar acceder sin autorización a cualquier parte del sitio, su servidor o base de datos", "Extraer, copiar o republicar listados de propiedades, imágenes o contenido sin permiso por escrito", "Enviar información falsa, engañosa o fraudulenta a través de nuestros formularios", "Usar herramientas automatizadas (bots, crawlers) para acceder al sitio de forma que degrade el rendimiento"] }
+            { "kind": "p", "text": "Este sitio web proporciona información general sobre nuestros servicios de bienes raíces, el área de El Paso y cómo contactarnos. No es una oferta para comprar o vender ninguna propiedad, y no crea una relación de corretaje, una relación de cliente ni ningún acuerdo de agencia. Una relación profesional se forma solo cuando celebramos un acuerdo escrito firmado contigo." }
           ]
         },
         {
-          "title": "3. Información de propiedades",
+          "title": "3. Sin garantías ni promesas",
           "blocks": [
-            { "kind": "p", "text": "Los listados de propiedades, valuaciones y datos del mercado mostrados en este sitio se proporcionan solo con fines informativos. Aunque nos esforzamos por la precisión:" },
-            { "kind": "ul", "items": ["Los detalles de los listados (precio, pies cuadrados, características) provienen del MLS de El Paso y pueden cambiar sin previo aviso", "Los valores estimados de las casas son opiniones de valor probable de mercado, no avalúos formales", "Debes verificar independientemente todos los detalles de la propiedad antes de tomar una decisión", "Todas las propiedades están sujetas a venta previa, retiro o cambio de precio", "La información escolar se proporciona solo como referencia; verifica con el distrito escolar correspondiente"] }
+            { "kind": "ul", "items": ["El mercado de bienes raíces de El Paso cambia. No garantizamos ningún precio de venta específico, tiempo de venta, resultado del listado, retorno o resultado.", "Cualquier información del mercado local que se muestre se proporciona para ayudarte a entender el área; no es una promesa sobre el valor de tu casa.", "Cualquier valuación de vivienda es solo una ESTIMACIÓN, no un avalúo, y puede no reflejar el valor de mercado real o una valuación oficial."] }
           ]
         },
         {
-          "title": "4. Divulgación de afiliados de la FTC",
-          "id": "ftc-disclosure",
+          "title": "4. IDX / Listados",
           "blocks": [
-            { "kind": "p", "text": "De acuerdo con las directrices de la Federal Trade Commission sobre el uso de respaldos y testimonios en publicidad (16 CFR Part 255), divulgamos lo siguiente:" },
-            { "kind": "ul", "items": ["Angelina Gándara puede recibir honorarios de referencia o compensación de prestamistas, compañías de título, inspectores de casas, contratistas u otros proveedores de servicios recomendados", "Cualquier relación de este tipo se divulgará al momento de la referencia", "Las recomendaciones se basan en la experiencia profesional de la agente y los resultados de los clientes, no únicamente en la compensación", "Nunca estás obligado a usar ningún proveedor recomendado puedes elegir el tuyo", "Este sitio puede contener enlaces a sitios afiliados; podemos ganar una comisión si haces una compra a través de estos enlaces, sin costo adicional para ti", "Cualquier testimonio o reseña mostrado proviene de clientes reales que no fueron compensados por sus declaraciones"] },
-            { "kind": "note", "text": "Esta divulgación se proporciona en cumplimiento de la FTC Act y las Guías sobre el Uso de Respaldo y Testimonios en Publicidad." }
+            { "kind": "p", "text": "Cualquier casa destacada o listada que se muestre es solo para información general. Verifica todos los detalles directamente; no todos los listados pueden estar activos actualmente." },
+            { "kind": "p", "text": "No se debe confiar en nada de este sitio como única base para una decisión de compra o venta. Verifica siempre los detalles de la propiedad con un agente con licencia." }
           ]
         },
         {
-          "title": "5. Propiedad intelectual",
+          "title": "5. Vivienda justa",
           "blocks": [
-            { "kind": "p", "text": "Todo el contenido de este sitio incluyendo texto, gráficos, logotipos, fotografía, diseño y código es propiedad de Angelina Gándara / Home Pros Real Estate Group LLC a menos que se indique lo contrario. No puedes reproducir, distribuir o crear obras derivadas sin permiso previo por escrito." }
+            { "kind": "p", "text": "Estamos comprometidos con la Ley de Vivienda Justa (Fair Housing Act) y la Ley de Vivienda Justa de Texas. No discriminamos por raza, color, religión, sexo, origen nacional, estatus familiar o discapacidad, ni por ninguna otra clase protegida. Todos nuestros servicios se ofrecen en inglés y español." }
           ]
         },
         {
-          "title": "6. Limitación de responsabilidad",
+          "title": "6. Tu uso del sitio",
           "blocks": [
-            { "kind": "p", "text": "Este sitio web y su contenido se proporcionan \u201ctal como están\u201d sin garantía de ningún tipo, expresa o implícita. Angelina Gándara y Home Pros Real Estate Group LLC no son responsables de:" },
-            { "kind": "ul", "items": ["Errores u omisiones en la información de propiedades o valuaciones", "Decisiones tomadas basadas en el contenido de este sitio", "Problemas técnicos, tiempos de inactividad o pérdida de datos", "Acciones de sitios web de terceros enlazados desde este sitio", "Cualquier daño indirecto, incidental o consecuente que surja del uso del sitio"] }
+            { "kind": "p", "text": "Aceptas no hacer un mal uso de este sitio web, lo que incluye: intentar accesos no autorizados; interferir con el funcionamiento del sitio; extraer, recolectar o copiar contenido para uso no autorizado; o usar el sitio con cualquier propósito ilegal." }
           ]
         },
         {
-          "title": "7. Enlaces externos",
+          "title": "7. Contenido y propiedad intelectual",
           "blocks": [
-            { "kind": "p", "text": "Este sitio enlaza a sitios web externos incluyendo la Texas Real Estate Commission (TREC), Zillow, Realtor.com y plataformas de redes sociales. No somos responsables del contenido, precisión o políticas de estos sitios de terceros. Tu uso de sitios externos es bajo tu propio riesgo." }
+            { "kind": "p", "text": "El texto, el diseño, los logotipos y los materiales de este sitio son nuestros (o están licenciados a nosotros) y no pueden reproducirse sin permiso, salvo donde se indique. Puedes compartir enlaces a nuestras páginas." }
           ]
         },
         {
-          "title": "8. Ley aplicable",
+          "title": "8. Servicios de terceros",
           "blocks": [
-            { "kind": "p", "text": "Estos Términos de Uso se rigen por las leyes del Estado de Texas. Cualquier disputa que surja del uso de este sitio se resolverá en los tribunales del Condado de El Paso, Texas." }
+            { "kind": "p", "text": "Nuestro sitio web puede incluir herramientas, formularios o funciones proporcionados por terceros (como nuestros sistemas de programación, chat o contacto). Esos servicios tienen sus propios términos y políticas de privacidad, y no somos responsables de su funcionamiento." }
           ]
         },
         {
-          "title": "9. Cambios a estos términos",
+          "title": "9. Comunicaciones",
           "blocks": [
-            { "kind": "p", "text": "Podemos actualizar estos términos en cualquier momento. Los cambios se publicarán en esta página con una fecha de revisión actualizada. El uso continuo del sitio después de los cambios constituye la aceptación de los términos actualizados." }
+            { "kind": "p", "text": "Al enviar un formulario de contacto, reservar una llamada o comunicarte de otra forma, aceptas que te contactemos por teléfono, mensaje de texto o correo electrónico sobre tu consulta. Pueden aplicarse tarifas de mensajes y datos. Puedes excluirte de los mensajes y correos de marketing en cualquier momento; seguiremos respondiendo a mensajes relacionados con el servicio vinculados a un trabajo activo." }
           ]
         },
         {
-          "title": "10. Cumplimiento de TREC",
+          "title": "10. Limitación de responsabilidad",
           "blocks": [
-            { "kind": "p", "text": "Angelina Gándara es una Agente de Bienes Raíces con Licencia, TREC #844593-SA, afiliada con Home Pros Real Estate Group LLC. Broker of Record: Patricia Lozano. Para el Texas Real Estate Commission Information About Brokerage Services (IABS) oficial, ve el enlace en nuestro pie de página. La ley de Texas requiere que todos los licenciados de bienes raíces proporcionen el IABS a clientes potenciales." }
+            { "kind": "p", "text": "En la máxima medida permitida por la ley, no somos responsables de daños indirectos, incidentales, especiales, consecuentes o punitivos derivados de tu uso de este sitio web o de la confianza en su contenido. El sitio se proporciona \"tal como está\"." }
           ]
         },
         {
-          "title": "11. Contacto",
+          "title": "11. Cambios en estos términos",
           "blocks": [
-            { "kind": "p", "text": "¿Preguntas sobre estos términos? Contacta:" },
-            { "kind": "ul", "items": ["Angelina Gándara, Agente de Bienes Raíces con Licencia, TREC #844593-SA", "Home Pros Real Estate Group LLC"] },
-            { "kind": "contact", "text": "" }
+            { "kind": "p", "text": "Podemos actualizar estos Términos de vez en cuando. La \"Fecha de entrada en vigor\" en la parte superior muestra la revisión más reciente. El uso continuo del sitio después de los cambios significa que aceptas los Términos actualizados." }
+          ]
+        },
+        {
+          "title": "12. Contacto",
+          "blocks": [
+            { "kind": "p", "text": "¿Preguntas sobre estos Términos?" },
+            { "kind": "contact", "text": "", "separator": "o" }
+          ]
+        },
+        {
+          "title": "Nota de REALTOR®",
+          "blocks": [
+            { "kind": "p", "text": "No estamos afiliados, respaldados ni somos miembros de la Asociación Nacional de REALTORS®. Con licencia de la Comisión de Bienes Raíces de Texas." }
           ]
         }
       ]

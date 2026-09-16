@@ -40,8 +40,8 @@ export const routes: Record<RouteKey, { en: string; es: string }> = {
   fortBliss: { en: '/neighborhoods/fort-bliss', es: '/neighborhoods/fort-bliss' },
   links: { en: '/links', es: '/enlaces' },
   contact: { en: '/contact', es: '/contacto' },
-  privacy: { en: '/legal/privacy', es: '/legal/privacidad' },
-  terms: { en: '/legal/terms', es: '/legal/terminos' },
+  privacy: { en: '/privacy', es: '/privacidad' },
+  terms: { en: '/terms', es: '/terminos' },
   trec: { en: '/legal/trec', es: '/legal/trec' },
 };
 
