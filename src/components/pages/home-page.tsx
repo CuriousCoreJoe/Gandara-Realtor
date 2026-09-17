@@ -67,10 +67,10 @@ export default async function HomePage({ locale }: { locale: Locale }) {
           <h1 className="mx-auto max-w-4xl text-4xl font-semibold text-ink sm:text-5xl lg:text-6xl">{t('heroTitle')}</h1>
           <p className="mx-auto mt-6 max-w-2xl text-lg text-muted sm:text-xl">{t('heroLead')}</p>
           <div className="mt-8 flex flex-col items-center justify-center gap-4 sm:flex-row">
-            <ButtonLink href={localizedPath(locale, 'contact')} variant="accent" className="w-full lg:min-w-[260px]">
+            <ButtonLink href={localizedPath(locale, 'contact')} variant="accent" className="w-full sm:flex-1">
               {t('heroPrimary')}
             </ButtonLink>
-            <ButtonLink href={localizedPath(locale, 'listings')} variant="outline" className="w-full sm:w-auto">
+            <ButtonLink href={localizedPath(locale, 'listings')} variant="outline" className="w-full sm:flex-1">
               {t('heroSecondary')}
             </ButtonLink>
           </div>
