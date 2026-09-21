@@ -1,4 +1,5 @@
 import type { ReactNode } from 'react';
+import Script from 'next/script';
 import { notFound } from 'next/navigation';
 import { Fraunces, Inter } from 'next/font/google';
 import { hasLocale } from 'next-intl';
@@ -44,7 +45,15 @@ export default async function LocaleLayout({ children, params }: LocaleLayoutPro
           in Server Components (getTranslations). The only client component
           (MobileMenu) receives its labels as props, so serializing the full
           message files to the client would be pure overhead. */}
-      <body className="bg-white text-ink antialiased">{children}</body>
+      <body className="bg-white text-ink antialiased">
+        {children}
+        <Script
+          src="https://widgets.leadconnectorhq.com/loader.js"
+          data-resources-url="https://widgets.leadconnectorhq.com/chat-widget/loader.js"
+          data-widget-id="6aa4bc2c92551cf5804c2d54"
+          strategy="afterInteractive"
+        />
+      </body>
     </html>
   );
 }
