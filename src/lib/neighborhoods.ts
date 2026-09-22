@@ -11,13 +11,14 @@ export type NeighborhoodKey = 'westside' | 'upperValley' | 'eastSide' | 'fortBli
 export interface Neighborhood {
   key: NeighborhoodKey;
   routeKey: RouteKey;
+  image: string;
 }
 
 export const NEIGHBORHOODS: Neighborhood[] = [
-  { key: 'westside', routeKey: 'westside' },
-  { key: 'upperValley', routeKey: 'upperValley' },
-  { key: 'eastSide', routeKey: 'eastSide' },
-  { key: 'fortBliss', routeKey: 'fortBliss' },
+  { key: 'westside', routeKey: 'westside', image: 'https://assets.cdn.filesafe.space/UqxL7nKdq43kO71KOplf/media/6ab2ff50f07a3cb6d47ab330.jpg' },
+  { key: 'upperValley', routeKey: 'upperValley', image: 'https://assets.cdn.filesafe.space/UqxL7nKdq43kO71KOplf/media/6ab2fd717c231bdb64f4d2c2.jpg' },
+  { key: 'eastSide', routeKey: 'eastSide', image: 'https://assets.cdn.filesafe.space/UqxL7nKdq43kO71KOplf/media/6ab2ff50de8ed1c29fd505fe.jpg' },
+  { key: 'fortBliss', routeKey: 'fortBliss', image: 'https://assets.cdn.filesafe.space/UqxL7nKdq43kO71KOplf/media/6ab30033665c3ca9551bc5ec.jpg' },
 ];
 
 export const QUICK_FACT_LABEL_KEYS = [

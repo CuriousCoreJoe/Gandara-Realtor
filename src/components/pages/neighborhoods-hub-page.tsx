@@ -4,7 +4,6 @@ import { localizedPath } from '@/lib/routes';
 import { NEIGHBORHOODS } from '@/lib/neighborhoods';
 import Container from '@/components/ui/container';
 import ButtonLink from '@/components/ui/button-link';
-import PlaceholderImage from '@/components/ui/placeholder-image';
 
 interface Fact {
   label: string;
@@ -24,11 +23,17 @@ export default async function NeighborhoodsHubPage({ locale }: { locale: Locale 
   return (
     <>
       {/* Hero */}
-      <section className="bg-gray-soft">
-        <Container className="py-16 text-center sm:py-24">
-          <p className="mb-4 text-sm font-semibold uppercase tracking-[0.14em] text-copyblue">{t('hubEyebrow')}</p>
-          <h1 className="mx-auto max-w-3xl text-4xl font-semibold text-ink sm:text-5xl">{t('hubHeroTitle')}</h1>
-          <p className="mx-auto mt-6 max-w-2xl text-lg text-muted sm:text-xl">{t('hubHeroLead')}</p>
+      <section className="relative bg-gray-soft">
+        <div
+          aria-hidden="true"
+          className="absolute inset-0 bg-cover bg-center"
+          style={{ backgroundImage: "url('https://assets.cdn.filesafe.space/UqxL7nKdq43kO71KOplf/media/6ab3034b30b0f957ccef38a7.jpg')" }}
+        />
+        <div aria-hidden="true" className="absolute inset-0 bg-gradient-to-b from-ink/85 via-ink/70 to-ink/60" />
+        <Container className="relative py-16 text-center sm:py-24">
+          <p className="mb-4 text-sm font-semibold uppercase tracking-[0.14em] text-yellow">{t('hubEyebrow')}</p>
+          <h1 className="mx-auto max-w-3xl text-4xl font-semibold text-white sm:text-5xl">{t('hubHeroTitle')}</h1>
+          <p className="mx-auto mt-6 max-w-2xl text-lg text-white/80 sm:text-xl">{t('hubHeroLead')}</p>
         </Container>
       </section>
 
@@ -39,7 +44,7 @@ export default async function NeighborhoodsHubPage({ locale }: { locale: Locale 
           <div className="grid gap-6 md:grid-cols-2">
             {cards.map((c) => (
               <article key={c.key} className="flex flex-col overflow-hidden rounded-2xl border border-gray-soft bg-white shadow-sm transition-shadow hover:shadow-md">
-                <PlaceholderImage label={`${c.guide.name}`} className="aspect-[4/3] w-full" />
+                <img src={c.image} alt={c.guide.name} className="aspect-[4/3] w-full object-cover" />
                 <div className="flex flex-1 flex-col p-6">
                   <div className="flex items-center justify-between">
                     <h3 className="font-display text-2xl font-semibold text-ink">{c.guide.name}</h3>

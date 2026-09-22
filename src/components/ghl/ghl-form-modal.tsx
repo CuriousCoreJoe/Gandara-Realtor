@@ -89,7 +89,7 @@ export function GhlFormModal({ locale, className }: { locale: Locale; className?
             onClick={() => setOpen(false)}
             tabIndex={-1}
           />
-          <div className="relative w-full max-w-2xl rounded-2xl bg-white p-6 shadow-2xl">
+          <div className="relative w-full max-w-[46.2rem] rounded-2xl bg-white p-12 shadow-2xl">
             <button
               type="button"
               onClick={() => setOpen(false)}
@@ -224,7 +224,7 @@ export function ListingsCta({
             onClick={() => setOpen(false)}
             tabIndex={-1}
           />
-          <div className="relative w-full max-w-2xl rounded-2xl bg-white p-6 shadow-2xl">
+          <div className="relative w-full max-w-[46.2rem] rounded-2xl bg-white p-12 shadow-2xl">
             <button
               type="button"
               onClick={() => setOpen(false)}
@@ -363,7 +363,7 @@ export function ListingsCardCta({
             onClick={() => setOpen(false)}
             tabIndex={-1}
           />
-          <div className="relative w-full max-w-2xl rounded-2xl bg-white p-6 shadow-2xl">
+          <div className="relative w-full max-w-[46.2rem] rounded-2xl bg-white p-12 shadow-2xl">
             <button
               type="button"
               onClick={() => setOpen(false)}

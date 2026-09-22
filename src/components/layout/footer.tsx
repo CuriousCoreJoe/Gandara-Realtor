@@ -7,12 +7,12 @@ import Container from '@/components/ui/container';
 import InstagramIcon from '@/components/ui/instagram-icon';
 import { EqualHousingIcon, HouseMark } from '@/components/ui/icons';
 
-const EXPLORE: { routeKey: RouteKey; labelKey: 'about' | 'buyers' | 'sellers' | 'listings' | 'neighborhoods' }[] = [
+const EXPLORE: { routeKey: RouteKey; labelKey: 'about' | 'buyers' | 'sellers' | 'links' | 'neighborhoods' }[] = [
   { routeKey: 'about', labelKey: 'about' },
   { routeKey: 'buyers', labelKey: 'buyers' },
   { routeKey: 'sellers', labelKey: 'sellers' },
-  { routeKey: 'listings', labelKey: 'listings' },
   { routeKey: 'neighborhoods', labelKey: 'neighborhoods' },
+  { routeKey: 'links', labelKey: 'links' },
 ];
 
 export default async function Footer({ locale }: { locale: Locale }) {

@@ -7,12 +7,13 @@ import Container from '@/components/ui/container';
 import ButtonLink from '@/components/ui/button-link';
 import MobileMenu, { type NavLink } from './mobile-menu';
 
-const NAV_KEYS: { routeKey: RouteKey; labelKey: 'about' | 'buyers' | 'sellers' | 'neighborhoods' | 'contact' }[] = [
+const NAV_KEYS: { routeKey: RouteKey; labelKey: 'about' | 'buyers' | 'sellers' | 'links' | 'neighborhoods' | 'contact' }[] = [
   { routeKey: 'about', labelKey: 'about' },
   { routeKey: 'buyers', labelKey: 'buyers' },
   { routeKey: 'sellers', labelKey: 'sellers' },
   { routeKey: 'neighborhoods', labelKey: 'neighborhoods' },
   { routeKey: 'contact', labelKey: 'contact' },
+  { routeKey: 'links', labelKey: 'links' },
 ];
 
 export default async function Header({ locale, routeKey }: { locale: Locale; routeKey: RouteKey }) {

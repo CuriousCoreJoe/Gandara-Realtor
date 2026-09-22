@@ -50,7 +50,7 @@ export default async function LinksPage({ locale }: { locale: Locale }) {
       <div aria-hidden="true" className="pointer-events-none absolute -bottom-32 left-1/4 h-80 w-80 rounded-full bg-copyblue-light/20 blur-3xl" />
 
       {/* Language toggle */}
-      <div className="relative z-20 mb-[5px] flex justify-end px-4 pt-4">
+      <div className="relative z-20 mb-[2px] flex justify-end px-4 pt-2">
         <a
           href={toggleHref}
           lang={otherLocale}
@@ -83,11 +83,11 @@ export default async function LinksPage({ locale }: { locale: Locale }) {
                   alt={t('headshotAlt')}
                   className="h-[8.4rem] w-[8.4rem] rounded-full object-cover ring-4 ring-yellow shadow-[0_12px_30px_-8px_rgba(255,179,83,0.7)]"
                 />
-                <div className="absolute -bottom-[0.3rem] -right-[0.3rem] flex h-[2.4rem] w-[2.4rem] items-center justify-center rounded-full bg-black ring-2 ring-white shadow-md">
+                <div className="absolute -bottom-[0.3rem] -right-[0.3rem] flex h-[3rem] w-[3rem] items-center justify-center rounded-full bg-black ring-2 ring-white shadow-md">
                   <img
                     src="/homepros-logo.png"
                     alt="Home Pros Real Estate Group"
-                    className="h-[2.1rem] w-[2.1rem] rounded-full object-cover"
+                    className="h-[2.625rem] w-[2.625rem] rounded-full object-cover"
                   />
                 </div>
               </div>
