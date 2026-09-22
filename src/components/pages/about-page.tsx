@@ -5,6 +5,7 @@ import { localizedPath } from '@/lib/routes';
 import { SITE } from '@/lib/site';
 import Container from '@/components/ui/container';
 import ButtonLink from '@/components/ui/button-link';
+import { ListingsCta } from '@/components/ghl/ghl-form-modal';
 import PlaceholderImage from '@/components/ui/placeholder-image';
 
 export default async function AboutPage({ locale }: { locale: Locale }) {
@@ -28,9 +29,9 @@ export default async function AboutPage({ locale }: { locale: Locale }) {
             <ButtonLink href={localizedPath(locale, 'contact')} variant="accent" className="w-full sm:w-auto">
               {t('heroPrimary')}
             </ButtonLink>
-            <ButtonLink href={localizedPath(locale, 'listings')} variant="outline" className="w-full sm:w-auto">
+            <ListingsCta locale={locale} variant="outline" className="w-full sm:w-auto">
               {t('heroSecondary')}
-            </ButtonLink>
+            </ListingsCta>
           </div>
         </Container>
       </section>

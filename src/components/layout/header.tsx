@@ -7,11 +7,10 @@ import Container from '@/components/ui/container';
 import ButtonLink from '@/components/ui/button-link';
 import MobileMenu, { type NavLink } from './mobile-menu';
 
-const NAV_KEYS: { routeKey: RouteKey; labelKey: 'about' | 'buyers' | 'sellers' | 'listings' | 'neighborhoods' | 'contact' }[] = [
+const NAV_KEYS: { routeKey: RouteKey; labelKey: 'about' | 'buyers' | 'sellers' | 'neighborhoods' | 'contact' }[] = [
   { routeKey: 'about', labelKey: 'about' },
   { routeKey: 'buyers', labelKey: 'buyers' },
   { routeKey: 'sellers', labelKey: 'sellers' },
-  { routeKey: 'listings', labelKey: 'listings' },
   { routeKey: 'neighborhoods', labelKey: 'neighborhoods' },
   { routeKey: 'contact', labelKey: 'contact' },
 ];

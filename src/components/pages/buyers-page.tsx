@@ -3,6 +3,7 @@ import type { Locale } from '@/i18n/routing';
 import { localizedPath } from '@/lib/routes';
 import Container from '@/components/ui/container';
 import ButtonLink from '@/components/ui/button-link';
+import { ListingsCta } from '@/components/ghl/ghl-form-modal';
 import { GhlCalendar } from '@/components/ghl/ghl-embeds';
 
 export default async function BuyersPage({ locale }: { locale: Locale }) {
@@ -40,9 +41,9 @@ export default async function BuyersPage({ locale }: { locale: Locale }) {
             <ButtonLink href={localizedPath(locale, 'contact')} variant="accent" className="w-full sm:w-auto">
               {t('heroPrimary')}
             </ButtonLink>
-            <ButtonLink href={localizedPath(locale, 'listings')} variant="outline" className="w-full sm:w-auto">
+            <ListingsCta locale={locale} variant="outline" className="w-full sm:w-auto">
               {t('heroSecondary')}
-            </ButtonLink>
+            </ListingsCta>
           </div>
         </Container>
       </section>
@@ -125,9 +126,9 @@ export default async function BuyersPage({ locale }: { locale: Locale }) {
               <ButtonLink href={localizedPath(locale, 'contact')} variant="accent">
                 {t('ctaButton')}
               </ButtonLink>
-              <ButtonLink href={localizedPath(locale, 'listings')} variant="whiteOutline">
+              <ListingsCta locale={locale} variant="whiteOutline">
                 {t('ctaSecondary')}
-              </ButtonLink>
+              </ListingsCta>
             </div>
           </div>
         </Container>

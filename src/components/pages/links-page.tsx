@@ -1,9 +1,9 @@
 import { getTranslations } from 'next-intl/server';
-import { Calendar, ChevronRight, Home, Map, Search, User } from 'lucide-react';
+import { Calendar, ChevronRight, Home, Map, Search } from 'lucide-react';
 import type { Locale } from '@/i18n/routing';
 import { alternatePath, localizedPath } from '@/lib/routes';
 import { SITE } from '@/lib/site';
-import PlaceholderImage from '@/components/ui/placeholder-image';
+import { ListingsCardCta } from '@/components/ghl/ghl-form-modal';
 
 /**
  * Bio-link hub ("links" page). Standalone route no header/footer chrome.
@@ -30,12 +30,6 @@ export default async function LinksPage({ locale }: { locale: Locale }) {
       href: localizedPath(locale, 'sellers'),
       title: t('valuationTitle'),
       subtitle: t('valuationSubtitle'),
-    },
-    {
-      Icon: Search,
-      href: localizedPath(locale, 'listings'),
-      title: t('listingsTitle'),
-      subtitle: t('listingsSubtitle'),
     },
     {
       Icon: Map,
@@ -82,14 +76,20 @@ export default async function LinksPage({ locale }: { locale: Locale }) {
                 El Paso, Texas
               </span>
 
-              {/* Headshot placeholder */}
-              <div className="relative mx-auto mt-6 h-28 w-28">
-                <PlaceholderImage
-                  label={t('headshotAlt')}
-                  className="h-28 w-28 rounded-full ring-4 ring-yellow shadow-[0_12px_30px_-8px_rgba(255,179,83,0.7)]"
-                >
-                  <User className="h-12 w-12 text-copyblue/40" aria-hidden="true" />
-                </PlaceholderImage>
+              {/* Headshot */}
+              <div className="relative mx-auto mt-6 h-[8.4rem] w-[8.4rem]">
+                <img
+                  src="/headshot.png"
+                  alt={t('headshotAlt')}
+                  className="h-[8.4rem] w-[8.4rem] rounded-full object-cover ring-4 ring-yellow shadow-[0_12px_30px_-8px_rgba(255,179,83,0.7)]"
+                />
+                <div className="absolute -bottom-[0.3rem] -right-[0.3rem] flex h-[2.4rem] w-[2.4rem] items-center justify-center rounded-full bg-black ring-2 ring-white shadow-md">
+                  <img
+                    src="/homepros-logo.png"
+                    alt="Home Pros Real Estate Group"
+                    className="h-[2.1rem] w-[2.1rem] rounded-full object-cover"
+                  />
+                </div>
               </div>
 
               <h1 className="mt-5 font-display text-3xl font-semibold text-copyblue sm:text-4xl">
@@ -154,6 +154,15 @@ export default async function LinksPage({ locale }: { locale: Locale }) {
               ))}
             </div>
 
+            <div className="mt-3">
+              <ListingsCardCta
+                locale={locale}
+                icon={<Search />}
+                title={t('listingsTitle')}
+                subtitle={t('listingsSubtitle')}
+              />
+            </div>
+
             {/* CTA */}
             <a
               href={localizedPath(locale, 'contact')}
@@ -161,6 +170,26 @@ export default async function LinksPage({ locale }: { locale: Locale }) {
             >
               {t('ctaLabel')}
             </a>
+
+            {/* Legal links */}
+            <div className="mt-5 flex justify-center gap-4">
+              <a
+                href="https://assets.cdn.filesafe.space/UqxL7nKdq43kO71KOplf/media/6ab190e498fc609c5db9a4ef.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-xs text-muted underline transition-colors hover:text-copyblue"
+              >
+                Consumer Protection
+              </a>
+              <a
+                href="https://assets.cdn.filesafe.space/UqxL7nKdq43kO71KOplf/media/6ab19e0c4091fa65e6bbc177.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-xs text-muted underline transition-colors hover:text-copyblue"
+              >
+                Brokerage Services
+              </a>
+            </div>
 
             {/* Footer credit */}
             <p className="mt-5 text-center text-xs text-muted">{t('footerCredit')}</p>

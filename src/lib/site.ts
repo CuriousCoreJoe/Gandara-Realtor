@@ -12,14 +12,17 @@
  * ⚠️ LAUNCH GATE replace this with the real, purchased domain before
  * deploying. Leaving the placeholder triggers a loud build-time warning.
  */
-const PLACEHOLDER_URL = 'https://www.angelinagandara.com';
+const PLACEHOLDER_URL = 'https://gandara-realtor.com';
 
 export const SITE_URL: string =
   process.env.NEXT_PUBLIC_SITE_URL ?? PLACEHOLDER_URL;
 
 export const SITE = {
+  /** Brand name used in og:site_name, footer, etc. */
+  siteName: 'Gandara Realtor',
+
   /** Agent display name (proper noun not translated). */
-  agentName: 'Angelina Gándara',
+  agentName: 'Angelina G\u00e1ndara',
 
   /** Phone (click-to-call everywhere). */
   phoneDisplay: '(915) 355-0494',
@@ -41,6 +44,22 @@ export const SITE = {
 
   /** Broker of Record (renders with the broker name on every page). */
   brokerOfRecord: 'Patricia Lozano',
+
+  /** Broker's physical address (for JSON-LD structured data). */
+  brokerAddress: {
+    streetAddress: '12135 Montwood Dr',
+    addressLocality: 'El Paso',
+    addressRegion: 'TX',
+    postalCode: '79936',
+    addressCountry: 'US',
+  },
+
+  /** Social & directory profile URLs for JSON-LD sameAs. */
+  profiles: {
+    gepar: 'https://www.gepar.org/',
+    zillow: 'https://www.zillow.com/profile/AngelinaGandara',
+    realtor: 'https://www.realtor.com/realestateagents/angelina-gandara_el-paso_tx',
+  },
 
   /**
    * Current TREC Information About Brokerage Services (IABS) form. Points at

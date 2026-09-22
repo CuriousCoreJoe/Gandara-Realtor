@@ -31,6 +31,7 @@ export default async function Footer({ locale }: { locale: Locale }) {
               <HouseMark className="h-7 w-7 text-yellow" />
               {SITE.agentName}
             </a>
+            <p className="mt-1 text-sm font-medium text-yellow">{SITE.siteName}</p>
             <p className="mt-3 max-w-xs text-sm text-white/70">{t('tagline')}</p>
           </div>
 
@@ -98,9 +99,19 @@ export default async function Footer({ locale }: { locale: Locale }) {
                   {c('privacy')}
                 </a>
               </li>
-              <li>
+<li>
                 <a href={localizedPath(locale, 'terms')} className="flex min-h-[40px] items-center text-sm text-white/80 transition-colors hover:text-white">
                   {c('terms')}
+                </a>
+              </li>
+              <li>
+                <a href="https://assets.cdn.filesafe.space/UqxL7nKdq43kO71KOplf/media/6ab190e498fc609c5db9a4ef.pdf" target="_blank" rel="noopener noreferrer" className="flex min-h-[40px] items-center text-sm text-white/80 transition-colors hover:text-white">
+                  Consumer Protection
+                </a>
+              </li>
+              <li>
+                <a href="https://assets.cdn.filesafe.space/UqxL7nKdq43kO71KOplf/media/6ab19e0c4091fa65e6bbc177.pdf" target="_blank" rel="noopener noreferrer" className="flex min-h-[40px] items-center text-sm text-white/80 transition-colors hover:text-white">
+                  Brokerage Services
                 </a>
               </li>
             </ul>
@@ -123,6 +134,8 @@ export default async function Footer({ locale }: { locale: Locale }) {
               {c('iabsLabel')}
             </a>
           </p>
+
+
 
           <div className="mt-5 flex items-start gap-3">
             <span className="mt-0.5 inline-flex h-9 w-9 shrink-0 items-center justify-center rounded-lg bg-white/10">

@@ -12,27 +12,52 @@ export function realEstateAgentJsonLd() {
     '@type': ['LocalBusiness', 'RealEstateAgent'],
     '@id': `${SITE_URL}/#agent`,
     name: SITE.agentName,
+    alternateName: SITE.siteName,
     url: SITE_URL,
     telephone: '+1-915-355-0494',
     email: SITE.email,
     priceRange: '$$',
     address: {
       '@type': 'PostalAddress',
-      addressLocality: 'El Paso',
-      addressRegion: 'TX',
-      addressCountry: 'US',
+      streetAddress: SITE.brokerAddress.streetAddress,
+      addressLocality: SITE.brokerAddress.addressLocality,
+      addressRegion: SITE.brokerAddress.addressRegion,
+      postalCode: SITE.brokerAddress.postalCode,
+      addressCountry: SITE.brokerAddress.addressCountry,
     },
     areaServed: {
       '@type': 'City',
       name: 'El Paso',
     },
     knowsLanguage: ['en', 'es'],
-    sameAs: [SITE.instagramUrl],
+    sameAs: [
+      SITE.instagramUrl,
+      SITE.profiles.gepar,
+      SITE.profiles.zillow,
+      SITE.profiles.realtor,
+    ],
+    hasCredential: {
+      '@type': 'EducationalOccupationalCredential',
+      credentialCategory: 'license',
+      name: SITE.trecNumber,
+      recognizedBy: {
+        '@type': 'Organization',
+        name: 'Texas Real Estate Commission (TREC)',
+      },
+    },
     // Note: Angelina is a sales agent, not a brokerage. The brokerage is
     // referenced separately below for transparency/TREC compliance.
     memberOf: {
       '@type': 'Organization',
       name: SITE.broker,
+      address: {
+        '@type': 'PostalAddress',
+        streetAddress: SITE.brokerAddress.streetAddress,
+        addressLocality: SITE.brokerAddress.addressLocality,
+        addressRegion: SITE.brokerAddress.addressRegion,
+        postalCode: SITE.brokerAddress.postalCode,
+        addressCountry: SITE.brokerAddress.addressCountry,
+      },
     },
   };
 }

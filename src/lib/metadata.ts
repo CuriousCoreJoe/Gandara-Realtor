@@ -43,7 +43,7 @@ export function buildMetadata({
       title,
       description,
       url: canonical,
-      siteName: SITE.agentName,
+      siteName: SITE.siteName,
       locale: locale === 'en' ? 'en_US' : 'es_MX',
       type: ogType,
     },

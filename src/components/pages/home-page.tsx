@@ -3,6 +3,7 @@ import { Clock, Globe, MapPin, Search, Zap } from 'lucide-react';
 import type { Locale } from '@/i18n/routing';
 import { localizedPath } from '@/lib/routes';
 import Container from '@/components/ui/container';
+import { ListingsCta } from '@/components/ghl/ghl-form-modal';
 import ButtonLink from '@/components/ui/button-link';
 import PlaceholderImage from '@/components/ui/placeholder-image';
 
@@ -70,9 +71,9 @@ export default async function HomePage({ locale }: { locale: Locale }) {
             <ButtonLink href={localizedPath(locale, 'contact')} variant="accent" className="w-full sm:flex-1">
               {t('heroPrimary')}
             </ButtonLink>
-            <ButtonLink href={localizedPath(locale, 'listings')} variant="outline" className="w-full sm:flex-1">
+            <ListingsCta locale={locale} variant="outline" className="w-full sm:flex-1">
               {t('heroSecondary')}
-            </ButtonLink>
+            </ListingsCta>
           </div>
 
           <div className="mx-auto mt-12 grid max-w-2xl gap-10 sm:grid-cols-3">
@@ -124,9 +125,9 @@ export default async function HomePage({ locale }: { locale: Locale }) {
               <p className="mt-4 text-lg text-muted">{t('sellersLead')}</p>
               <div className="mt-6 flex flex-wrap items-center justify-center gap-4 sm:justify-start">
                 <ButtonLink href={localizedPath(locale, 'sellers')}>{t('sellersCta')}</ButtonLink>
-                <a href={localizedPath(locale, 'listings')} className="inline-flex min-h-[44px] items-center font-semibold text-copyblue underline underline-offset-4 transition-colors hover:text-copyblue-dark">
+                <ListingsCta locale={locale} variant="ghost" className="!rounded-none !px-0 !py-0 inline-flex min-h-[44px] items-center font-semibold text-copyblue underline underline-offset-4 transition-colors hover:text-copyblue-dark">
                   {t('sellersRecentSales')}
-                </a>
+                </ListingsCta>
               </div>
               <ul className="mt-8 space-y-3">
                 {[t('sellerPoint1'), t('sellerPoint2'), t('sellerPoint3')].map((point) => (
