@@ -5,6 +5,7 @@ import { localizedPath } from '@/lib/routes';
 import Container from '@/components/ui/container';
 import { ListingsCta } from '@/components/ghl/ghl-form-modal';
 import ButtonLink from '@/components/ui/button-link';
+import RecentlySold from '@/components/pages/recently-sold';
 
 export default async function HomePage({ locale }: { locale: Locale }) {
   const t = await getTranslations('home');
@@ -26,6 +27,21 @@ export default async function HomePage({ locale }: { locale: Locale }) {
     { value: t('stat1Value'), label: t('stat1Label') },
     { value: t('stat2Value'), label: t('stat2Label') },
     { value: t('stat3Value'), label: t('stat3Label') },
+  ];
+
+  const recentlySold = [
+    {
+      address: '5912 DELTA 79905',
+      area: 'South Central',
+      image: 'https://assets.cdn.filesafe.space/UqxL7nKdq43kO71KOplf/media/6ab44000b2c147832f6fd179.jpeg',
+      imageAlt: t('recentlySoldImageAlt'),
+    },
+    {
+      address: '3749 LETICIA 79936',
+      area: 'Eastside',
+      image: 'https://assets.cdn.filesafe.space/UqxL7nKdq43kO71KOplf/media/6ab44647fef86e60d52c4883.jpeg',
+      imageAlt: t('recentlySoldImageAlt'),
+    },
   ];
 
   const neighborhoods = [
@@ -157,6 +173,18 @@ export default async function HomePage({ locale }: { locale: Locale }) {
           </div>
         </Container>
       </section>
+
+      {/* Recently sold */}
+      <RecentlySold
+        eyebrow={t('recentlySoldEyebrow')}
+        title={t('recentlySoldTitle')}
+        lead={t('recentlySoldLead')}
+        soldLabel={t('recentlySoldBadge')}
+        prevLabel={t('recentlySoldPrev')}
+        nextLabel={t('recentlySoldNext')}
+        dotLabel={t('recentlySoldDotLabel')}
+        properties={recentlySold}
+      />
 
       {/* Featured neighborhoods */}
       <section className="bg-white">

@@ -124,6 +124,15 @@
     "sellersBadgeSub": "No obligation · 24-hour turnaround",
     "sellersImageAlt": "Photo of an El Paso home ready to list",
 
+    "recentlySoldEyebrow": "Properties",
+    "recentlySoldTitle": "Recently Sold",
+    "recentlySoldLead": "Take a look at some of the beautiful homes we've recently helped our clients close on in the El Paso area.",
+    "recentlySoldBadge": "Sold",
+    "recentlySoldPrev": "Previous property",
+    "recentlySoldNext": "Next property",
+    "recentlySoldDotLabel": "Go to property",
+    "recentlySoldImageAlt": "Recently sold home in El Paso",
+
     "neighborhoodsEyebrow": "Featured Neighborhoods",
     "neighborhoodsTitle": "Where El Paso lives.",
     "neighborhoodsLead": "From the foothills of the Franklin Mountains to the Rio Grande explore the neighborhoods Angelina knows block by block.",
