@@ -5,7 +5,6 @@ import { localizedPath } from '@/lib/routes';
 import Container from '@/components/ui/container';
 import { ListingsCta } from '@/components/ghl/ghl-form-modal';
 import ButtonLink from '@/components/ui/button-link';
-import PlaceholderImage from '@/components/ui/placeholder-image';
 
 export default async function HomePage({ locale }: { locale: Locale }) {
   const t = await getTranslations('home');
@@ -35,43 +34,50 @@ export default async function HomePage({ locale }: { locale: Locale }) {
       title: n('guides.westside.name'),
       body: t('westsideBody'),
       imgAlt: t('westsideImageAlt'),
+      image: 'https://assets.cdn.filesafe.space/UqxL7nKdq43kO71KOplf/media/6ab2ff50f07a3cb6d47ab330.jpg',
     },
     {
       routeKey: 'upperValley' as const,
       title: n('guides.upperValley.name'),
       body: t('upperValleyBody'),
       imgAlt: t('upperValleyImageAlt'),
+      image: 'https://assets.cdn.filesafe.space/UqxL7nKdq43kO71KOplf/media/6ab2fd717c231bdb64f4d2c2.jpg',
     },
     {
       routeKey: 'eastSide' as const,
       title: n('guides.eastSide.name'),
       body: t('eastSideBody'),
       imgAlt: t('eastSideImageAlt'),
+      image: 'https://assets.cdn.filesafe.space/UqxL7nKdq43kO71KOplf/media/6ab2ff50de8ed1c29fd505fe.jpg',
     },
     {
       routeKey: 'fortBliss' as const,
       title: n('guides.fortBliss.name'),
       body: t('fortBlissBody'),
       imgAlt: t('fortBlissImageAlt'),
+      image: 'https://assets.cdn.filesafe.space/UqxL7nKdq43kO71KOplf/media/6ab30033665c3ca9551bc5ec.jpg',
     },
   ];
 
   return (
     <>
       {/* Hero */}
-      <section
-        className="bg-gray-soft"
-        style={{ background: 'radial-gradient(120% 80% at 100% 0%, rgba(0,87,121,0.08), transparent 60%), var(--color-gray-soft)' }}
-      >
-        <Container className="py-16 text-center sm:py-24">
-          <p className="mb-4 text-sm font-semibold uppercase tracking-[0.14em] text-copyblue">{t('heroEyebrow')}</p>
-          <h1 className="mx-auto max-w-4xl text-4xl font-semibold text-ink sm:text-5xl lg:text-6xl">{t('heroTitle')}</h1>
-          <p className="mx-auto mt-6 max-w-2xl text-lg text-muted sm:text-xl">{t('heroLead')}</p>
+      <section className="relative bg-gray-soft">
+        <div
+          aria-hidden="true"
+          className="absolute inset-0 bg-cover bg-center"
+          style={{ backgroundImage: "url('https://assets.cdn.filesafe.space/UqxL7nKdq43kO71KOplf/media/6ab3034b30b0f957ccef38a7.jpg')" }}
+        />
+        <div aria-hidden="true" className="absolute inset-0 bg-gradient-to-b from-ink/85 via-ink/70 to-ink/60" />
+        <Container className="relative py-16 text-center sm:py-24">
+          <p className="mb-4 text-sm font-semibold uppercase tracking-[0.14em] text-yellow">{t('heroEyebrow')}</p>
+          <h1 className="mx-auto max-w-4xl text-4xl font-semibold text-white sm:text-5xl lg:text-6xl">{t('heroTitle')}</h1>
+          <p className="mx-auto mt-6 max-w-2xl text-lg text-white/80 sm:text-xl">{t('heroLead')}</p>
           <div className="mt-8 flex flex-col items-center justify-center gap-4 sm:flex-row">
             <ButtonLink href={localizedPath(locale, 'contact')} variant="accent" className="w-full sm:flex-1">
               {t('heroPrimary')}
             </ButtonLink>
-            <ListingsCta locale={locale} variant="outline" className="w-full sm:flex-1">
+            <ListingsCta locale={locale} variant="primary" className="w-full sm:flex-1">
               {t('heroSecondary')}
             </ListingsCta>
           </div>
@@ -79,8 +85,8 @@ export default async function HomePage({ locale }: { locale: Locale }) {
           <div className="mx-auto mt-12 grid max-w-2xl gap-10 sm:grid-cols-3">
             {stats.map((s) => (
               <div key={s.label}>
-                <div className="font-display text-4xl font-semibold text-ink sm:text-5xl">{s.value}</div>
-                <div className="mt-2 text-xs font-medium uppercase tracking-[0.1em] text-muted">{s.label}</div>
+                <div className="font-display text-4xl font-semibold text-white sm:text-5xl">{s.value}</div>
+                <div className="mt-2 text-xs font-medium uppercase tracking-[0.1em] text-white/70">{s.label}</div>
               </div>
             ))}
           </div>
@@ -142,7 +148,7 @@ export default async function HomePage({ locale }: { locale: Locale }) {
             </div>
 
             <div className="rounded-2xl border border-gray-soft bg-white p-4 shadow-sm">
-              <PlaceholderImage label={t('sellersImageAlt')} className="aspect-[4/3] w-full rounded-xl" />
+              <img src="https://assets.cdn.filesafe.space/UqxL7nKdq43kO71KOplf/media/6ab2f9837c231bdb64f46dd8.jpg" alt={t('sellersImageAlt')} className="aspect-[4/3] w-full rounded-xl object-cover" />
               <div className="mt-4 flex items-center justify-between">
                 <span className="inline-flex items-center rounded-full bg-yellow px-3 py-1 text-xs font-semibold text-ink">{t('sellersBadge')}</span>
                 <span className="text-sm text-muted">{t('sellersBadgeSub')}</span>
@@ -166,7 +172,7 @@ export default async function HomePage({ locale }: { locale: Locale }) {
                 href={localizedPath(locale, nb.routeKey)}
                 className="group overflow-hidden rounded-2xl border border-gray-soft bg-white shadow-sm transition-all hover:-translate-y-0.5 hover:shadow-md"
               >
-                <PlaceholderImage label={nb.imgAlt} className="aspect-[4/3] w-full" />
+                <img src={nb.image} alt={nb.imgAlt} className="aspect-[4/3] w-full object-cover" />
                 <div className="p-5">
                   <h3 className="font-display text-xl font-semibold text-ink">{nb.title}</h3>
                   <p className="mt-2 text-sm text-muted">{nb.body}</p>
