@@ -50,7 +50,8 @@ export default async function LocaleLayout({ children, params }: LocaleLayoutPro
         <Script
           src="https://widgets.leadconnectorhq.com/loader.js"
           data-resources-url="https://widgets.leadconnectorhq.com/chat-widget/loader.js"
-          data-widget-id="6aa4bc2c92551cf5804c2d54"
+          data-widget-id="6abe8782f1b243568a9d0658"
+          data-source="WEB_USER"
           strategy="afterInteractive"
         />
       </body>
