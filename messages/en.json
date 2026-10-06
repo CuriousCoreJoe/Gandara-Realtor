@@ -515,7 +515,9 @@
         {
           "title": "5. Phone Numbers & SMS Consent",
           "blocks": [
-            { "kind": "p", "text": "We collect phone numbers and SMS consent through the contact forms on this website. Information submitted through these forms is transmitted to and stored by our customer-relationship platform (GoHighLevel) and becomes part of our customer records. Their own privacy practices apply to how they store and protect data." }
+            { "kind": "p", "text": "We collect phone numbers and SMS consent through the contact forms on this website. When you submit a form and provide your phone number, you opt in to receive SMS/text messages from us. Message frequency varies depending on your inquiry and the services you request." },
+            { "kind": "p", "text": "Information submitted through these forms is transmitted to and stored by our customer-relationship platform (GoHighLevel) and becomes part of our customer records. Their own privacy practices apply to how they store and protect data." },
+            { "kind": "p", "text": "No mobile information will be shared with third parties/affiliates for marketing/promotional purposes. Information sharing to subcontractors in support services, such as customer service, is permitted." }
           ]
         },
         {
@@ -607,7 +609,10 @@
         {
           "title": "9. Communications",
           "blocks": [
-            { "kind": "p", "text": "By opting in through the forms on this website, you consent to being contacted by us via phone, text, or email about your inquiry. Message and data rates may apply. You can opt out of marketing texts and emails at any time; we will continue to respond to service-related messages tied to an active engagement." }
+            { "kind": "p", "text": "By opting in through the forms on this website, you consent to being contacted by us via phone, text, or email about your inquiry. Message and data rates may apply. You can opt out of marketing texts and emails at any time; we will continue to respond to service-related messages tied to an active engagement." },
+            { "kind": "p", "text": "Our SMS messages may include appointment reminders and confirmations, service updates and notifications about your transaction, responses to your inquiries, and, where you have agreed, promotional offers and market alerts." },
+            { "kind": "p", "text": "Carriers are not liable for delayed or undelivered messages." },
+            { "kind": "p", "text": "You must be 18 years of age or older to use this SMS service." }
           ]
         },
         {
