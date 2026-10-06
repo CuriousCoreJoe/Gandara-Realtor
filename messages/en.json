@@ -513,9 +513,9 @@
           ]
         },
         {
-          "title": "5. Forms, Chat & Booking (GoHighLevel)",
+          "title": "5. Phone Numbers & SMS Consent",
           "blocks": [
-            { "kind": "p", "text": "Our contact forms, chat, and appointment booking are powered by our customer-relationship platform (GoHighLevel). Information submitted through these tools is transmitted to and stored by that platform and becomes part of our customer records. Their own privacy practices apply to how they store and protect data." }
+            { "kind": "p", "text": "We collect phone numbers and SMS consent through the contact forms on this website. Information submitted through these forms is transmitted to and stored by our customer-relationship platform (GoHighLevel) and becomes part of our customer records. Their own privacy practices apply to how they store and protect data." }
           ]
         },
         {
@@ -607,7 +607,7 @@
         {
           "title": "9. Communications",
           "blocks": [
-            { "kind": "p", "text": "By submitting a contact form, booking a call, or otherwise reaching out, you consent to being contacted by us via phone, text, or email about your inquiry. Message and data rates may apply. You can opt out of marketing texts and emails at any time; we will continue to respond to service-related messages tied to an active engagement." }
+            { "kind": "p", "text": "By opting in through the forms on this website, you consent to being contacted by us via phone, text, or email about your inquiry. Message and data rates may apply. You can opt out of marketing texts and emails at any time; we will continue to respond to service-related messages tied to an active engagement." }
           ]
         },
         {

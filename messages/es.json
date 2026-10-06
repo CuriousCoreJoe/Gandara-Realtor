@@ -513,9 +513,9 @@
           ]
         },
         {
-          "title": "5. Formularios, chat y reservas (GoHighLevel)",
+          "title": "5. Números de teléfono y consentimiento de SMS",
           "blocks": [
-            { "kind": "p", "text": "Nuestros formularios de contacto, chat y reserva de citas funcionan con nuestra plataforma de gestión de relaciones con clientes (GoHighLevel). La información enviada a través de estas herramientas se transmite y almacena en esa plataforma y pasa a formar parte de nuestros registros de clientes. Sus propias prácticas de privacidad se aplican a la forma en que almacenan y protegen los datos." }
+            { "kind": "p", "text": "Recopilamos números de teléfono y consentimiento de SMS a través de los formularios de contacto de este sitio web. La información enviada a través de estos formularios se transmite y almacena en nuestra plataforma de gestión de relaciones con clientes (GoHighLevel) y pasa a formar parte de nuestros registros de clientes. Sus propias prácticas de privacidad se aplican a la forma en que almacenan y protegen los datos." }
           ]
         },
         {
@@ -607,7 +607,7 @@
         {
           "title": "9. Comunicaciones",
           "blocks": [
-            { "kind": "p", "text": "Al enviar un formulario de contacto, reservar una llamada o comunicarte de otra forma, aceptas que te contactemos por teléfono, mensaje de texto o correo electrónico sobre tu consulta. Pueden aplicarse tarifas de mensajes y datos. Puedes excluirte de los mensajes y correos de marketing en cualquier momento; seguiremos respondiendo a mensajes relacionados con el servicio vinculados a un trabajo activo." }
+            { "kind": "p", "text": "Al aceptar a través de los formularios de este sitio web, consientes que te contactemos por teléfono, mensaje de texto o correo electrónico sobre tu consulta. Pueden aplicarse tarifas de mensajes y datos. Puedes excluirte de los mensajes y correos de marketing en cualquier momento; seguiremos respondiendo a mensajes relacionados con el servicio vinculados a un trabajo activo." }
           ]
         },
         {
