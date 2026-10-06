@@ -534,13 +534,21 @@
           ]
         },
         {
-          "title": "8. Enlaces a terceros",
+          "title": "8. Cookies, seguimiento y analítica",
+          "blocks": [
+            { "kind": "p", "text": "Usamos cookies, píxeles y tecnologías de seguimiento similares para recordar tus preferencias, entender cómo los visitantes usan nuestro sitio y mejorar nuestros servicios." },
+            { "kind": "p", "text": "Usamos servicios de analítica (como Google Analytics) y nuestra plataforma de gestión de relaciones con clientes (GoHighLevel) para recopilar información como tu tipo de dispositivo, navegador, páginas visitadas y ubicación general. Esta información generalmente se agrega y no te identifica directamente." },
+            { "kind": "p", "text": "Puedes controlar o desactivar las cookies a través de la configuración de tu navegador. Desactivar las cookies puede afectar el funcionamiento de ciertas partes del sitio, incluidos algunos formularios." }
+          ]
+        },
+        {
+          "title": "9. Enlaces a terceros",
           "blocks": [
             { "kind": "p", "text": "Nuestro sitio puede enlazar a sitios web de terceros (como Instagram, guías de vecindarios o portales de listados). No somos responsables de sus prácticas de privacidad." }
           ]
         },
         {
-          "title": "9. Derechos de privacidad de Texas / Contacto",
+          "title": "10. Derechos de privacidad de Texas / Contacto",
           "blocks": [
             { "kind": "p", "text": "Atenderemos las solicitudes para acceder, corregir o eliminar tu información personal, de acuerdo con la ley estatal y federal aplicable." },
             { "kind": "p", "text": "Para cualquier solicitud o pregunta, contacta:" },
