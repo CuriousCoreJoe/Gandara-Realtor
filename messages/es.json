@@ -517,7 +517,8 @@
           "blocks": [
             { "kind": "p", "text": "Recopilamos números de teléfono y consentimiento de SMS a través de los formularios de contacto de este sitio web. Cuando envías un formulario y proporcionas tu número de teléfono, aceptas recibir mensajes de texto (SMS) de nuestra parte. La frecuencia de los mensajes varía según tu consulta y los servicios que solicites." },
             { "kind": "p", "text": "La información enviada a través de estos formularios se transmite y almacena en nuestra plataforma de gestión de relaciones con clientes (GoHighLevel) y pasa a formar parte de nuestros registros de clientes. Sus propias prácticas de privacidad se aplican a la forma en que almacenan y protegen los datos." },
-            { "kind": "p", "text": "Ninguna información móvil será compartida con terceros o afiliados con fines de marketing o promoción. Se permite compartir información con subcontratistas que prestan servicios de apoyo, como atención al cliente." }
+            { "kind": "p", "text": "Ninguna información móvil será compartida con terceros o afiliados con fines de marketing o promoción. Se permite compartir información con subcontratistas que prestan servicios de apoyo, como atención al cliente." },
+            { "kind": "p", "text": "Para dejar de recibir mensajes, responde STOP a cualquier mensaje de texto." }
           ]
         },
         {
@@ -612,7 +613,8 @@
             { "kind": "p", "text": "Al aceptar a través de los formularios de este sitio web, consientes que te contactemos por teléfono, mensaje de texto o correo electrónico sobre tu consulta. Pueden aplicarse tarifas de mensajes y datos. Puedes excluirte de los mensajes y correos de marketing en cualquier momento; seguiremos respondiendo a mensajes relacionados con el servicio vinculados a un trabajo activo." },
             { "kind": "p", "text": "Nuestros mensajes de texto pueden incluir recordatorios y confirmaciones de citas, actualizaciones y notificaciones del servicio relacionadas con tu transacción, respuestas a tus consultas y, cuando hayas aceptado, ofertas promocionales y alertas del mercado." },
             { "kind": "p", "text": "Los operadores no son responsables de los mensajes retrasados o no entregados." },
-            { "kind": "p", "text": "Debes tener 18 años o más para usar este servicio de SMS." }
+            { "kind": "p", "text": "Debes tener 18 años o más para usar este servicio de SMS." },
+            { "kind": "p", "text": "Para dejar de recibir mensajes, responde STOP a cualquier mensaje de texto." }
           ]
         },
         {
