@@ -42,6 +42,14 @@ export default async function Footer({ locale }: { locale: Locale }) {
             </h2>
             <ul className="space-y-3">
               <li>
+                <address className="text-sm not-italic text-white/85">
+                  {SITE.brokerAddress.streetAddress}
+                  <br />
+                  {SITE.brokerAddress.addressLocality}, {SITE.brokerAddress.addressRegion}{' '}
+                  {SITE.brokerAddress.postalCode}
+                </address>
+              </li>
+              <li>
                 <a href={SITE.phoneHref} className="font-display text-xl font-semibold text-white transition-colors hover:text-yellow">
                   {SITE.phoneDisplay}
                 </a>
@@ -147,7 +155,7 @@ export default async function Footer({ locale }: { locale: Locale }) {
           </div>
 
           <p className="mt-5 text-sm text-white/55">
-            {t('copyright', { year, name: SITE.agentName, rights: c('allRightsReserved') })}
+            {t('dbaDisclosure', { year, dbaName: SITE.dbaName, siteName: SITE.siteName, rights: c('allRightsReserved') })}
           </p>
         </Container>
       </div>

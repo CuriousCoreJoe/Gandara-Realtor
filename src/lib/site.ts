@@ -21,6 +21,9 @@ export const SITE = {
   /** Brand name used in og:site_name, footer, etc. */
   siteName: 'Gandara Realtor',
 
+  /** Legal entity name for the DBA (doing-business-as) footer disclosure. */
+  dbaName: 'Motivus Realty LLC',
+
   /** Agent display name (proper noun not translated). */
   agentName: 'Angelina G\u00e1ndara',
 

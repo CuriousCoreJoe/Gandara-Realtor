@@ -659,6 +659,6 @@
     "languageHeading": "Idioma",
     "legalHeading": "Legal",
     "aboutAngelina": "Sobre Angelina",
-    "copyright": "© {year} Angelina Gándara. {rights}"
+    "dbaDisclosure": "© {year} {dbaName}, operando como {siteName}. {rights}"
   }
 }
