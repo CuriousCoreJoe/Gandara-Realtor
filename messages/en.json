@@ -674,6 +674,7 @@
     "languageHeading": "Language",
     "legalHeading": "Legal",
     "aboutAngelina": "About Angelina",
+    "dbaLabel": "doing business as",
     "dbaDisclosure": "© {year} {dbaName}, doing business as {siteName}. {rights}"
   }
 }

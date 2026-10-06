@@ -13,6 +13,7 @@ export function realEstateAgentJsonLd() {
     '@id': `${SITE_URL}/#agent`,
     name: SITE.agentName,
     alternateName: SITE.siteName,
+    legalName: SITE.dbaName,
     url: SITE_URL,
     telephone: '+1-915-355-0494',
     email: SITE.email,

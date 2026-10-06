@@ -131,6 +131,9 @@ export default async function Footer({ locale }: { locale: Locale }) {
       <div className="border-t border-white/10">
         <Container className="py-8">
           <p className="text-sm text-white/85">
+            {SITE.dbaName} · {t('dbaLabel')} {SITE.siteName}
+          </p>
+          <p className="mt-1 text-sm text-white/70">
             {SITE.broker} · Broker of Record: {SITE.brokerOfRecord}
           </p>
           <p className="mt-1 text-sm text-white/70">

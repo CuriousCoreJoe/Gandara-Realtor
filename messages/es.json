@@ -674,6 +674,7 @@
     "languageHeading": "Idioma",
     "legalHeading": "Legal",
     "aboutAngelina": "Sobre Angelina",
+    "dbaLabel": "operando como",
     "dbaDisclosure": "© {year} {dbaName}, operando como {siteName}. {rights}"
   }
 }
