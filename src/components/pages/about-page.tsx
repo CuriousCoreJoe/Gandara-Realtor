@@ -6,7 +6,6 @@ import { SITE } from '@/lib/site';
 import Container from '@/components/ui/container';
 import ButtonLink from '@/components/ui/button-link';
 import { ListingsCta } from '@/components/ghl/ghl-form-modal';
-import PlaceholderImage from '@/components/ui/placeholder-image';
 
 export default async function AboutPage({ locale }: { locale: Locale }) {
   const t = await getTranslations('about');
@@ -41,7 +40,11 @@ export default async function AboutPage({ locale }: { locale: Locale }) {
         <Container className="py-16 sm:py-20">
           <div className="grid items-center gap-10 md:grid-cols-2">
             <div className="rounded-2xl border border-gray-soft bg-white p-4 shadow-sm">
-              <PlaceholderImage label={t('imageAlt')} className="aspect-square w-full rounded-xl" />
+              <img
+                src="https://assets.cdn.filesafe.space/UqxL7nKdq43kO71KOplf/media/6ab1a0c1966c1acf6d4902ec.png"
+                alt={t('imageAlt')}
+                className="aspect-square w-full rounded-xl object-cover"
+              />
               <div className="mt-4 flex items-center justify-between">
                 <span className="inline-flex items-center rounded-full bg-gray-soft px-3 py-1 text-xs font-semibold text-ink">{t('badgeName')}</span>
                 <span className="text-sm text-muted">{t('badgeCity')}</span>

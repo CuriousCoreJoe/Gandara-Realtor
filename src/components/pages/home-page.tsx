@@ -6,6 +6,7 @@ import Container from '@/components/ui/container';
 import { ListingsCta } from '@/components/ghl/ghl-form-modal';
 import ButtonLink from '@/components/ui/button-link';
 import RecentlySold from '@/components/pages/recently-sold';
+import { ASSOCIATION, LICENSE_NUMBER, REALTOR_LOGO_WHITE, REALTOR_MARK } from '@/lib/credentials';
 
 export default async function HomePage({ locale }: { locale: Locale }) {
   const t = await getTranslations('home');
@@ -98,15 +99,63 @@ export default async function HomePage({ locale }: { locale: Locale }) {
             </ListingsCta>
           </div>
 
-          <div className="mx-auto mt-12 grid max-w-2xl gap-10 sm:grid-cols-3">
+          <div className="mx-auto mt-12 grid max-w-3xl gap-10 sm:grid-cols-4">
             {stats.map((s) => (
               <div key={s.label}>
                 <div className="font-display text-4xl font-semibold text-white sm:text-5xl">{s.value}</div>
                 <div className="mt-2 text-xs font-medium uppercase tracking-[0.1em] text-white/70">{s.label}</div>
               </div>
             ))}
+
+            {/* REALTOR® membership credential — logo, not a metric. */}
+            <div key="realtor-membership" className="flex flex-col items-center">
+              <img
+                src={REALTOR_LOGO_WHITE.src}
+                alt={REALTOR_LOGO_WHITE.alt}
+                className="h-9 w-auto sm:h-12"
+              />
+              <div className="mt-2 text-xs font-medium uppercase tracking-[0.1em] text-white/70">{t('stat4Label')}</div>
+            </div>
           </div>
         </Container>
+      </section>
+
+      {/* Trust bar */}
+      <section className="border-b border-gray-soft bg-white">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4">
+          {/* Column 1 — REALTOR® membership. */}
+          <div className="flex items-center justify-center gap-3.5 px-6 py-[22px]">
+            <div className="min-w-0 text-center">
+              <div className="text-[15px] font-semibold leading-[1.2] text-ink">{REALTOR_MARK}</div>
+              <div className="mt-[3px] text-[13px] font-normal leading-[1.35] text-muted">{t('trustRealtorValue')}</div>
+            </div>
+          </div>
+
+          {/* Column 2 — GEPAR. A GEPAR mark drops in here (before the text) once
+              the asset is supplied; rendered text-only until then. */}
+          <div className="flex items-center justify-center gap-3.5 px-6 py-[22px] border-t border-gray-soft sm:border-t-0 sm:border-l">
+            <div className="min-w-0 text-center">
+              <div className="text-[15px] font-semibold leading-[1.2] text-ink">{ASSOCIATION.shortName}</div>
+              <div className="mt-[3px] text-[13px] font-normal leading-[1.35] text-muted">{ASSOCIATION.name}</div>
+            </div>
+          </div>
+
+          {/* Column 3 — TREC license. */}
+          <div className="flex items-center justify-center gap-3.5 px-6 py-[22px] border-t border-gray-soft sm:border-t-0 lg:border-l">
+            <div className="min-w-0 text-center">
+              <div className="text-[15px] font-semibold leading-[1.2] text-ink">{LICENSE_NUMBER}</div>
+              <div className="mt-[3px] text-[13px] font-normal leading-[1.35] text-muted">{t('trustTrecValue')}</div>
+            </div>
+          </div>
+
+          {/* Column 4 — Brokerage. */}
+          <div className="flex items-center justify-center gap-3.5 px-6 py-[22px] border-t border-gray-soft sm:border-t-0 sm:border-l">
+            <div className="min-w-0 text-center">
+              <div className="text-[15px] font-semibold leading-[1.2] text-ink">{t('trustHomeProsName')}</div>
+              <div className="mt-[3px] text-[13px] font-normal leading-[1.35] text-muted">{t('trustHomeProsBrokerage')}</div>
+            </div>
+          </div>
+        </div>
       </section>
 
       {/* Buyers */}

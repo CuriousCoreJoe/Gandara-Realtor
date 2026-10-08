@@ -91,7 +91,7 @@
   "home": {
     "heroEyebrow": "El Paso · Bienes Raíces Bilingües",
     "heroTitle": "Bienes raíces en El Paso, respuestas en minutos.",
-    "heroLead": "Bilingüe, local y siempre disponible encuentra el hogar ideal o vende al mejor precio, sin complicaciones.",
+    "heroLead": "Bilingüe, local y siempre disponible. Encuentra el hogar ideal o vende al mejor precio, sin complicaciones.",
     "heroPrimary": "Agenda una llamada",
     "heroSecondary": "Ver propiedades",
     "stat1Value": "50+",
@@ -100,6 +100,12 @@
     "stat2Label": "Experiencia local",
     "stat3Value": "4.9★",
     "stat3Label": "Calificación de clientes",
+    "stat4Label": "MIEMBRO, NAR",
+
+    "trustRealtorValue": "Miembro, National Association of REALTORS®",
+    "trustTrecValue": "Con licencia de la Texas Real Estate Commission",
+    "trustHomeProsName": "Home Pros",
+    "trustHomeProsBrokerage": "Real Estate Group LLC, corretaje",
 
     "buyersEyebrow": "Para compradores",
     "buyersTitle": "Al comprar o vender recibes la experiencia completa, en inglés o español.",

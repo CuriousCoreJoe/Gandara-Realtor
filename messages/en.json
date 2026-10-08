@@ -91,7 +91,7 @@
   "home": {
     "heroEyebrow": "El Paso · Bilingual Real Estate",
     "heroTitle": "El Paso real estate, answered in minutes.",
-    "heroLead": "Bilingual, local, and always responsive find the right home or sell for the right price, without the runaround.",
+    "heroLead": "Bilingual, local, and always responsive. Find the right home or sell for the right price, without the runaround.",
     "heroPrimary": "Book a Call",
     "heroSecondary": "Browse Listings",
     "stat1Value": "50+",
@@ -100,6 +100,12 @@
     "stat2Label": "Local experience",
     "stat3Value": "4.9★",
     "stat3Label": "Client rating",
+    "stat4Label": "MEMBER, NAR",
+
+    "trustRealtorValue": "Member, National Association of REALTORS®",
+    "trustTrecValue": "Licensed by the Texas Real Estate Commission",
+    "trustHomeProsName": "Home Pros",
+    "trustHomeProsBrokerage": "Real Estate Group LLC, brokerage",
 
     "buyersEyebrow": "For Buyers",
     "buyersTitle": "Buying or selling you get the full experience, in English or Spanish.",

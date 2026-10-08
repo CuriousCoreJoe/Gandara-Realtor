@@ -3,9 +3,10 @@ import { Mail } from 'lucide-react';
 import type { Locale } from '@/i18n/routing';
 import { localizedPath, type RouteKey } from '@/lib/routes';
 import { SITE } from '@/lib/site';
+import { EQUAL_HOUSING_MARK, REALTOR_LOGO_WHITE } from '@/lib/credentials';
 import Container from '@/components/ui/container';
 import InstagramIcon from '@/components/ui/instagram-icon';
-import { EqualHousingIcon, HouseMark } from '@/components/ui/icons';
+import { HouseMark } from '@/components/ui/icons';
 
 const EXPLORE: { routeKey: RouteKey; labelKey: 'about' | 'buyers' | 'sellers' | 'links' | 'neighborhoods' }[] = [
   { routeKey: 'about', labelKey: 'about' },
@@ -130,7 +131,13 @@ export default async function Footer({ locale }: { locale: Locale }) {
       {/* TREC compliance */}
       <div className="border-t border-white/10">
         <Container className="py-8">
-          <p className="text-sm text-white/85">
+          <img
+            src={REALTOR_LOGO_WHITE.src}
+            alt={REALTOR_LOGO_WHITE.alt}
+            className="h-9 w-auto"
+          />
+
+          <p className="mt-5 text-sm text-white/85">
             {SITE.dbaName} · {t('dbaLabel')} {SITE.siteName}
           </p>
           <p className="mt-1 text-sm text-white/70">
@@ -149,9 +156,11 @@ export default async function Footer({ locale }: { locale: Locale }) {
 
 
           <div className="mt-5 flex items-start gap-3">
-            <span className="mt-0.5 inline-flex h-9 w-9 shrink-0 items-center justify-center rounded-lg bg-white/10">
-              <EqualHousingIcon className="h-6 w-6 text-white" />
-            </span>
+            <img
+              src={EQUAL_HOUSING_MARK.src}
+              alt={EQUAL_HOUSING_MARK.alt}
+              className="mt-0.5 h-9 w-auto shrink-0 rounded-md bg-white p-1"
+            />
             <p className="max-w-2xl text-xs leading-relaxed text-white/70">
               <strong className="font-semibold text-white">{c('fairHousing')}</strong> {c('fairHousingStatement')}
             </p>
