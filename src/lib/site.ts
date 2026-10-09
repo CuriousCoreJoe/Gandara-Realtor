@@ -39,6 +39,9 @@ export const SITE = {
   instagramUrl: 'https://www.instagram.com/angie_realtortexas/',
   instagramHandle: '@angie_realtortexas',
 
+  /** Blog (hosted on a separate subdomain). */
+  blogUrl: 'https://blog.gandara-realtor.com/blog',
+
   /** License (TREC). */
   trecNumber: 'TREC #844593-SA',
 

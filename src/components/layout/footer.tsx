@@ -8,11 +8,12 @@ import Container from '@/components/ui/container';
 import InstagramIcon from '@/components/ui/instagram-icon';
 import { HouseMark } from '@/components/ui/icons';
 
-const EXPLORE: { routeKey: RouteKey; labelKey: 'about' | 'buyers' | 'sellers' | 'links' | 'neighborhoods' }[] = [
+const EXPLORE: { routeKey?: RouteKey; labelKey: 'about' | 'buyers' | 'sellers' | 'blog' | 'links' | 'neighborhoods'; href?: string }[] = [
   { routeKey: 'about', labelKey: 'about' },
   { routeKey: 'buyers', labelKey: 'buyers' },
   { routeKey: 'sellers', labelKey: 'sellers' },
   { routeKey: 'neighborhoods', labelKey: 'neighborhoods' },
+  { labelKey: 'blog', href: SITE.blogUrl },
   { routeKey: 'links', labelKey: 'links' },
 ];
 
@@ -84,11 +85,12 @@ export default async function Footer({ locale }: { locale: Locale }) {
               {t('exploreHeading')}
             </h2>
             <ul className="space-y-1">
-              {EXPLORE.map(({ routeKey: rk, labelKey }) => (
-                <li key={rk}>
+              {EXPLORE.map(({ routeKey: rk, labelKey, href }) => (
+                <li key={rk ?? labelKey}>
                   <a
-                    href={localizedPath(locale, rk)}
+                    href={href ?? localizedPath(locale, rk!)}
                     className="flex min-h-[40px] items-center text-sm text-white/80 transition-colors hover:text-white"
+                    {...(href ? { target: '_blank', rel: 'noopener noreferrer' } : {})}
                   >
                     {rk === 'about' ? t('aboutAngelina') : n(labelKey)}
                   </a>
