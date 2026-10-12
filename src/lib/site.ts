@@ -28,12 +28,12 @@ export const SITE = {
   agentName: 'Angelina G\u00e1ndara',
 
   /** Phone (click-to-call everywhere). */
-  phoneDisplay: '(915) 355-0494',
-  phoneHref: 'tel:+19153550494',
+  phoneDisplay: '(915) 213-7616',
+  phoneHref: 'tel:+19152137616',
 
   /** Email. */
-  email: 'gandara.realtor@gmail.com',
-  emailHref: 'mailto:gandara.realtor@gmail.com',
+  email: 'angelina@gandara-realtor.com',
+  emailHref: 'mailto:angelina@gandara-realtor.com',
 
   /** Instagram. */
   instagramUrl: 'https://www.instagram.com/angie_realtortexas/',
@@ -53,10 +53,10 @@ export const SITE = {
 
   /** Broker's physical address (for JSON-LD structured data). */
   brokerAddress: {
-    streetAddress: '12135 Montwood Dr',
+    streetAddress: '1035 Belvidere St. 200',
     addressLocality: 'El Paso',
     addressRegion: 'TX',
-    postalCode: '79936',
+    postalCode: '79912',
     addressCountry: 'US',
   },
 

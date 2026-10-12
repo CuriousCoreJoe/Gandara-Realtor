@@ -15,7 +15,7 @@ export function realEstateAgentJsonLd() {
     alternateName: SITE.siteName,
     legalName: SITE.dbaName,
     url: SITE_URL,
-    telephone: '+1-915-355-0494',
+    telephone: '+1-915-213-7616',
     email: SITE.email,
     priceRange: '$$',
     address: {
@@ -75,7 +75,7 @@ export function freeValuationServiceJsonLd(locale: Locale) {
       '@type': 'RealEstateAgent',
       name: SITE.agentName,
       url: SITE_URL,
-      telephone: '+1-915-355-0494',
+      telephone: '+1-915-213-7616',
     },
     areaServed: {
       '@type': 'City',
