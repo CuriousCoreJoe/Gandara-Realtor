@@ -8,7 +8,8 @@
     "build": "next build",
     "lint": "eslint .",
     "typecheck": "tsc --noEmit",
-    "netlify:dev": "node node_modules/netlify-cli/bin/run.js dev"
+    "netlify:dev": "node node_modules/netlify-cli/bin/run.js dev",
+    "deploy": "bun run build && bunx wrangler pages deploy --branch main"
   },
   "dependencies": {
     "lucide-react": "^1.45.0",

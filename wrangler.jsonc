@@ -1,0 +1,10 @@
+{
+  // Cloudflare Pages configuration for the gandara-realtor static site.
+  // This is a static export (`output: 'export'` in next.config.ts) — no
+  // Workers runtime, so no `nodejs_compat` flag is needed.
+  "$schema": "https://json.schemastore.org/wrangler.jsonc",
+  "name": "gandara-realtor",
+  // Static export output directory produced by `bun run build`.
+  "pages_build_output_dir": "out",
+  "compatibility_date": "2026-10-25"
+}
